@@ -1,0 +1,281 @@
+{
+  "main": {
+    "id": "aed5b6c4d5a801cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e4f46e0b78669f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b6ebf3f99359a47",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6b8da73ac05e640a",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2a06d91e86ec68f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77824173f1c1911b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "954a48e453d0ed3e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8c2ed6cdfd5b218f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 563.5
+  },
+  "right": {
+    "id": "325890362e97b281",
+    "type": "split",
+    "children": [
+      {
+        "id": "e579ccceb2fb7616",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4756e15269015c2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "f903abd20da4885a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NPCs/Creature Stat Blocks/Feral Vampire Spawn.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Feral Vampire Spawn"
+            }
+          },
+          {
+            "id": "125201d4223b0f57",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c873b7e56b90d5dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "170e52cf34ce8ce8",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f4749ecf1300f214",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          },
+          {
+            "id": "c4ff1c71599ac762",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "fbee3d2fa90de64e",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "0ad37c454e644a95",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3f74dc21d5be602e",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "771ff34a17771344",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 462.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "954a48e453d0ed3e",
+  "lastOpenFiles": [
+    "upgrading.html",
+    "sitemap.xml",
+    "showcase.html",
+    "setting-up-your-GitHub-repository.html",
+    "prescript.js",
+    "postscript.js",
+    "philosophy.html",
+    "migrating-from-Quartz-3.html",
+    "layout.html",
+    "index.xml",
+    "index.css",
+    "static/og-image.png",
+    "static/icon.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/Walter_Barstow_dark.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/WalterBarstow_FatherCedric.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/Walter_Barstow.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/WalterBarstow_Feeding.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/RupertNiles_002.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/RupertNiles_001.png",
+    "Mourn's-Folly/Worldbuilding/z.-Other/x.-Images/RobeofEyes.png",
+    "images/social-image-preview-light.png",
+    "quartz/node_modules/universalify/README.md",
+    "quartz/node_modules/unicorn-magic/readme.md",
+    "quartz/node_modules/trim-lines/readme.md",
+    "quartz/node_modules/speech-rule-engine/bin/README.md",
+    "quartz/node_modules/queue-microtask/README.md",
+    "quartz/node_modules/micromark-util-resolve-all/readme.md",
+    "quartz/node_modules/micromark-util-encode/readme.md",
+    "quartz/node_modules/micromark-extension-gfm/readme.md",
+    "quartz/node_modules/merge2/README.md",
+    "quartz/node_modules/markdown-table/readme.md",
+    "quartz/node_modules/hex-rgb/readme.md",
+    "quartz/node_modules/fill-range/README.md",
+    "quartz/node_modules/micromark-util-symbol/readme.md",
+    "quartz/node_modules/micromark-util-normalize-identifier/readme.md",
+    "quartz/node_modules/micromark-util-decode-string/readme.md",
+    "quartz/node_modules/micromark-util-decode-numeric-character-reference/readme.md",
+    "quartz/node_modules/micromark-util-classify-character/readme.md",
+    "quartz/node_modules/micromark-factory-whitespace/readme.md",
+    "quartz/node_modules/micromark-factory-title/readme.md",
+    "quartz/node_modules/micromark-factory-label/readme.md",
+    "quartz/content/index.md",
+    "quartz/node_modules/delayed-stream/Readme.md",
+    "quartz/node_modules/https-proxy-agent/README.md",
+    "quartz/node_modules/html-encoding-sniffer/README.md",
+    "quartz/node_modules/hast-util-is-element/readme.md",
+    "Untitled.canvas"
+  ]
+}
