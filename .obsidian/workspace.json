@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Story/Act-2/Act 2 - Uncovering the Mystery.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Act 2 - Uncovering the Mystery"
+            }
+          },
+          {
+            "id": "4307eaa48ae5fc76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Player-Characters/Player-Creation/PC-Backgrounds/Charlatan - The Smooth Talker.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Charlatan - The Smooth Talker"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,14 +177,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "91c7ce32596b447e",
+  "active": "4307eaa48ae5fc76",
   "lastOpenFiles": [
-    "Dungeon Delicacies.md",
-    "docs/recipes.md",
-    "docs/foraging_harvesting.md",
-    "docs/creatures.md",
-    "Index.md",
-    "docs",
-    "Welcome.md"
+    "Player-Characters/Player-Creation/Character Creation.md",
+    "link.md",
+    "index.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire Weaknesses.md",
+    "x.-Game-Mechanics/Mourns-Folly/Oil of Lathander.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy Symbols.md",
+    "x.-Game-Mechanics/Mourns-Folly/Barstows Legendary Actions.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake to the Heart.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running Water.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Garlic.md",
+    "Worldbuilding/Magic Items.md",
+    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Local Gazette.md",
+    "x.-Game-Mechanics/5e/action.md",
+    "x.-Game-Mechanics/5e/ability-checks.md",
+    "Worldbuilding/Breakdown.md",
+    "Worldbuilding/Battle Map Breakdowns.md",
+    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Upstairs Rooms.md",
+    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Parlor.md",
+    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Library.md",
+    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Cellar.md",
+    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Dining Room.md",
+    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Town Library (PC Librarian Variant).md",
+    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Town Library.md",
+    "Town Library (PC Librarian Variant).md",
+    "docs"
   ]
 }
