@@ -1,0 +1,70 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Wednesday, November 20, 2024 4:25:56 PM
+   Source : D:\MyVaults\mourns_folly_vault\
+     Dest : D:\MyVaults\mourns_folly_git\
+
+    Files : *.*
+	    
+ Exc Dirs : .git
+	    
+  Options : *.* /FFT /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /Z /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   3	D:\MyVaults\mourns_folly_vault\
+	  *EXTRA File 		       0	%LOG_FILE%
+2024/11/20 16:25:56 ERROR 32 (0x00000020) Deleting Extra File D:\MyVaults\mourns_folly_git\%LOG_FILE%
+The process cannot access the file because it is being used by another process.
+
+	                   6	D:\MyVaults\mourns_folly_vault\.obsidian\
+	                   0	D:\MyVaults\mourns_folly_vault\.obsidian\plugins\
+	                   4	D:\MyVaults\mourns_folly_vault\.obsidian\plugins\obsidian-style-settings\
+	                   0	D:\MyVaults\mourns_folly_vault\.obsidian\themes\
+	                   2	D:\MyVaults\mourns_folly_vault\.obsidian\themes\ITS Theme\
+	                   2	D:\MyVaults\mourns_folly_vault\Discord-Generic-Messages\
+	                   3	D:\MyVaults\mourns_folly_vault\NPCs\
+	                  13	D:\MyVaults\mourns_folly_vault\NPCs\Archetypal-NPCs\
+	                   6	D:\MyVaults\mourns_folly_vault\NPCs\Creature-Stat-Blocks\
+	                   7	D:\MyVaults\mourns_folly_vault\NPCs\Main-NPCs\
+	                   1	D:\MyVaults\mourns_folly_vault\Player-Characters\
+	                   3	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\
+	                  17	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\PC-Backgrounds\
+	                   1	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\PC-Backgrounds\Warlock\
+	                   4	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\PC-Backgrounds\Warlock\The-Archfey\
+	                   4	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\PC-Backgrounds\Warlock\The-Fiend\
+	                   4	D:\MyVaults\mourns_folly_vault\Player-Characters\Player-Creation\PC-Backgrounds\Warlock\The-Great-Old-One\
+	                   2	D:\MyVaults\mourns_folly_vault\Session-Notes\
+	                   1	D:\MyVaults\mourns_folly_vault\Story\
+	                   1	D:\MyVaults\mourns_folly_vault\Story\Act-1\
+	                   5	D:\MyVaults\mourns_folly_vault\Story\Act-1\a.-Introduction\
+	                   2	D:\MyVaults\mourns_folly_vault\Story\Act-1\b.--Scenario-A---The-Undead-Sailor-Returns\
+	                   5	D:\MyVaults\mourns_folly_vault\Story\Act-1\c.-Scenario-B---Following-the-Cart\
+	                   2	D:\MyVaults\mourns_folly_vault\Story\Act-2\
+	                   2	D:\MyVaults\mourns_folly_vault\Story\Act-3\
+	                   4	D:\MyVaults\mourns_folly_vault\Worldbuilding\
+	                   4	D:\MyVaults\mourns_folly_vault\Worldbuilding\a.-Hub\
+	                   1	D:\MyVaults\mourns_folly_vault\Worldbuilding\b.-The-Folly\
+	                   8	D:\MyVaults\mourns_folly_vault\Worldbuilding\b.-The-Folly\Businesses-and-Locations\
+	                   6	D:\MyVaults\mourns_folly_vault\Worldbuilding\b.-The-Folly\Mournstead-Manor\
+	                   1	D:\MyVaults\mourns_folly_vault\Worldbuilding\z.-Other\
+	                   2	D:\MyVaults\mourns_folly_vault\Worldbuilding\z.-Other\a.-Locations\
+	                   2	D:\MyVaults\mourns_folly_vault\Worldbuilding\z.-Other\b.-Environmental-Hazards--and--Traps\
+	                   7	D:\MyVaults\mourns_folly_vault\Worldbuilding\z.-Other\x.-Images\
+	                   1	D:\MyVaults\mourns_folly_vault\x.-Game-Mechanics\
+	                  62	D:\MyVaults\mourns_folly_vault\x.-Game-Mechanics\5e\
+	                   4	D:\MyVaults\mourns_folly_vault\x.-Game-Mechanics\Mourns-Folly\
+	                   7	D:\MyVaults\mourns_folly_vault\x.-Game-Mechanics\Mourns-Folly\Vampire-Weaknesses\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        39         0        39         0         0         1
+   Files :       209         0       209         0         0         1
+   Bytes :   22.83 m         0   22.83 m         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Wednesday, November 20, 2024 4:25:56 PM
+
