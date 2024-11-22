@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worldbuilding/z. Other/x. Images/Maps/battlemaps/Battlemap Layouts TBM.md",
+                "file": "Player Characters/Player Creation/Character Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Battlemap Layouts TBM"
+              "title": "Character Creation"
             }
           }
         ],
@@ -177,20 +177,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec95c29ac24d288f",
+  "active": "0b11dbdd17448fba",
   "lastOpenFiles": [
+    "Player Characters/Player Creation/How to Point Buy.md",
+    "Player Characters/Player Creation/Character Creation.md",
+    "Worldbuilding/z. Other/x. Images/Maps/battlemaps/Battlemap Layouts TBM.md",
+    "Dungeon Masters/notes",
+    "Dungeon Masters",
     "Untitled.md",
     "Worldbuilding/z. Other/x. Images/Maps/battlemaps",
-    "Worldbuilding/z. Other/x. Images/Maps/battlemaps/Battlemap Layouts TBM.md",
     "Worldbuilding/z. Other/x. Images/Maps",
     "index.md",
     "readme.md",
     "license.md",
-    "NPCs/Main-NPCs/(NPC) (Hero) Father Cedric Halford, Priest of Lathander.md",
-    "NPCs/Walter Barstow.md",
+    "Dungeon Masters/NPCs/Main-NPCs/(NPC) (Hero) Father Cedric Halford, Priest of Lathander.md",
+    "Dungeon Masters/NPCs/Walter Barstow.md",
     "x. Game Mechanics/Game Mechanics.md",
-    "NPCs/Archetypal-NPCs/(NPC) Sage - The Town's Librarian, Rupert Niles.md",
-    "NPCs/Main-NPCs/Nan Flanagan.md",
+    "Dungeon Masters/NPCs/Archetypal-NPCs/(NPC) Sage - The Town's Librarian, Rupert Niles.md",
+    "Dungeon Masters/NPCs/Main-NPCs/Nan Flanagan.md",
     "x. Game Mechanics/Mourns Folly/Vampire Weaknesses.md",
     "x. Game Mechanics/Mourns Folly/Barstows Legendary Actions.md",
     "x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Sunlight.md",
@@ -206,7 +210,6 @@
     "Worldbuilding/z. Other/a. Locations/Vampire Nest.md",
     "Worldbuilding/z. Other/index.md",
     "Worldbuilding/z.-Other/b.-Environmental-Hazards--and--Traps/index.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Upstairs Rooms.md",
     "Worldbuilding/z. Other/x. Images/Maps/MournsteadFolly_TownMap_HouseNumbers.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow_dark.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow.png",
