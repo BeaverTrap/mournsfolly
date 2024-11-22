@@ -6,6 +6,12 @@
       <description>Last 10 notes on Mourn&#039;s Folly</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Battlemap Layouts to be made</title>
+    <link>https://beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/battlemaps/Battlemap-Layouts-TBM</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/battlemaps/Battlemap-Layouts-TBM</guid>
+    <description>1. Basic House Layout for Vampire Nests Encounter Type: Small-scale combat with feral vampires and possible thralls. Map Features: Main Room: Simple furnishings, showing signs of disturbance (broken furniture, claw marks).</description>
+    <pubDate>Fri, 22 Nov 2024 09:04:39 GMT</pubDate>
+  </item><item>
     <title>Credits &amp; Licensing</title>
     <link>https://beavertrap.github.io/mournsfolly/license</link>
     <guid>https://beavertrap.github.io/mournsfolly/license</guid>
@@ -59,12 +65,6 @@
     <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy-Symbols</guid>
     <description> Holy symbols are potent tools against vampires, leveraging divine power and faith to ward off or harm undead creatures. Here’s a breakdown of how holy symbols affect vampires: Holy Symbols as Repellents Effect: Holy symbols can deter vampires, forcing them to keep their distance if wielded with genuine faith and conviction.</description>
     <pubDate>Wed, 20 Nov 2024 23:47:23 GMT</pubDate>
-  </item><item>
-    <title>Garlic</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Garlic</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Garlic</guid>
-    <description> Repelling Vampires Effect: Vampires find garlic’s smell overwhelming and distasteful. Mechanics: Vampires within a 10-foot radius of garlic must succeed on a DC 13 Wisdom saving throw or be forced to move out of the area on their next turn.</description>
-    <pubDate>Wed, 20 Nov 2024 23:47:22 GMT</pubDate>
   </item>
     </channel>
   </rss>
