@@ -1,7 +1,7 @@
 
 ---
 
-### Known Weaknesses of Vampires:
+### Weaknesses of Vampires:
 
 - **[[Silver]]**
   Silvered weapons and items cause significant harm to vampires, disrupting their regenerative abilities and weakening their powers.
@@ -18,6 +18,9 @@
 - **[[Holy Symbols]]**
   Wielded with faith, holy symbols repel vampires, disrupt their regenerative abilities, and weaken their charms.
 
+- **[[Oil of Lathander]]**
+  Needs a description
+  
 - **[[Stake to the Heart]]**  
   Driving a wooden stake through a vampire’s heart paralyzes or destroys them, depending on their power level.
 

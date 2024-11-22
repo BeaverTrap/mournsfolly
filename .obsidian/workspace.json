@@ -8,35 +8,61 @@
         "type": "tabs",
         "children": [
           {
+            "id": "7785887ecdae9d26",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Worldbuilding/z.-Other/x.-Images/MournsteadFolly_TownMap_HouseNumbers.png"
+              },
+              "icon": "lucide-image",
+              "title": "MournsteadFolly_TownMap_HouseNumbers"
+            }
+          },
+          {
+            "id": "b3fb6dfc0e5d74d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "readme"
+            }
+          },
+          {
+            "id": "34d88ead4b9f51af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
             "id": "91c7ce32596b447e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Story/Act-2/Act 2 - Uncovering the Mystery.md",
+                "file": "Player-Characters/Player-Creation/Character Creation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Act 2 - Uncovering the Mystery"
-            }
-          },
-          {
-            "id": "4307eaa48ae5fc76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Player-Characters/Player-Creation/PC-Backgrounds/Charlatan - The Smooth Talker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Charlatan - The Smooth Talker"
+              "title": "Character Creation"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,34 +203,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4307eaa48ae5fc76",
+  "active": "34d88ead4b9f51af",
   "lastOpenFiles": [
-    "Player-Characters/Player-Creation/Character Creation.md",
-    "link.md",
-    "index.md",
+    "x.-Game-Mechanics/Game Mechanics.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire Weaknesses.md",
-    "x.-Game-Mechanics/Mourns-Folly/Oil of Lathander.md",
-    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy Symbols.md",
+    "index.md",
+    "⚖️ license.md",
+    "Worldbuilding/Battle Map Breakdowns.md",
+    "Story/Breakdown.md",
+    "Player-Characters/index.md",
+    "Worldbuilding/Magic Items.md",
+    "license.md",
+    "readme.md",
+    "Nan Flanagan.md",
+    "link.md",
+    "index_Temp.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Oil of Lathander.md",
     "x.-Game-Mechanics/Mourns-Folly/Barstows Legendary Actions.md",
+    "Worldbuilding/z.-Other/x.-Images/MournsteadFolly_TownMap.png",
+    "Worldbuilding/z.-Other/x.-Images/MournsteadFolly_TownMap_HouseNumbers.png",
+    "Player-Characters/Player-Creation/Character Creation.md",
+    "Worldbuilding/a.-Hub/Mournstead Folly.md",
+    "Worldbuilding/a.-Hub/Mournstead Layout.md",
+    "Worldbuilding/a.-Hub/Mournstead Manor.md",
+    "Worldbuilding/z.-Other/x.-Images/Walter_Barstow_dark.png",
+    "Story/Act-2/Act 2 - Uncovering the Mystery.md",
+    "Worldbuilding/z.-Other/x.-Images/Walter_Barstow.png",
+    "Worldbuilding/z.-Other/x.-Images/WalterBarstow_Feeding.png",
+    "Worldbuilding/z.-Other/x.-Images/WalterBarstow_FatherCedric.png",
+    "Player-Characters/Player-Creation/PC-Backgrounds/Charlatan - The Smooth Talker.md",
+    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy Symbols.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake to the Heart.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running Water.md",
-    "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Garlic.md",
-    "Worldbuilding/Magic Items.md",
-    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Local Gazette.md",
-    "x.-Game-Mechanics/5e/action.md",
-    "x.-Game-Mechanics/5e/ability-checks.md",
-    "Worldbuilding/Breakdown.md",
-    "Worldbuilding/Battle Map Breakdowns.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Upstairs Rooms.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Parlor.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Library.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Cellar.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Dining Room.md",
-    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Town Library (PC Librarian Variant).md",
-    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Town Library.md",
-    "Town Library (PC Librarian Variant).md",
     "docs"
   ]
 }

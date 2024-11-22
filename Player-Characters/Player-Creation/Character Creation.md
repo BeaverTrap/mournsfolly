@@ -7,6 +7,7 @@
 
 ### Available Backgrounds:
 - **[Acolyte - The Aspiring Disciple](link)**  
+-
 - **[Artisan - The Town's Craftsman](link)**  
 - **[Charlatan - The Smooth Talker](link)**  
 - **[Criminal - The Local Miscreant](link)**  
@@ -20,7 +21,6 @@
 - **[Soldier - The Lost Scion](link)**  
 - **[Wayfarer - The Wandering Sleuth](link)**  
 
-*(This list is partial. Include others based on campaign requirements.)*
 
 ---
 
