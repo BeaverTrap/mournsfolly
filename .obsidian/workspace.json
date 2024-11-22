@@ -11,10 +11,14 @@
             "id": "4061294981d5e44a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Worldbuilding/Magic Items.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Magic Items"
             }
           }
         ]
@@ -158,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b11dbdd17448fba",
+  "active": "4061294981d5e44a",
   "lastOpenFiles": [
-    "Story/Breakdown.md",
     "Worldbuilding/Battle Map Breakdowns.md",
+    "Worldbuilding/Magic Items.md",
+    "Story/Breakdown.md",
     "index.md",
     "Worldbuilding/Battle Map Breakdownsdss.md",
     "Worldbuilding/z.-Other/x.-Images/MournsteadFolly_TownMap_HouseNumbers.png",
@@ -178,7 +183,6 @@
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake to the Heart.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight.md",
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Oil of Lathander.md",
-    "Worldbuilding/Magic Items.md",
     "⚖️ license.md",
     "Player-Characters/index.md",
     "link.md",
