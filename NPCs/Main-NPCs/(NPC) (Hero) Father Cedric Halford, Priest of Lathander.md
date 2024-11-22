@@ -103,7 +103,7 @@ Cedric is in his late fifties, his once-bright robes faded and his golden pendan
 - "Faith is... it's like dawn itself. It has to come from somewhere, doesn't it? But I haven't seen it in a long, long time."
 
 ---
-
+![[WalterBarstow_FatherCedric.png]]
 ## **Cedric's Struggle and Downfall**
 
 ### **Act 1: Guiding Light**  

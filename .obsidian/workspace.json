@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "93481c8629639a93",
+        "id": "409a1401ecc8bf13",
         "type": "tabs",
         "children": [
           {
-            "id": "2a5e9383f6754fec",
+            "id": "1b1da8258ed36142",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -73,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 391.5
   },
   "right": {
     "id": "fd81f56fcc94039c",
@@ -158,13 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a5e9383f6754fec",
+  "active": "1b1da8258ed36142",
   "lastOpenFiles": [
-    "readme.md",
-    "Nan Flanagan.md",
-    "license.md",
     "index.md",
+    "readme.md",
+    "license.md",
+    "NPCs/Main-NPCs/(NPC) (Hero) Father Cedric Halford, Priest of Lathander.md",
+    "NPCs/Walter Barstow.md",
     "x. Game Mechanics/Game Mechanics.md",
+    "NPCs/Archetypal-NPCs/(NPC) Sage - The Town's Librarian, Rupert Niles.md",
+    "NPCs/Main-NPCs/Nan Flanagan.md",
     "x. Game Mechanics/Mourns Folly/Vampire Weaknesses.md",
     "x. Game Mechanics/Mourns Folly/Barstows Legendary Actions.md",
     "x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Sunlight.md",
@@ -184,9 +187,6 @@
     "Worldbuilding/z.-Other/a.-Locations/index.md",
     "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Parlor.md",
     "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Library.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Dining Room.md",
-    "Worldbuilding/b.-The-Folly/Mournstead-Manor/The Cellar.md",
-    "Worldbuilding/b.-The-Folly/Businesses-and-Locations/Town Library (PC Librarian Variant).md",
     "Worldbuilding/z. Other/x. Images/MournsteadFolly_TownMap_HouseNumbers.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow_dark.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow.png",

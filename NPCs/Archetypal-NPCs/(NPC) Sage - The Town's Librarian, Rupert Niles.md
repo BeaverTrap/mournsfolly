@@ -1,7 +1,7 @@
 ---
 title: (NPC) Sage - The Town's Librarian, Rupert Niles
 ---
-
+![[RupertNiles_001.png]]
 
 ## **Rupert Niles (Stat Block)**
 
@@ -63,6 +63,8 @@ Rupert is a 5th-level spellcaster. His spellcasting ability is Intelligence (spe
   When an ally within 30 feet fails an Intelligence, Wisdom, or Charisma saving throw, Rupert can use his reaction to grant them a reroll.
 
 ---
+
+![[RupertNiles_002.png]]
 
 ## **Rupert Niles, Turned (Stat Block)**
 

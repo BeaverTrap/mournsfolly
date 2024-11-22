@@ -1,7 +1,7 @@
 ---
 title: Walter Barstow
 ---
-
+![[Walter_Barstow.png]]
 ### **Walter Barstow, Ancient Vampire**
 
 *Medium Undead (Vampire), Lawful Evil*
@@ -78,7 +78,7 @@ Barstow can take 3 legendary actions, choosing from the options below. Only one 
 
 - **Bite (Costs 2 Actions).**  
   Barstow makes one bite attack.
-
+![[Walter_Barstow_dark.png]]
 ---
 
 ### **Appearance and Motivations**
@@ -91,3 +91,4 @@ Barstow sees Mourn's Folly as a resource to exploit. Using manipulation and fear
 
 **Personality:**  
 Cold and calculating, Barstow uses fear and manipulation to dominate. He values precision and control over chaos, viewing every life as a resource to exploit or discard.
+![[WalterBarstow_Feeding.png]]
