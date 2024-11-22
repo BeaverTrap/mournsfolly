@@ -54,9 +54,7 @@ Mourn's Folly challenges players to think strategically and adapt to an ever-cha
 
 ---
 
-## 🕯️ About Mourn's Folly
-
-📜 [[readme]] An overview of the purpose and content of this repository. Get a sense of how it all fits together and serves the project. -
+📜 [[readme]] An overview of the purpose and content of this repository. Get a sense of how it all fits together and serves the project.
 
 ⚖️ [[license]] Details on the licensing of the materials included in this project. Covers both Open Game Content and original creations. 
 
