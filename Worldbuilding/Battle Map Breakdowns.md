@@ -58,7 +58,7 @@
 
 ---
 
-### 6. **Neighborhood Streets (Outside Homes)**
+### 6. **Neighborhood Streets
 
 - **Encounter Type**: Skirmish within a residential neighborhood, with feral vampires emerging from homes or shadowy alleys.  
 - **Map Features**:  
