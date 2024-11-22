@@ -22,8 +22,16 @@ Whether you're a wary traveler or a determined survivor, **Mourn's Folly** invit
 - 🧙 [[Character Creation]]  
   Build characters suited for a survival horror setting. Create resourceful survivors, desperate wanderers, or hardened hunters ready to confront the town's rising menace.
 
+## 🎲 Dungeon Masters
+
+- 📖 [[Story]]  
+    A guide to crafting the narrative and delivering the suspense-filled experience of **Mourn's Folly**.
+    
+- 🎭 [[NPCs]]  - _Coming Soon_
+    Populate Mournstead Folly with compelling NPCs, from trusted allies to enigmatic figures hiding dangerous secrets.
+    
 - 🛠️ [[Game Mechanics]]  
-  Explore rules and systems tailored for Mourn's Folly, from survival-based mechanics to the **Dungeon Delicacies** system that makes every meal a matter of life or death.
+    Discover custom rules and systems, including the **Dungeon Delicacies** survival mechanics, where every decision—whether foraging or preparing a meal—can determine life or death.
 
 ---
 
