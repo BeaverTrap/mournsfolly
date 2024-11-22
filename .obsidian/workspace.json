@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e548e8686964102d",
+        "id": "3cf95518ce8d204c",
         "type": "tabs",
         "children": [
           {
-            "id": "4061294981d5e44a",
+            "id": "8dc95e7a2ae80bd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/Magic Items.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Magic Items"
+              "title": "New tab"
             }
           }
         ]
@@ -162,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4061294981d5e44a",
+  "active": "8dc95e7a2ae80bd2",
   "lastOpenFiles": [
-    "Worldbuilding/Battle Map Breakdowns.md",
     "Worldbuilding/Magic Items.md",
+    "Worldbuilding/Battle Map Breakdowns.md",
     "Story/Breakdown.md",
     "index.md",
     "Worldbuilding/Battle Map Breakdownsdss.md",
