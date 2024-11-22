@@ -1,3 +1,7 @@
+---
+title: (NPC) Farmer - The Rural Protector, Ryland Harroway
+---
+
 ## **Ryland Harroway (Stat Block)**
 
 *Medium Humanoid (Human), Neutral Good*

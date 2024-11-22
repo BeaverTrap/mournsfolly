@@ -1,3 +1,6 @@
+---
+title: (NPC) Constable Byron Ward
+---
 
 
 ## **Stat Block**

@@ -1,7 +1,6 @@
-
-
-
-
+---
+title: Town Library
+---
 > The Town Library stands as a quiet sanctuary in Mourn's Folly, its modest exterior betraying the wealth of knowledge within. Nestled along the main street, the library's faded sign creaks gently in the wind. Inside, the air is heavy with the scent of old parchment and leather, and every corner is steeped in a sense of timeless curiosity. Sturdy wooden shelves line the walls, crammed with books, scrolls, and documents spanning a range of topics, from local folklore to regional history. A heavy oak desk at the center serves as the Librarian's station, perpetually stacked with tomes, quills, and inkpots.
 
 > Dim light filters through narrow windows, illuminating a cozy reading nook with mismatched chairs and a small table. Though the library is typically quiet, it carries an atmosphere of anticipation, as though every book waits patiently for its secrets to be uncovered.

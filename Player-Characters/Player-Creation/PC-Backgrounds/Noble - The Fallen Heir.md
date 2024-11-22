@@ -1,3 +1,6 @@
+---
+title: Noble - The Fallen Heir
+---
 
 
 - **Origin Stats:** Strength, Intelligence, Charisma  

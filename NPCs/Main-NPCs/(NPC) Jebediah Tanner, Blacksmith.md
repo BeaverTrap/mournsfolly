@@ -1,3 +1,6 @@
+---
+title: (NPC) Jebediah Tanner, Blacksmith
+---
 
 
 ## **Stat Block**

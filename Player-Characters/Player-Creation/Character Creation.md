@@ -1,3 +1,6 @@
+---
+title: Character Creation
+---
 
 
 ## Step 1: Choose a Background

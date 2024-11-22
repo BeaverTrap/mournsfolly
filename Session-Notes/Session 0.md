@@ -1,3 +1,6 @@
+---
+title: Session Notes
+---
 
 ## Player Characters
 

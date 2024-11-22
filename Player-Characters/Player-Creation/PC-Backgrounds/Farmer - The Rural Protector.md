@@ -1,3 +1,6 @@
+---
+title: Farmer - The Rural Protector
+---
 
 
 A steadfast farmer whose family has tilled the same fields for generations, the Rural Protector is a pillar of hard work and perseverance in *Mourn's Folly*. Their days are spent tending crops, caring for livestock, and keeping a watchful eye on the land they know better than anyone else. Their practical attitude and deep connection to nature have earned them respect throughout the community, even from those who see their quiet demeanor as aloofness.

@@ -1,3 +1,6 @@
+---
+title: (NPC) Nora Finch, Innkeeper
+---
 
 
 ## **Stat Block**

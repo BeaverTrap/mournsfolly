@@ -1,3 +1,6 @@
+---
+title: Scene - Confrontation in the Cellar
+---
 
 ## Confrontation in the Cellar
 

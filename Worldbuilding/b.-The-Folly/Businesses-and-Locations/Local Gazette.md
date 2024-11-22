@@ -1,3 +1,6 @@
+---
+title: Local Gazette
+---
 
 ### **Owner/Editor**  
 [Scribe - The Town Chronicler](../../../../Mourn's-Folly/Player-Characters/Player-Creation/PC-Backgrounds/Scribe---The-Town-Chronicler)  

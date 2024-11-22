@@ -1,3 +1,6 @@
+---
+title: How to Point Buy
+---
 
 
 ## Using the 27-Point Buy System
@@ -28,11 +31,5 @@ With this system, you have **27 points to spend** on your character's ability sc
 
 ---
 
-### Why Use the 27-Point Buy at Level 5?
-
-Even at level 5, the **27-point buy system** provides a balanced starting point. Here's why:
-- Your character's power comes from **class abilities**, **spells**, and **extra attacks**—not just raw stats.
-- At level 5, you already have **stronger class features** and potentially **magic items**, meaning your stats complement rather than define your character's power.
-- As you progress, **feats**, **ability score increases**, and **equipment upgrades** provide room for meaningful growth.
 
 This setup ensures balance, allows for customization, and gives your character a compelling starting point to showcase their strengths and quirks.

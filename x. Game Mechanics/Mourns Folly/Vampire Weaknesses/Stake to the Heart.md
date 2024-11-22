@@ -1,3 +1,6 @@
+---
+title: Stake to the Heart
+---
 
 ---
 

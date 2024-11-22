@@ -1,3 +1,6 @@
+---
+title: Charlatan - The Fey Trickster
+---
 
 
 - **Origin Stats**: Dexterity, Charisma  

@@ -1,3 +1,6 @@
+---
+title: Criminal - The Local Miscreant
+---
 
 
 - **Origin Stats**: Dexterity, Constitution, Intelligence  

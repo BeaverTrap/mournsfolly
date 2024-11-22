@@ -1,3 +1,8 @@
+---
+title: (NPC) Acolyte - The Aspiring Disciple, Brother Alric Davenshire
+---
+
+
 ## **Brother Alric (Stat Block)**
 
 *Medium Humanoid (Human), Neutral Good*

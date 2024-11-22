@@ -1,3 +1,6 @@
+---
+title: Alternative Start (Sailor Background)
+---
 
 
 ### The Crate's Journey: An Ominous Loss

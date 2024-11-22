@@ -1,3 +1,6 @@
+---
+title: Act 3 - The Revelation and Showdown
+---
 
 
 **Overview:**  

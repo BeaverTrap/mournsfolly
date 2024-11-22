@@ -1,3 +1,6 @@
+---
+title: Criminal - The Fiend's Scoundrel
+---
 
 
 - **Origin Stats**: Dexterity, Charisma  

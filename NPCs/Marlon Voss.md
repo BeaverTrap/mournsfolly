@@ -1,3 +1,8 @@
+---
+title: Marlon Voss
+---
+
+
 ### **Marlon Voss, Charismatic Servant**
 
 *Medium Humanoid (Human), Lawful Evil*

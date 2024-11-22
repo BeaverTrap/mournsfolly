@@ -1,3 +1,6 @@
+---
+title: Wayfarer - The Wandering Sleuth
+---
 
 
 - **Origin Stats:** Dexterity, Wisdom, Charisma  

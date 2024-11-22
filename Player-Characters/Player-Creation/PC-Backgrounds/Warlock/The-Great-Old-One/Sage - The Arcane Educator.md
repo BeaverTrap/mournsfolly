@@ -1,3 +1,6 @@
+---
+title: Sage - The Arcane Educator
+---
 
 
 - **Origin Stats**: Intelligence, Wisdom  

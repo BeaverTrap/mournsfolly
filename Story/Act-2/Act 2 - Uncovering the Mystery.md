@@ -1,3 +1,6 @@
+---
+title: Act 2 - Uncovering the Mystery
+---
 
 
 **Overview:**  

@@ -1,3 +1,8 @@
+---
+title: Feral Vampire Spawn
+---
+
+
 ### **Feral Vampire Spawn**
 
 _Medium Undead (Vampire), Chaotic Evil_

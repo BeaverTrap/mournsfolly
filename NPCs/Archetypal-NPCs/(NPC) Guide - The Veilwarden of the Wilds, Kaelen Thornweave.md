@@ -1,3 +1,6 @@
+---
+title: (NPC) Guide - The Veilwarden of the Wilds, Kaelen Thornweave
+---
 
 ## **Kaelen Thornweave (Stat Block)**
 

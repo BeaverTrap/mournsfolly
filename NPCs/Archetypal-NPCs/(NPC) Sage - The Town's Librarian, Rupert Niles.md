@@ -1,3 +1,6 @@
+---
+title: (NPC) Sage - The Town's Librarian, Rupert Niles
+---
 
 
 ## **Rupert Niles (Stat Block)**

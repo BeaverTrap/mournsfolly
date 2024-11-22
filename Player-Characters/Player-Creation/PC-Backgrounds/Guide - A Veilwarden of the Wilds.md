@@ -1,3 +1,6 @@
+---
+title: Guide - A Veilwarden of the Wilds
+---
 
 
 As one of *Mourn's Folly*'s Veilwardens, the Guide serves as a guardian of the wilderness, patrolling the deep woods and borderlands that surround the town. Their duties include watching for signs of danger, maintaining trails, and ensuring that the balance of nature remains undisturbed by those who would exploit or harm it. Veilwardens rotate shifts, spending three months in the wilds followed by one month of shore-leave in *Mourn's Folly*. Even during their time in town, their connection to the wilds is unmistakable—they carry themselves with a quiet authority and are often consulted on matters concerning the natural world.

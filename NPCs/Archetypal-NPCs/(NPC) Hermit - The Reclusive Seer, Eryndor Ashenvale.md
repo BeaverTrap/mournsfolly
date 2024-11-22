@@ -1,3 +1,6 @@
+---
+title: (NPC) Hermit - The Reclusive Seer, Eryndor Ashenvale
+---
 
 
 ## **Eryndor Ashenvale (Stat Block)**

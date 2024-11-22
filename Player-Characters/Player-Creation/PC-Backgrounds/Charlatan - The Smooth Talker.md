@@ -1,3 +1,6 @@
+---
+title: (NPC) Charlatan - The Smooth Talker, Ellisar Vendren
+---
 
 
 - **Origin Stats**: Dexterity, Constitution, Charisma  

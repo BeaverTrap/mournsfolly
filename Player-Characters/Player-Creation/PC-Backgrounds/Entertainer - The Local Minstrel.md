@@ -1,3 +1,6 @@
+---
+title: (NPC) Entertainer - The Local Minstrel, Ellowyn Amaris
+---
 
 
 The Local Minstrel has long been the beating heart of *Mourn's Folly*, captivating audiences with their magnetic stage presence and spellbinding tales. Whether performing in the bustling tavern or atop makeshift stages at festivals, they weave together humor, suspense, and the macabre, enthralling crowds with local legends and ghost stories. Among their favorite subjects is the abandoned Mournstead mansion, its eerie reputation providing the perfect backdrop for their performances.

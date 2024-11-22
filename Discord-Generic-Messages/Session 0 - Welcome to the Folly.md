@@ -1,3 +1,8 @@
+---
+title: Session 0 - Welcome to the Folly
+---
+
+
 ### Session 0 - Welcome to the Folly
 
 Welcome to **Mourn's Folly**, adventurers! This session serves as the foundation for our eerie, horror-filled one-shot. Here's what you need to know:

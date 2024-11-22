@@ -1,3 +1,6 @@
+---
+title: Barstows Legendary Actions
+---
 
 ---
 

@@ -1,3 +1,6 @@
+---
+title: Artisan - The Town's Craftsman
+---
 
 
 - **Origin Stats**: Strength, Dexterity, Intelligence  

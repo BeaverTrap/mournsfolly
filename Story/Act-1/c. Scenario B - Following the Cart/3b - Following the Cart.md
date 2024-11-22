@@ -1,3 +1,6 @@
+---
+title: Following the Cart
+---
 
 
 ## Following or Intervening with the Cart

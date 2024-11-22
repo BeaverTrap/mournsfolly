@@ -1,3 +1,6 @@
+---
+title: (NPC) (Hero) Peter Vincent, Vampire Hunter
+---
 
 
 ## **Peter Vincent's Stat Block**

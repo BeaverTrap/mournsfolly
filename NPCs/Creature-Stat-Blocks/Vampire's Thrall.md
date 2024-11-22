@@ -1,4 +1,7 @@
-### **Vampire's Thrall**
+---
+title: Vampire's Thrall
+---
+
 
 _Medium Humanoid, Neutral Evil_
 

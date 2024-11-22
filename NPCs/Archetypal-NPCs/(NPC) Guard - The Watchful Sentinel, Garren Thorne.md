@@ -1,3 +1,7 @@
+---
+title: (NPC) Guard - The Watchful Sentinel, Garren Thorne
+---
+
 ## **Garren Thorne (Stat Block)**
 
 *Medium Humanoid (Human), Lawful Good*

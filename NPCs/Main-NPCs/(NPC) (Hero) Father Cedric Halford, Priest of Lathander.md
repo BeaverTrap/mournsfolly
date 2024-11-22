@@ -1,3 +1,6 @@
+---
+title: (NPC) (Hero) Father Cedric Halford, Priest of Lathander
+---
 
 
 ## **Father Cedric Halford - Stat Block**

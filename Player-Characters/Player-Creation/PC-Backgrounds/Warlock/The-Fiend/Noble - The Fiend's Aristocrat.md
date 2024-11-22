@@ -1,3 +1,6 @@
+---
+title: Noble - The Fiend's Aristocrat
+---
 
 
 - **Origin Stats**: Charisma, Intelligence  

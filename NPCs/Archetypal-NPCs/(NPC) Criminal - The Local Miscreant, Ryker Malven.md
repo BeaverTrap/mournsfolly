@@ -1,3 +1,6 @@
+---
+title: (NPC) Criminal - The Local Miscreant, Ryker Malven
+---
 
 
 ## **Ryker "Shadow" Malven (Stat Block)**

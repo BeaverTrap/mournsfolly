@@ -1,3 +1,6 @@
+---
+title: Wayfarer - The Eldritch Nomad
+---
 
 
 - **Origin Stats**: Dexterity, Wisdom  

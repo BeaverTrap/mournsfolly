@@ -1,3 +1,6 @@
+---
+title: Sage - The Town's Librarian
+---
 
 
 - **Origin Stats:** Constitution, Intelligence, Wisdom  

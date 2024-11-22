@@ -1,3 +1,6 @@
+---
+title: Mournstead Folly - Hub
+---
 
 
 > Mourn's Folly is a small, secluded town with a population of around 300. Nestled between mist-laden woodlands and rolling hills, the town has a timeless quality, with cobbled streets, sturdy stone buildings, and a calm, almost sleepy atmosphere. Life here moves at a slower pace, with townsfolk living in close-knit harmony, grounded by long-held traditions and a strong sense of community.

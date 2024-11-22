@@ -1,3 +1,6 @@
+---
+title: Game Mechanics
+---
 
 
 [[Vampire Weaknesses]]

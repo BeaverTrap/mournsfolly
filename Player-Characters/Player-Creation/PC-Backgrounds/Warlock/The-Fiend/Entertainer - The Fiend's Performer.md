@@ -1,3 +1,6 @@
+---
+title: Entertainer - The Fiend's Performer
+---
 
 - **Origin Stats**: Dexterity, Charisma  
 - **Skills**: Performance, Acrobatics  

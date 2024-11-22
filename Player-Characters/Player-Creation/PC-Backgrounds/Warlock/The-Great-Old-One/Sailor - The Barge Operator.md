@@ -1,3 +1,6 @@
+---
+title: Sailor - The Barge Operator
+---
 
 - **Origin Stats**: Wisdom, Strength  
 - **Skills**: Perception, Athletics  

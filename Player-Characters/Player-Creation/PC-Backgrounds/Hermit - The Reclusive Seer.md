@@ -1,3 +1,6 @@
+---
+title: Hermit - The Reclusive Seer
+---
 
 
 Living on the outskirts of *Mourn's Folly*, the Reclusive Seer is a figure of mystery and quiet authority. Known for their skill in crafting herbal remedies and deciphering old superstitions, they spend most of their days in solitude, immersed in their studies and rituals. Their reclusive lifestyle has earned them a reputation as both a healer and an eccentric. Venturing into town only on a set schedule, they fulfill orders, sell their unique wares, and gather supplies before quickly retreating to the safety of their isolated home.

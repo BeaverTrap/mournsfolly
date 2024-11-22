@@ -1,3 +1,6 @@
+---
+title: Scene - Voss's Ritual with the Delivery Men
+---
 
 
 ## Scene: Voss's Ritual with the Delivery Men

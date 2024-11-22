@@ -1,3 +1,6 @@
+---
+title: Acolyte - The Aspiring Disciple
+---
 
 
 - **Origin Stats**: Intelligence, Wisdom, Charisma  

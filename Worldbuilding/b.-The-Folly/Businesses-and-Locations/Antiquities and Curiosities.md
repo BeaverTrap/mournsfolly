@@ -1,3 +1,6 @@
+---
+title: Antiquities and Curiosities
+---
 
 ### **Owner**  
 **Marlon Voss** (NPC) and **Walter Barstow** (NPC)

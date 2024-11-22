@@ -1,3 +1,8 @@
+---
+title: Dire Wolf
+---
+
+
 # Dire Wolf
 
 _Large Beast, Unaligned_  

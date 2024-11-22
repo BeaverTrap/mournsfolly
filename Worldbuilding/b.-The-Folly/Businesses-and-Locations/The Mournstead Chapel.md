@@ -1,3 +1,8 @@
+---
+title: The Mournstead Chapel
+---
+
+
 **Caretaker**: [[(NPC) (Hero) Father Cedric Halford, Priest of Lathander]]
 
 ### **Outside of Mournstead Chapel**

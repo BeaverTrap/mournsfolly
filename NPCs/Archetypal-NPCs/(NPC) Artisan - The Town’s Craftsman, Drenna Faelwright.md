@@ -1,3 +1,8 @@
+---
+title: (NPC) Artisan - The Town’s Craftsman, Drenna Faelwright
+---
+
+
 ## **Drenna Faelwright, The Town's Craftsman**
 
 _Medium Humanoid (Half-Elf), Neutral Good_

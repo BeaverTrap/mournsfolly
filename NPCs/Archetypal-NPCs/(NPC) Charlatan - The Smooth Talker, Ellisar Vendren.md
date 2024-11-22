@@ -1,3 +1,8 @@
+---
+title: (NPC) Charlatan - The Smooth Talker, Ellisar Vendren
+---
+
+
 ## **Ellisar Vendren, The Smooth Talker**
 
 _Medium Humanoid (Half-Elf), Chaotic Neutral_

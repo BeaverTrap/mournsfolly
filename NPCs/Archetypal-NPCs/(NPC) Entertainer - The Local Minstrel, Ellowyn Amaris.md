@@ -1,3 +1,6 @@
+---
+title: (NPC) Entertainer - The Local Minstrel, Ellowyn Amaris
+---
 
 ## **Ellowyn Amaris (Stat Block)**
 

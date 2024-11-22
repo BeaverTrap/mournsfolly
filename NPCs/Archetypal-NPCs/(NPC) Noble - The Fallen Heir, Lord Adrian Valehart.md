@@ -1,3 +1,6 @@
+---
+title: (NPC) Noble - The Fallen Heir, Lord Adrian Valehart
+---
 
 
 ## **Lord Adrian Valehart (Stat Block)**

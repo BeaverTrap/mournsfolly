@@ -1,3 +1,6 @@
+---
+title: Diversion Scenario - The 'Undead' Sailor's Return
+---
 
 
 ## Scene Setup

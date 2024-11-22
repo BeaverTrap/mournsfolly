@@ -1,3 +1,6 @@
+---
+title: Sailor - The Dockside Trader
+---
 
 
 - **Origin Stats:** Strength, Dexterity, Wisdom  

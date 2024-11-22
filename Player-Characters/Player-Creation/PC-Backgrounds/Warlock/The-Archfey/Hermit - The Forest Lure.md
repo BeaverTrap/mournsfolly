@@ -1,3 +1,6 @@
+---
+title: Hermit - The Forest Lure
+---
 
 
 - **Origin Stats**: Wisdom, Charisma  

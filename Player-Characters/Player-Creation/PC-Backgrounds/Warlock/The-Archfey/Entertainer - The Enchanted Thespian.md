@@ -1,3 +1,6 @@
+---
+title: Entertainer - The Enchanted Thespian
+---
 
 
 - **Origin Stats**: Dexterity, Charisma  

@@ -1,3 +1,6 @@
+---
+title: Credits & Licensing
+---
 
 ## **Credits & Licensing**
 

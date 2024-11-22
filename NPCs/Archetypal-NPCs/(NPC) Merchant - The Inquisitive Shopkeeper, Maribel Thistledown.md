@@ -1,3 +1,6 @@
+---
+title: (NPC) Merchant - The Inquisitive Shopkeeper, Maribel Thistledown
+---
 
 
 ## **Maribel Thistledown (Stat Block)**

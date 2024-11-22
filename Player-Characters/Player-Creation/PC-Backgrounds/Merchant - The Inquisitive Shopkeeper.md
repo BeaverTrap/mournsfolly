@@ -1,3 +1,6 @@
+---
+title: Merchant - The Inquisitive Shopkeeper
+---
 
 
 The Inquisitive Shopkeeper is the beating heart of *Mourn's Folly*'s marketplace, running a thriving general store where nearly every townsfolk is a regular customer. Known for their quick wit and warm demeanor, they excel at making small talk while keeping one ear open for the latest gossip. Over the years, they've woven themselves into the social fabric of the town, cultivating a network of information that spans every street and alley.

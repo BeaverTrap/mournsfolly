@@ -1,3 +1,6 @@
+---
+title: Scribe - The Town Chronicler
+---
 
 
 - **Origin Stats:** Dexterity, Intelligence, Wisdom  

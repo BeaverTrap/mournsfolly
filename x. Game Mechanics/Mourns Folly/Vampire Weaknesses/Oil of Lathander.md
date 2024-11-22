@@ -1,3 +1,6 @@
+---
+title: Oil of Lathander
+---
 
 ---
 

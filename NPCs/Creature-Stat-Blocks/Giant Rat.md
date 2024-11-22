@@ -1,7 +1,6 @@
-# **Giant Rat**
-
-_Small Beast, Unaligned_  
-_Published: Oct 29, 2024_
+---
+title: Giant Rat
+---
 
 ---
 

@@ -1,3 +1,6 @@
+---
+title: Soldier - The Lost Scion
+---
 
 
 - **Origin Stats:** Strength, Dexterity, Constitution  

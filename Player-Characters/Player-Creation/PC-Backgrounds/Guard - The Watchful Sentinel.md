@@ -1,3 +1,6 @@
+---
+title: Guard - The Watchful Sentinel
+---
 
 
 As the steadfast town guard of *Mourn's Folly*, the Watchful Sentinel has dedicated their life to upholding law and order in the community. Known for their unwavering commitment to fairness, they are respected (and sometimes feared) by the townsfolk for their no-nonsense approach to maintaining the peace. They know every corner of the town, every hidden path, and every face in the crowd, making them a formidable presence for anyone who might stir trouble.

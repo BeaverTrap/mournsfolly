@@ -1,3 +1,7 @@
+---
+title: Walter Barstow
+---
+
 ### **Walter Barstow, Ancient Vampire**
 
 *Medium Undead (Vampire), Lawful Evil*
