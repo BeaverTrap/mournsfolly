@@ -5,6 +5,7 @@ title: Welcome to Mourn's Folly
 
 # Welcome to Mourn's Folly 🌙
 
+
 Welcome to **Mournstead**, a small, isolated town nestled in a shadowed valley surrounded by rugged hills and darkened forests. The town exudes a haunting charm, with its misty streets, creaking mills, and the faint glow of lanterns piercing the thick, creeping fog. 
 
 But beneath its quiet exterior lies a world transformed by creeping dread. The fabric of the town itself shifts under the influence of an ancient, insidious force. Life in Mournstead is about more than survival; it’s about enduring the oppressive shadows, scavenging for dwindling resources, and fighting back against the horrors that claw at the edges of your sanity.

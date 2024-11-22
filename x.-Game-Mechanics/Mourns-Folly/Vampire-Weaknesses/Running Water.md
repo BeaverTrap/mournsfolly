@@ -1,7 +1,6 @@
 
 ---
 
-[**Vampire Weaknesses**](../../../../Mourn's-Folly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses){.internal .alias slug="Mourn's-Folly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses"}  
 
 ---
 
