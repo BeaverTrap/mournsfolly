@@ -6,6 +6,18 @@
       <description>Last 10 notes on Mourn&#039;s Folly</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>404 error</title>
+    <link>https://beavertrap.github.io/mournsfolly/404</link>
+    <guid>https://beavertrap.github.io/mournsfolly/404</guid>
+    <description>You seem lost, traveler. This path doesn’t lead anywhere… .</description>
+    <pubDate>Fri, 22 Nov 2024 11:13:25 GMT</pubDate>
+  </item><item>
+    <title>Story</title>
+    <link>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</guid>
+    <description>...</description>
+    <pubDate>Fri, 22 Nov 2024 11:00:58 GMT</pubDate>
+  </item><item>
     <title>Battlemap Layouts to be made</title>
     <link>https://beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/battlemaps/Battlemap-Layouts-TBM</link>
     <guid>https://beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/battlemaps/Battlemap-Layouts-TBM</guid>
@@ -19,8 +31,8 @@
     <pubDate>Fri, 22 Nov 2024 02:24:37 GMT</pubDate>
   </item><item>
     <title>Game Mechanics</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Game-Mechanics</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Game-Mechanics</guid>
+    <link>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</guid>
     <description>Vampire Weaknesses Barstows Legendary Actions.</description>
     <pubDate>Fri, 22 Nov 2024 01:01:37 GMT</pubDate>
   </item><item>
@@ -37,34 +49,22 @@
     <pubDate>Thu, 21 Nov 2024 07:29:32 GMT</pubDate>
   </item><item>
     <title>Sunlight</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight</guid>
+    <link>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Sunlight</guid>
     <description> Sunlight is one of the most potent and feared weaknesses of vampires, serving as both a weapon and a strategic advantage for those who confront them.</description>
     <pubDate>Wed, 20 Nov 2024 23:47:30 GMT</pubDate>
   </item><item>
     <title>Stake to the Heart</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake-to-the-Heart</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake-to-the-Heart</guid>
+    <link>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake-to-the-Heart</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake-to-the-Heart</guid>
     <description> A stake through the heart is a classic and powerful method for neutralizing vampires, forcing them into a helpless state or destroying them outright.</description>
     <pubDate>Wed, 20 Nov 2024 23:47:28 GMT</pubDate>
   </item><item>
     <title>Silver</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</guid>
+    <link>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</link>
+    <guid>https://beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</guid>
     <description> 1. Enhanced Damage from Silvered Weapons Effect: Silvered weapons cut through a vampire’s defenses, inflicting greater harm. Mechanics: Vampires take an additional 1d4 radiant damage per hit from silvered weapons.</description>
     <pubDate>Wed, 20 Nov 2024 23:47:27 GMT</pubDate>
-  </item><item>
-    <title>Running Water</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running-Water</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running-Water</guid>
-    <description>Running Water as a Barrier Effect: Running water serves as a natural barrier that vampires cannot cross without harm. Mechanics: Vampires crossing running water take 20 acid damage at the end of each turn spent in the water.</description>
-    <pubDate>Wed, 20 Nov 2024 23:47:26 GMT</pubDate>
-  </item><item>
-    <title>Holy Symbols</title>
-    <link>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy-Symbols</link>
-    <guid>https://beavertrap.github.io/mournsfolly/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Holy-Symbols</guid>
-    <description> Holy symbols are potent tools against vampires, leveraging divine power and faith to ward off or harm undead creatures. Here’s a breakdown of how holy symbols affect vampires: Holy Symbols as Repellents Effect: Holy symbols can deter vampires, forcing them to keep their distance if wielded with genuine faith and conviction.</description>
-    <pubDate>Wed, 20 Nov 2024 23:47:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
