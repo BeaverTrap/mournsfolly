@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4a709236ceb63f0f",
+        "id": "e548e8686964102d",
         "type": "tabs",
         "children": [
           {
-            "id": "8e2093872cabd449",
+            "id": "4061294981d5e44a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -158,8 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8e2093872cabd449",
+  "active": "0b11dbdd17448fba",
   "lastOpenFiles": [
+    "Story/Breakdown.md",
     "Worldbuilding/Battle Map Breakdowns.md",
     "index.md",
     "Worldbuilding/Battle Map Breakdownsdss.md",
@@ -179,7 +180,6 @@
     "x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Oil of Lathander.md",
     "Worldbuilding/Magic Items.md",
     "⚖️ license.md",
-    "Story/Breakdown.md",
     "Player-Characters/index.md",
     "link.md",
     "index_Temp.md",

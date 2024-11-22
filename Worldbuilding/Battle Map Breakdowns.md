@@ -1,8 +1,6 @@
-
-
 ---
 
-### 1. **Basic House Layout for Vampire Nests** 
+### 1. **Basic House Layout for Vampire Nests**
 
 - **Encounter Type**: Small-scale combat with feral vampires and possible thralls.  
 - **Map Features**:  
@@ -13,7 +11,7 @@
 
 ---
 
-### 2. **Barstow Manor** 
+### 2. **Barstow Manor**
 
 - **Encounter Type**: Multi-level exploration and boss fight.  
 - **Map Features**:  
@@ -25,7 +23,7 @@
 
 ---
 
-### 3. **Battle Outside the Church** 
+### 3. **Battle Outside the Church**
 
 - **Encounter Type**: Combat with feral vampires trying to attack or prevent entry to the holy ground.  
 - **Map Features**:  
@@ -58,7 +56,7 @@
 
 ---
 
-### 6. **Neighborhood Streets
+### 6. **Neighborhood Streets**
 
 - **Encounter Type**: Skirmish within a residential neighborhood, with feral vampires emerging from homes or shadowy alleys.  
 - **Map Features**:  
