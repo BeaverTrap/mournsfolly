@@ -13,6 +13,12 @@ Visitors find the townsfolk polite and welcoming, though their smiles often fail
 
 ---
 
+## A Work in Progress 🌘
+
+Mournstead Folly is a living, evolving project, constantly being refined and expanded to enhance its unique blend of survival-horror mechanics and immersive storytelling. Updates are rolled out regularly, ensuring the setting grows richer with new content, improved systems, and deeper integration with its core themes.
+
+---
+
 ## 🌍 Explore Mournstead Folly
 
 - 🌲 [[Mournstead Folly]]  
@@ -40,11 +46,14 @@ Visitors find the townsfolk polite and welcoming, though their smiles often fail
 
 This is a campaign where:
 
-- **Every Shadow Hides a Secret.** Drawing from old-world horror and the stark visuals of vintage comics, **Mourn's Folly** delivers an atmospheric adventure steeped in tension. The creeping dread is ever-present, and the horrors you face are both terrifying and deeply personal.
+- **Every Shadow Hides a Secret.** 
+	Drawing from old-world horror and the stark visuals of vintage comics, **Mourn's Folly** delivers an atmospheric adventure steeped in tension. The creeping dread is ever-present, and the horrors you face are both terrifying and deeply personal.
 
-- **Choices Matter.** Every decision, from scavenging a crumbling farmhouse to sparing an infected townsfolk, has lasting consequences. The town of Mournstead Folly and its people evolve based on your actions, forcing you to weigh every choice.
+- **Choices Matter.**
+	Every decision, from scavenging a crumbling farmhouse to sparing an infected townsfolk, has lasting consequences. The town of Mournstead Folly and its people evolve based on your actions, forcing you to weigh every choice.
 
-- **Survival is Key.** Using the **Dungeon Delicacies** system, food and foraging become central to survival. Prepare meals under the pressure of dwindling resources, scavenge during daylight hours, and harness supernatural recipes with both powerful benefits and chilling risks.
+- **Survival is Key.**
+	Using the **Dungeon Delicacies** system, food and foraging become central to survival. Prepare meals under the pressure of dwindling resources, scavenge during daylight hours, and harness supernatural recipes with both powerful benefits and chilling risks.
 
 ### Survival Horror Defined
 Mourn's Folly challenges players to think strategically and adapt to an ever-changing landscape of danger. With limited resources and constant threats, your party must:
