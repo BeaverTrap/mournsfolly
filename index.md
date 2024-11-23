@@ -1,7 +1,7 @@
 ---
 title: Welcome to Mourn's Folly
 ---
-![[Walter_Barstow_dark.png]]
+![[og-image.png]]
 
 # Welcome to Mourn's Folly 🌙
 

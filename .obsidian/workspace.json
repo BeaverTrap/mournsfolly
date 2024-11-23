@@ -11,10 +11,14 @@
             "id": "d245d095e9dea8a8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -158,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b11dbdd17448fba",
+  "active": "d245d095e9dea8a8",
   "lastOpenFiles": [
-    "404x.md",
+    "Worldbuilding/z. Other/x. Images/og-image.png",
     "index.md",
+    "404x.md",
     "WalterBarstowAvatar.png",
     "Worldbuilding/z. Other/x. Images/404.png",
     "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Nest.md",
