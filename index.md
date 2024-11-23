@@ -27,7 +27,7 @@ Whether you're a wary traveler or a determined survivor, **Mourn's Folly** invit
 - 📖 [[Story]]  
     A guide to crafting the narrative and delivering the suspense-filled experience of **Mourn's Folly**.
     
-- 🎭 [[NPCs]]
+- 🎭 [[NPCs]]  
     Populate Mournstead Folly with compelling NPCs, from trusted allies to enigmatic figures hiding dangerous secrets.
     
 - 🛠️ [[Game Mechanics]]  

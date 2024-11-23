@@ -45,4 +45,4 @@ At level 13, characters have accumulated additional bonuses, feats, and items th
 
 ---
 
-This system ensures a fair starting point for all players, emphasizes thoughtful planning, and supports the narrative and mechanical depth of **Mourn’s Folly**. If you need guidance on spending your points or optimizing your character, let me know!
+This system ensures a fair starting point for all players, emphasizes thoughtful planning, and supports the narrative and mechanical depth of **Mourn’s Folly**. If you need guidance on spending your points or optimizing your character, let your Dungeon Master know!
