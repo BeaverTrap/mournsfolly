@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e01cd5d6521dba2c",
+        "id": "d8886c78c3de5b7d",
         "type": "tabs",
         "children": [
           {
-            "id": "d48a59c1aca9750d",
+            "id": "a5f6622df2e43484",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -158,9 +158,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d48a59c1aca9750d",
+  "active": "a5f6622df2e43484",
   "lastOpenFiles": [
-    "404.md",
+    "404test.md",
     "index.md",
     "WalterBarstowAvatar.png",
     "Worldbuilding/z. Other/x. Images/404.png",
