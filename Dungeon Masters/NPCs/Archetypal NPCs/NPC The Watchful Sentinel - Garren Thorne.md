@@ -6,7 +6,8 @@ title: (NPC) Guard - The Watchful Sentinel, Garren Thorne
 
 *Medium Humanoid (Human), Lawful Good*
 
-**Armor Class** 18 (Chain Mail)                                      **Initiative** +0  (10)
+**Armor Class** 18 (Chain Mail)          
+**Initiative** +0  (10) 
 **Hit Points** 85 (10d10 + 30)  
 **Speed** 30 ft.
 

@@ -7,9 +7,10 @@ title: (NPC) Noble - The Fallen Heir, Lord Adrian Valehart
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 16 (Breastplate)                                     **Initiative** +2 (12)
+**Armor Class** 16 (Breastplate)         
+**Initiative** +2 (12) 
 **Hit Points** 72 (13d8 + 13)  
-**Speed** 30 ft.
+**Speed** 30 ft. 
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
 | ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |

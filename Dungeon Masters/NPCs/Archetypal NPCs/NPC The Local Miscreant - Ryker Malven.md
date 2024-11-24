@@ -7,9 +7,10 @@ title: (NPC) Criminal - The Local Miscreant, Ryker Malven
 
 *Medium Humanoid (Human), Chaotic Neutral*
 
-**Armor Class** 14 (studded leather)                            **Initiative** +4  (14)
+**Armor Class** 14 (studded leather)            
+**Initiative** +4  (14) 
 **Hit Points** 66 (12d8 + 12)  
-**Speed** 30 ft.
+**Speed** 30 ft. 
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
 | ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |

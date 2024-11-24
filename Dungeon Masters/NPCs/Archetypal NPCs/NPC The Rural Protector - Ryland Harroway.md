@@ -6,7 +6,8 @@ title: (NPC) Farmer - The Rural Protector, Ryland Harroway
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 16 (Breastplate)                                       **Initiative** +1 (11)
+**Armor Class** 16 (Breastplate)            
+**Initiative** +1 (11) 
 **Hit Points** 76 (9d10 + 27)  
 **Speed** 30 ft.
 

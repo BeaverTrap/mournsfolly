@@ -7,9 +7,10 @@ title: (NPC) Acolyte - The Aspiring Disciple, Brother Alric Davenshire
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 14 (chain shirt)                                       **Initiative** +2 (12)
+**Armor Class** 14 (chain shirt) 
+**Initiative** +2 (12) 
 **Hit Points** 68 (12d8 + 12)  
-**Speed** 30 ft.
+**Speed** 30 ft. 
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
 | ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |

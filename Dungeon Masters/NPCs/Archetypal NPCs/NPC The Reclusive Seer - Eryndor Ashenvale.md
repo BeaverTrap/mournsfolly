@@ -7,7 +7,8 @@ title: (NPC) Hermit - The Reclusive Seer, Eryndor Ashenvale
 
 *Medium Humanoid (Elf), Neutral Good*
 
-**Armor Class** 13 (Leather Armor)                                **Initiative** +3 (13)
+**Armor Class** 13 (Leather Armor)            
+**Initiative** +3 (13) 
 **Hit Points** 70 (12d8 + 12)  
 **Speed** 30 ft.
 

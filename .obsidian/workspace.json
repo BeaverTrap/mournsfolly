@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dungeon Masters/NPCs/NPCs.md",
+                "file": "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NPCs"
+              "title": "Zombie Spawn"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dungeon Masters/NPCs/NPCs.md",
+                "file": "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for NPCs"
+              "title": "Backlinks for Zombie Spawn"
             }
           },
           {
@@ -163,15 +163,11 @@
   },
   "active": "0176b2c53a2e9216",
   "lastOpenFiles": [
-    "Dungeon Masters/NPCs/Archetypal NPCs.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Creature Stat Blocks.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/Archetypal NPCs.md",
+    "Dungeon Masters/NPCs/Main NPCs/Main NPCs.md",
     "Dungeon Masters/NPCs/NPCs.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Walter Barstow.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Vampire's Thrall.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Marlon Voss.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Giant Rat.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Feral Vampire Spawn.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Dire Wolf.md",
+    "Dungeon Masters/NPCs/Main NPCs/(NPC) Constable Byron Ward.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Watchful Sentinel - Garren Thorne.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Veilwarden of the Wilds - Kaelen Thornweave.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Town's Librarian - Rupert Niles.md",
@@ -184,13 +180,17 @@
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Inquisitive Shopkeeper - Maribel Thistledown.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Fallen Heir - Lord Adrian Valehart.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Aspiring Disciple - Brother Alric Davenshire.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Walter Barstow.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Vampire's Thrall.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Marlon Voss.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Giant Rat.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Feral Vampire Spawn.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Dire Wolf.md",
     "NPC.md",
     "NPC-The-Aspiring-Disciple,-Brother-Alric-Davenshire.md",
-    "index.md",
-    "Worldbuilding/a. Hub/Mournstead Folly.md",
     "Untitled.canvas",
     "Worldbuilding/z. Other/x. Images/og-image.png",
-    "Player Characters/Player Creation/Character Creation.md",
     "Worldbuilding/z. Other/x. Images/RupertNiles_001.png",
     "Worldbuilding/z. Other/x. Images/RupertNiles_002.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow.png",

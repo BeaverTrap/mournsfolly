@@ -7,7 +7,8 @@ title: (NPC) Sage - The Town's Librarian, Rupert Niles
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 13 (Mage Armor)                                    **Initiative** +2 (12)
+**Armor Class** 13 (Mage Armor)   
+**Initiative** +2 (12) 
 **Hit Points** 52 (8d8 + 16)  
 **Speed** 30 ft.
 

@@ -7,9 +7,10 @@ title: (NPC) Merchant - The Inquisitive Shopkeeper, Maribel Thistledown
 
 *Medium Humanoid (Halfling), Neutral Good*
 
-**Armor Class** 13 (Padded Armor)                                **Initiative** +3 (13)
-**Hit Points** 66 (12d8 + 12)  
-**Speed** 25 ft.
+**Armor Class** 13 (Padded Armor)       
+**Initiative** +3 (13) 
+**Hit Points** 66 (12d8 + 12)   
+**Speed** 25 ft. 
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
 | ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |

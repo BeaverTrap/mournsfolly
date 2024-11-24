@@ -1,0 +1,7 @@
+- [[(NPC) (Hero) Father Cedric Halford, Priest of Lathander]]
+- [[(NPC) (Hero) Peter Vincent, Vampire Hunter]]
+- [[(NPC) Constable Byron Ward]]
+- [[(NPC) Jebediah Tanner, Blacksmith]]
+- [[(NPC) Maeve Callahan, Tavern Proprietor]]
+- [[(NPC) Nora Finch, Innkeeper]]
+- [[Nan Flanagan]]

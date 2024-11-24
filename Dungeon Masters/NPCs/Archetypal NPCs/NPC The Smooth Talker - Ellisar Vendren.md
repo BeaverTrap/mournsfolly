@@ -7,7 +7,8 @@ title: (NPC) Charlatan - The Smooth Talker, Ellisar Vendren
 
 _Medium Humanoid (Half-Elf), Chaotic Neutral_
 
-**Armor Class** 14 (studded leather)                              **Initiative** +3 (13)
+**Armor Class** 14 (studded leather)             
+**Initiative** +3 (13) 
 **Hit Points** 60 (10d8 + 20)  
 **Speed** 30 ft.
 

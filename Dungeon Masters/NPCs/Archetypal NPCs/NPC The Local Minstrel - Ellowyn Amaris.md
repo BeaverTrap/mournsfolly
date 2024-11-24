@@ -6,9 +6,10 @@ title: (NPC) Entertainer - The Local Minstrel, Ellowyn Amaris
 
 *Medium Humanoid (Half-Elf), Neutral Good*
 
-**Armor Class** 15 (Studded Leather Armor)                  **Initiative** +3 (13) 
-**Hit Points** 58 (9d8 + 18)  
-**Speed** 30 ft.
+**Armor Class** 15 (Studded Leather Armor)  
+**Initiative** +3 (13)  
+**Hit Points** 58 (9d8 + 18)   
+**Speed** 30 ft. 
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
 | ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |

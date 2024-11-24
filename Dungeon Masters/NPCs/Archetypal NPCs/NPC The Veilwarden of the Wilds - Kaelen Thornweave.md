@@ -6,7 +6,8 @@ title: (NPC) Guide - The Veilwarden of the Wilds, Kaelen Thornweave
 
 *Medium Humanoid (Half-Elf), Neutral Good*
 
-**Armor Class** 16 (Studded Leather Armor)                 **Initiative** +3 (13)
+**Armor Class** 16 (Studded Leather Armor)          
+**Initiative** +3 (13) 
 **Hit Points** 78 (12d10 + 12)  
 **Speed** 30 ft.
 

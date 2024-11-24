@@ -7,8 +7,9 @@ title: (NPC) Artisan - The Town’s Craftsman, Drenna Faelwright
 
 _Medium Humanoid (Half-Elf), Neutral Good_
 
-**Armor Class** 15 (studded leather)                              **Initiative** +2 (12) 
-**Hit Points** 58 (9d8 + 18)  
+**Armor Class** 15 (studded leather)            
+**Initiative** +2 (12)  
+**Hit Points** 58 (9d8 + 18)   
 **Speed** 30 ft.
 
 | Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
