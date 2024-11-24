@@ -7,16 +7,15 @@ title: (NPC) Charlatan - The Smooth Talker, Ellisar Vendren
 
 _Medium Humanoid (Half-Elf), Chaotic Neutral_
 
-**Armor Class** 14 (studded leather)  
-**Initiative** +3  
+**Armor Class** 14 (studded leather)                              **Initiative** +3 (13)
 **Hit Points** 60 (10d8 + 20)  
 **Speed** 30 ft.
 
-|Ability|Score|Mod|Save|Ability|Score|Mod|Save|
-|---|---|---|---|---|---|---|---|
-|**STR**|10|+0|+0|**INT**|12|+1|+1|
-|**DEX**|16|+3|+5|**WIS**|10|+0|+0|
-|**CON**|14|+2|+4|**CHA**|18|+4|+6|
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 10    | +0  | +0   |     | **INT** | 12    | +1  | +1   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 10    | +0  | +0   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 18    | +4  | +6   |
 
 **Skills** Deception +8, Sleight of Hand +7, Insight +4, Persuasion +8  
 **Senses** Darkvision 60 ft., Passive Perception 10  
@@ -62,8 +61,7 @@ _Medium Humanoid (Half-Elf), Chaotic Neutral_
 
 _Medium Undead (Vampire), Neutral Evil_
 
-**Armor Class** 16 (natural armor)  
-**Initiative** +3  
+**Armor Class** 16 (natural armor)                          **Initiative** +3 (13)  
 **Hit Points** 104 (16d8 + 32)  
 **Speed** 30 ft., climb 30 ft.
 

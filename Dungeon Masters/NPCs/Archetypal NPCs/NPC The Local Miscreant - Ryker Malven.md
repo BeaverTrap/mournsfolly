@@ -7,16 +7,15 @@ title: (NPC) Criminal - The Local Miscreant, Ryker Malven
 
 *Medium Humanoid (Human), Chaotic Neutral*
 
-**Armor Class** 14 (studded leather)  
-**Initiative** +4  
+**Armor Class** 14 (studded leather)                            **Initiative** +4  (14)
 **Hit Points** 66 (12d8 + 12)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +1   | **INT**   | 14    | +2  | +2   |
-| **DEX**   | 18    | +4  | +6   | **WIS**   | 10    | +0  | +0   |
-| **CON**   | 14    | +2  | +4   | **CHA**   | 12    | +1  | +1   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +1   |     | **INT** | 14    | +2  | +2   |
+| **DEX** | 18    | +4  | +6   |     | **WIS** | 10    | +0  | +0   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 12    | +1  | +1   |
 
 **Skills** Sleight of Hand +8, Stealth +8, Perception +4, Investigation +6  
 **Senses** Passive Perception 14  
@@ -60,16 +59,15 @@ title: (NPC) Criminal - The Local Miscreant, Ryker Malven
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (natural armor)  
-**Initiative** +4  
+**Armor Class** 16 (natural armor)                                  **Initiative** +4 (14)
 **Hit Points** 120 (16d8 + 48)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 14    | +2  | +4   | **INT**   | 14    | +2  | +2   |
-| **DEX**   | 20    | +5  | +7   | **WIS**   | 10    | +0  | +0   |
-| **CON**   | 16    | +3  | +6   | **CHA**   | 14    | +2  | +2   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 14    | +2  | +4   |     | **INT** | 14    | +2  | +2   |
+| **DEX** | 20    | +5  | +7   |     | **WIS** | 10    | +0  | +0   |
+| **CON** | 16    | +3  | +6   |     | **CHA** | 14    | +2  | +2   |
 
 **Skills** Stealth +9, Sleight of Hand +9, Investigation +7, Perception +6  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

@@ -7,16 +7,15 @@ title: (NPC) Artisan - The Town’s Craftsman, Drenna Faelwright
 
 _Medium Humanoid (Half-Elf), Neutral Good_
 
-**Armor Class** 15 (studded leather)  
-**Initiative** +2  
+**Armor Class** 15 (studded leather)                              **Initiative** +2 (12) 
 **Hit Points** 58 (9d8 + 18)  
 **Speed** 30 ft.
 
-|Ability|Score|Mod|Save|Ability|Score|Mod|Save|
-|---|---|---|---|---|---|---|---|
-|**STR**|12|+1|+1|**INT**|16|+3|+5|
-|**DEX**|14|+2|+2|**WIS**|13|+1|+3|
-|**CON**|14|+2|+2|**CHA**|10|+0|+0|
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +1   |     | **INT** | 16    | +3  | +5   |
+| **DEX** | 14    | +2  | +2   |     | **WIS** | 13    | +1  | +3   |
+| **CON** | 14    | +2  | +2   |     | **CHA** | 10    | +0  | +0   |
 
 **Skills** Arcana +5, Investigation +5, Smith's Tools +6  
 **Senses** Passive Perception 11  
@@ -62,16 +61,15 @@ _Medium Humanoid (Half-Elf), Neutral Good_
 
 _Medium Undead (Vampire), Neutral Evil_
 
-**Armor Class** 16 (natural armor)  
-**Initiative** +3  
+**Armor Class** 16 (natural armor)                                  **Initiative** +3 (13)
 **Hit Points** 104 (16d8 + 32)  
 **Speed** 30 ft., climb 30 ft.
 
-|Ability|Score|Mod|Save|Ability|Score|Mod|Save|
-|---|---|---|---|---|---|---|---|
-|**STR**|16|+3|+6|**INT**|16|+3|+6|
-|**DEX**|16|+3|+3|**WIS**|12|+1|+1|
-|**CON**|16|+3|+6|**CHA**|14|+2|+5|
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 16    | +3  | +6   |     | **INT** | 16    | +3  | +6   |
+| **DEX** | 16    | +3  | +3   |     | **WIS** | 12    | +1  | +1   |
+| **CON** | 16    | +3  | +6   |     | **CHA** | 14    | +2  | +5   |
 
 **Skills** Arcana +6, Perception +4, Smith's Tools +7, Stealth +6  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

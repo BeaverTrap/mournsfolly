@@ -6,16 +6,15 @@ title: (NPC) Guide - The Veilwarden of the Wilds, Kaelen Thornweave
 
 *Medium Humanoid (Half-Elf), Neutral Good*
 
-**Armor Class** 16 (Studded Leather Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 16 (Studded Leather Armor)                 **Initiative** +3 (13)
 **Hit Points** 78 (12d10 + 12)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +1   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 16    | +3  | +5   |
-| **CON**   | 14    | +2  | +4   | **CHA**   | 12    | +1  | +1   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +1   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 16    | +3  | +5   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 12    | +1  | +1   |
 
 **Skills** Stealth +7, Survival +7, Perception +5, Nature +5  
 **Senses** Darkvision 60 ft., Passive Perception 15  
@@ -63,16 +62,15 @@ title: (NPC) Guide - The Veilwarden of the Wilds, Kaelen Thornweave
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 17 (Natural Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 17 (Natural Armor)                         **Initiative** +3 (13)
 **Hit Points** 102 (13d10 + 26)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 14    | +2  | +4   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 18    | +4  | +6   | **WIS**   | 16    | +3  | +5   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 14    | +2  | +4   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 14    | +2  | +4   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 18    | +4  | +6   |     | **WIS** | 16    | +3  | +5   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 14    | +2  | +4   |
 
 **Skills** Stealth +8, Survival +7, Perception +5, Nature +5  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

@@ -7,16 +7,15 @@ title: (NPC) Merchant - The Inquisitive Shopkeeper, Maribel Thistledown
 
 *Medium Humanoid (Halfling), Neutral Good*
 
-**Armor Class** 13 (Padded Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 13 (Padded Armor)                                **Initiative** +3 (13)
 **Hit Points** 66 (12d8 + 12)  
 **Speed** 25 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 10    | +0  | +0   | **INT**   | 16    | +3  | +5   |
-| **DEX**   | 14    | +2  | +4   | **WIS**   | 12    | +1  | +3   |
-| **CON**   | 14    | +2  | +4   | **CHA**   | 18    | +4  | +6   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 10    | +0  | +0   |     | **INT** | 16    | +3  | +5   |
+| **DEX** | 14    | +2  | +4   |     | **WIS** | 12    | +1  | +3   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 18    | +4  | +6   |
 
 **Skills** Persuasion +8, Insight +7, Perception +5, Investigation +6, Deception +8  
 **Senses** Passive Perception 15  
@@ -61,16 +60,15 @@ title: (NPC) Merchant - The Inquisitive Shopkeeper, Maribel Thistledown
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (Natural Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 16 (Natural Armor)                                 **Initiative** +3 (13)  
 **Hit Points** 102 (13d10 + 26)  
 **Speed** 25 ft., climb 25 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +3   | **INT**   | 16    | +3  | +5   |
-| **DEX**   | 18    | +4  | +6   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 20    | +5  | +7   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +3   |     | **INT** | 16    | +3  | +5   |
+| **DEX** | 18    | +4  | +6   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 20    | +5  | +7   |
 
 **Skills** Persuasion +9, Insight +7, Perception +7, Investigation +6, Deception +9  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

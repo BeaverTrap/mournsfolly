@@ -6,16 +6,15 @@ title: (NPC) Entertainer - The Local Minstrel, Ellowyn Amaris
 
 *Medium Humanoid (Half-Elf), Neutral Good*
 
-**Armor Class** 15 (Studded Leather Armor, natural dexterity)  
-**Initiative** +3  
+**Armor Class** 15 (Studded Leather Armor)                  **Initiative** +3 (13) 
 **Hit Points** 58 (9d8 + 18)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 10    | +0  | +0   | **INT**   | 14    | +2  | +2   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 12    | +1  | +1   |
-| **CON**   | 14    | +2  | +2   | **CHA**   | 18    | +4  | +6   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 10    | +0  | +0   |     | **INT** | 14    | +2  | +2   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 12    | +1  | +1   |
+| **CON** | 14    | +2  | +2   |     | **CHA** | 18    | +4  | +6   |
 
 **Skills** Performance +8, Persuasion +6, History +4, Insight +3  
 **Senses** Passive Perception 11  
@@ -56,16 +55,15 @@ title: (NPC) Entertainer - The Local Minstrel, Ellowyn Amaris
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (Natural Armor)  
-**Initiative** +4  
+**Armor Class** 16 (Natural Armor)                                 **Initiative** +4 (14)
 **Hit Points** 104 (16d8 + 32)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 16    | +3  | +5   | **INT**   | 14    | +2  | +2   |
-| **DEX**   | 18    | +4  | +6   | **WIS**   | 10    | +0  | +2   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 20    | +5  | +8   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 16    | +3  | +5   |     | **INT** | 14    | +2  | +2   |
+| **DEX** | 18    | +4  | +6   |     | **WIS** | 10    | +0  | +2   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 20    | +5  | +8   |
 
 **Skills** Performance +9, Persuasion +8, Insight +3, Stealth +7  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

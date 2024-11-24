@@ -9,18 +9,16 @@ _Medium Undead (Vampire), Chaotic Evil_
 
 #### **Stats**
 
-- **Armor Class:** 15 (natural armor)
-- **Initiative:** +3 (13)
-- **Hit Points:** 82 (11d8 + 33)
-- **Speed:** 30 ft., climb 30 ft.
+**Armor Class:** 15 (natural armor)                                **Initiative:** +3 (13)
+**Hit Points:** 82 (11d8 + 33)
+**Speed:** 30 ft., climb 30 ft.
 
-#### **Abilities**
 
-|**Ability**|**Score**|**Mod**|**Save**|**Ability**|**Score**|**Mod**|**Save**|
-|---|---|---|---|---|---|---|---|
-|**STR**|16|+3|+3|**INT**|11|+0|+0|
-|**DEX**|16|+3|+6|**WIS**|10|+0|+3|
-|**CON**|16|+3|+3|**CHA**|12|+1|+1|
+| **Ability** | **Score** | **Mod** | **Save** |     | **Ability** | **Score** | **Mod** | **Save** |
+| ----------- | --------- | ------- | -------- | --- | ----------- | --------- | ------- | -------- |
+| **STR**     | 16        | +3      | +3       |     | **INT**     | 11        | +0      | +0       |
+| **DEX**     | 16        | +3      | +6       |     | **WIS**     | 10        | +0      | +3       |
+| **CON**     | 16        | +3      | +3       |     | **CHA**     | 12        | +1      | +1       |
 
 #### **Traits**
 

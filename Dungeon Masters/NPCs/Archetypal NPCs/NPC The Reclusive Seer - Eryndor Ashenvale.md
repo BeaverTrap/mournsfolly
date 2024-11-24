@@ -7,16 +7,15 @@ title: (NPC) Hermit - The Reclusive Seer, Eryndor Ashenvale
 
 *Medium Humanoid (Elf), Neutral Good*
 
-**Armor Class** 13 (Leather Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 13 (Leather Armor)                                **Initiative** +3 (13)
 **Hit Points** 70 (12d8 + 12)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 10    | +0  | +0   | **INT**   | 14    | +2  | +4   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 18    | +4  | +6   |
-| **CON**   | 14    | +2  | +4   | **CHA**   | 14    | +2  | +4   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 10    | +0  | +0   |     | **INT** | 14    | +2  | +4   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 18    | +4  | +6   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 14    | +2  | +4   |
 
 **Skills** Medicine +8, Religion +6, Insight +6, Nature +6  
 **Senses** Darkvision 60 ft., Passive Perception 14  
@@ -64,16 +63,15 @@ title: (NPC) Hermit - The Reclusive Seer, Eryndor Ashenvale
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (Natural Armor, Dexterity)  
-**Initiative** +3  
+**Armor Class** 16 (Natural Armor)                                  **Initiative** +3 (13)
 **Hit Points** 100 (13d10 + 26)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +3   | **INT**   | 14    | +2  | +4   |
-| **DEX**   | 18    | +4  | +6   | **WIS**   | 18    | +4  | +6   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 16    | +3  | +5   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +3   |     | **INT** | 14    | +2  | +4   |
+| **DEX** | 18    | +4  | +6   |     | **WIS** | 18    | +4  | +6   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 16    | +3  | +5   |
 
 **Skills** Medicine +8, Religion +6, Stealth +7, Insight +6  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

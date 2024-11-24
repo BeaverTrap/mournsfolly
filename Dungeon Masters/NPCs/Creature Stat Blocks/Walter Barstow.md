@@ -6,15 +6,15 @@ title: Walter Barstow
 
 *Medium Undead (Vampire), Lawful Evil*
 
-**Armor Class** 16 (natural armor)                                  **Initiative** +4  
+**Armor Class** 16 (natural armor)                                  **Initiative** +4 (14)
 **Hit Points** 144 (17d8 + 68)  
 **Speed** 30 ft., fly 40 ft. (hover), climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 20    | +5  | +9   | **INT**   | 16    | +3  | +6   |
-| **DEX**   | 18    | +4  | +9   | **WIS**   | 15    | +2  | +5   |
-| **CON**   | 18    | +4  | +8   | **CHA**   | 20    | +5  | +10  |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 20    | +5  | +9   |     | **INT** | 16    | +3  | +6   |
+| **DEX** | 18    | +4  | +9   |     | **WIS** | 15    | +2  | +5   |
+| **CON** | 18    | +4  | +8   |     | **CHA** | 20    | +5  | +10  |
 
 **Saving Throws** DEX +9, WIS +7, CHA +10  
 **Skills** Deception +11, Insight +8, Perception +10, Persuasion +11, Stealth +10  

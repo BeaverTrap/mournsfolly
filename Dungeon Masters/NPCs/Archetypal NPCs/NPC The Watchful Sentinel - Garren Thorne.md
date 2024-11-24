@@ -6,16 +6,15 @@ title: (NPC) Guard - The Watchful Sentinel, Garren Thorne
 
 *Medium Humanoid (Human), Lawful Good*
 
-**Armor Class** 19 (Chain Mail, Shield +1)  
-**Initiative** +0  
+**Armor Class** 18 (Chain Mail)                                      **Initiative** +0  (10)
 **Hit Points** 85 (10d10 + 30)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 18    | +4  | +6   | **INT**   | 12    | +1  | +3   |
-| **DEX**   | 10    | +0  | +0   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 12    | +1  | +1   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 18    | +4  | +6   |     | **INT** | 12    | +1  | +3   |
+| **DEX** | 10    | +0  | +0   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 12    | +1  | +1   |
 
 **Skills** Athletics +6, Perception +6, Insight +4  
 **Senses** Passive Perception 16  
@@ -63,16 +62,15 @@ title: (NPC) Guard - The Watchful Sentinel, Garren Thorne
 
 *Medium Undead (Vampire), Lawful Evil*
 
-**Armor Class** 18 (Natural Armor)  
-**Initiative** +3  
+**Armor Class** 18 (Natural Armor)                                 **Initiative** +3 (13)
 **Hit Points** 110 (13d10 + 39)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 20    | +5  | +7   | **INT**   | 12    | +1  | +1   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 18    | +4  | +7   | **CHA**   | 14    | +2  | +5   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 20    | +5  | +7   |     | **INT** | 12    | +1  | +1   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 18    | +4  | +7   |     | **CHA** | 14    | +2  | +5   |
 
 **Skills** Athletics +7, Perception +6, Stealth +6  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

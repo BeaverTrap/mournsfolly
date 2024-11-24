@@ -7,18 +7,15 @@ _Medium Humanoid, Neutral Evil_
 
 #### **Stats**
 
-- **Armor Class:** 12 (Leather Armor)
-- **Initiative:** +2 (14)
-- **Hit Points:** 52 (8d8 + 16)
-- **Speed:** 30 ft.
+**Armor Class:** 12 (Leather Armor)                               **Initiative:** +2 (14)
+**Hit Points:** 52 (8d8 + 16)
+**Speed:** 30 ft.
 
-#### **Abilities**
-
-|**Ability**|**Score**|**Mod**|**Save**|**Ability**|**Score**|**Mod**|**Save**|
-|---|---|---|---|---|---|---|---|
-|**STR**|16|+3|+5|**INT**|10|+0|+0|
-|**DEX**|14|+2|+4|**WIS**|10|+0|+2|
-|**CON**|14|+2|+2|**CHA**|14|+2|+4|
+| **Ability** | **Score** | **Mod** | **Save** |     | **Ability** | **Score** | **Mod** | **Save** |
+| ----------- | --------- | ------- | -------- | --- | ----------- | --------- | ------- | -------- |
+| **STR**     | 16        | +3      | +5       |     | **INT**     | 10        | +0      | +0       |
+| **DEX**     | 14        | +2      | +4       |     | **WIS**     | 10        | +0      | +2       |
+| **CON**     | 14        | +2      | +2       |     | **CHA**     | 14        | +2      | +4       |
 
 ---
 

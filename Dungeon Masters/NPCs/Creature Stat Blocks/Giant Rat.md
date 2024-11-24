@@ -6,16 +6,15 @@ title: Giant Rat
 
 ### **Stat Block**
 
-**Armor Class**: 12  
-**Initiative**: +2 (12)  
+**Armor Class**: 12                                                           **Initiative**: +2 (12)  
 **Hit Points**: 7 (2d6)  
 **Speed**: 30 ft.
 
-|Ability|Score|Mod|Save|Ability|Score|Mod|Save|
-|---|---|---|---|---|---|---|---|
-|**STR**|7|-2|-2|**INT**|2|-4|-4|
-|**DEX**|15|+2|+2|**WIS**|10|+0|+0|
-|**CON**|11|+0|+0|**CHA**|4|-3|-3|
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 7     | -2  | -2   |     | **INT** | 2     | -4  | -4   |
+| **DEX** | 15    | +2  | +2   |     | **WIS** | 10    | +0  | +0   |
+| **CON** | 11    | +0  | +0   |     | **CHA** | 4     | -3  | -3   |
 
 **Senses**: Darkvision 60 ft., Passive Perception 10  
 **Languages**: ---  

@@ -7,16 +7,15 @@ title: (NPC) Sage - The Town's Librarian, Rupert Niles
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 13 (Mage Armor)  
-**Initiative** +2  
+**Armor Class** 13 (Mage Armor)                                    **Initiative** +2 (12)
 **Hit Points** 52 (8d8 + 16)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 10    | +0  | +0   | **INT**   | 18    | +4  | +6   |
-| **DEX**   | 12    | +1  | +1   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 14    | +2  | +2   | **CHA**   | 12    | +1  | +3   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 10    | +0  | +0   |     | **INT** | 18    | +4  | +6   |
+| **DEX** | 12    | +1  | +1   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 14    | +2  | +2   |     | **CHA** | 12    | +1  | +3   |
 
 **Skills** Arcana +7, History +7, Investigation +7, Insight +4  
 **Senses** Passive Perception 14  
@@ -70,16 +69,15 @@ Rupert is a 5th-level spellcaster. His spellcasting ability is Intelligence (spe
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 15 (Natural Armor)  
-**Initiative** +3  
+**Armor Class** 15 (Natural Armor)                                  **Initiative** +3 (13)
 **Hit Points** 104 (16d8 + 32)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 14    | +2  | +4   | **INT**   | 18    | +4  | +6   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 16    | +3  | +6   | **CHA**   | 16    | +3  | +5   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 14    | +2  | +4   |     | **INT** | 18    | +4  | +6   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 16    | +3  | +6   |     | **CHA** | 16    | +3  | +5   |
 
 **Skills** Arcana +7, History +7, Insight +4, Investigation +7, Stealth +6  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

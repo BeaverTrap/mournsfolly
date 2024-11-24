@@ -7,16 +7,15 @@ title: (NPC) Acolyte - The Aspiring Disciple, Brother Alric Davenshire
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 14 (chain shirt)  
-**Initiative** +2  
+**Armor Class** 14 (chain shirt)                                       **Initiative** +2 (12)
 **Hit Points** 68 (12d8 + 12)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +1   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 14    | +2  | +2   | **WIS**   | 16    | +3  | +5   |
-| **CON**   | 14    | +2  | +4   | **CHA**   | 14    | +2  | +4   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +1   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 14    | +2  | +2   |     | **WIS** | 16    | +3  | +5   |
+| **CON** | 14    | +2  | +4   |     | **CHA** | 14    | +2  | +4   |
 
 **Skills** Religion +5, Insight +6, Perception +4  
 **Senses** Passive Perception 14  
@@ -54,16 +53,15 @@ title: (NPC) Acolyte - The Aspiring Disciple, Brother Alric Davenshire
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (natural armor)  
-**Initiative** +2  
+**Armor Class** 16 (natural armor)                                  **Initiative** +2 (12)
 **Hit Points** 112 (15d8 + 45)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 16    | +3  | +5   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 14    | +2  | +2   | **WIS**   | 12    | +1  | +3   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 18    | +4  | +6   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 16    | +3  | +5   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 14    | +2  | +2   |     | **WIS** | 12    | +1  | +3   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 18    | +4  | +6   |
 
 **Skills** Religion +6, Insight +5, Perception +4  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

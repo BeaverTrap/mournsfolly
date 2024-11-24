@@ -9,18 +9,15 @@ _Medium Undead, Neutral Evil_
 
 #### **Stats**
 
-- **Armor Class:** 9
-- **Initiative:** +0 (10)
-- **Hit Points:** 22 (4d8 + 4)
-- **Speed:** 20 ft.
+**Armor Class:** 9                                                           **Initiative:** +0 (10)
+**Hit Points:** 22 (4d8 + 4)
+**Speed:** 20 ft.
 
-#### **Abilities**
-
-|**Ability**|**Score**|**Mod**|**Save**|**Ability**|**Score**|**Mod**|**Save**|
-|---|---|---|---|---|---|---|---|
-|**STR**|12|+1|+1|**INT**|4|-3|-3|
-|**DEX**|10|+0|+0|**WIS**|6|-2|-2|
-|**CON**|12|+1|+1|**CHA**|7|-2|-2|
+| **Ability** | **Score** | **Mod** | **Save** |     | **Ability** | **Score** | **Mod** | **Save** |
+| ----------- | --------- | ------- | -------- | --- | ----------- | --------- | ------- | -------- |
+| **STR**     | 12        | +1      | +1       |     | **INT**     | 4         | -3      | -3       |
+| **DEX**     | 10        | +0      | +0       |     | **WIS**     | 6         | -2      | -2       |
+| **CON**     | 12        | +1      | +1       |     | **CHA**     | 7         | -2      | -2       |
 
 ---
 

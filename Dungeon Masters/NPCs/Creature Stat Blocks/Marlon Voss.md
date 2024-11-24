@@ -7,15 +7,15 @@ title: Marlon Voss
 
 *Medium Humanoid (Human), Lawful Evil*
 
-**Armor Class** 15 (Studded Leather Armor)                  **Initiative** +3  
+**Armor Class** 15 (Studded Leather Armor)                  **Initiative** +3 (13)
 **Hit Points** 66 (12d8 + 12)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 12    | +1  | +1   | **INT**   | 14    | +2  | +5   |
-| **DEX**   | 16    | +3  | +6   | **WIS**   | 11    | +0  | +0   |
-| **CON**   | 12    | +1  | +1   | **CHA**   | 18    | +4  | +7   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 12    | +1  | +1   |     | **INT** | 14    | +2  | +5   |
+| **DEX** | 16    | +3  | +6   |     | **WIS** | 11    | +0  | +0   |
+| **CON** | 12    | +1  | +1   |     | **CHA** | 18    | +4  | +7   |
 
 **Skills** Deception +10, Insight +3, Persuasion +10, Sleight of Hand +6  
 **Senses** Darkvision 60 ft., Passive Perception 10  

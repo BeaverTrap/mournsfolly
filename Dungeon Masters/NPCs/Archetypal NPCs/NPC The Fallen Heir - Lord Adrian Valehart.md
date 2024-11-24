@@ -7,16 +7,15 @@ title: (NPC) Noble - The Fallen Heir, Lord Adrian Valehart
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 16 (Breastplate, Defensive Stance)  
-**Initiative** +2  
+**Armor Class** 16 (Breastplate)                                     **Initiative** +2 (12)
 **Hit Points** 72 (13d8 + 13)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 14    | +2  | +4   | **INT**   | 14    | +2  | +4   |
-| **DEX**   | 12    | +1  | +1   | **WIS**   | 12    | +1  | +3   |
-| **CON**   | 14    | +2  | +2   | **CHA**   | 12    | +1  | +3   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 14    | +2  | +4   |     | **INT** | 14    | +2  | +4   |
+| **DEX** | 12    | +1  | +1   |     | **WIS** | 12    | +1  | +3   |
+| **CON** | 14    | +2  | +2   |     | **CHA** | 12    | +1  | +3   |
 
 **Skills** Insight +3, History +4, Athletics +4, Intimidation +3  
 **Senses** Passive Perception 11  
@@ -63,16 +62,15 @@ title: (NPC) Noble - The Fallen Heir, Lord Adrian Valehart
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 17 (Natural Armor, Defensive Stance)  
-**Initiative** +2  
+**Armor Class** 17 (Natural Armor)                                 **Initiative** +2 (12)
 **Hit Points** 112 (15d8 + 45)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 16    | +3  | +6   | **INT**   | 14    | +2  | +5   |
-| **DEX**   | 14    | +2  | +4   | **WIS**   | 12    | +1  | +3   |
-| **CON**   | 16    | +3  | +6   | **CHA**   | 14    | +2  | +4   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 16    | +3  | +6   |     | **INT** | 14    | +2  | +5   |
+| **DEX** | 14    | +2  | +4   |     | **WIS** | 12    | +1  | +3   |
+| **CON** | 16    | +3  | +6   |     | **CHA** | 14    | +2  | +4   |
 
 **Skills** Athletics +6, History +5, Intimidation +5, Stealth +4  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  

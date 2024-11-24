@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b05d70ef0b3753e",
+        "id": "5e44e334707ce4a5",
         "type": "tabs",
         "children": [
           {
-            "id": "d245d095e9dea8a8",
+            "id": "0176b2c53a2e9216",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Dungeon Masters/NPCs/NPCs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "NPCs"
             }
           }
         ]
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 397.5
+    "width": 344.5
   },
   "right": {
     "id": "fd81f56fcc94039c",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Dungeon Masters/NPCs/NPCs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for NPCs"
             }
           },
           {
@@ -149,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,47 +161,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d245d095e9dea8a8",
+  "active": "0176b2c53a2e9216",
   "lastOpenFiles": [
+    "Dungeon Masters/NPCs/Archetypal NPCs.md",
+    "Dungeon Masters/NPCs/NPCs.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Walter Barstow.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Vampire's Thrall.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Marlon Voss.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Giant Rat.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Feral Vampire Spawn.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Dire Wolf.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Watchful Sentinel - Garren Thorne.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Veilwarden of the Wilds - Kaelen Thornweave.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Town's Librarian - Rupert Niles.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Town’s Craftsman - Drenna Faelwright.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Smooth Talker - Ellisar Vendren.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Rural Protector - Ryland Harroway.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Reclusive Seer - Eryndor Ashenvale.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Local Miscreant - Ryker Malven.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Local Minstrel - Ellowyn Amaris.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Inquisitive Shopkeeper - Maribel Thistledown.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Fallen Heir - Lord Adrian Valehart.md",
+    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Aspiring Disciple - Brother Alric Davenshire.md",
+    "NPC.md",
+    "NPC-The-Aspiring-Disciple,-Brother-Alric-Davenshire.md",
+    "index.md",
+    "Worldbuilding/a. Hub/Mournstead Folly.md",
+    "Untitled.canvas",
     "Worldbuilding/z. Other/x. Images/og-image.png",
     "Player Characters/Player Creation/Character Creation.md",
-    "Player Characters/Player Creation/How to Point Buy.md",
     "Worldbuilding/z. Other/x. Images/RupertNiles_001.png",
     "Worldbuilding/z. Other/x. Images/RupertNiles_002.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow.png",
     "Worldbuilding/z. Other/x. Images/Walter_Barstow_dark.png",
     "Worldbuilding/z. Other/x. Images/WalterBarstow_FatherCedric.png",
     "Worldbuilding/z. Other/x. Images/WalterBarstow_Feeding.png",
-    "Worldbuilding/Magic Items.md",
     "Worldbuilding/z. Other/x. Images/RobeofEyes.png",
-    "index.md",
     "Worldbuilding/z. Other/x. Images/404.png",
-    "404x.md",
     "WalterBarstowAvatar.png",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Nest.md",
-    "Dungeon Masters/Story/Story.md",
-    "Dungeon Masters/Story/Act-1/a. Introduction/1 - Introduction to Mourn's Folly.md",
-    "Dungeon Masters/Story/Act-1/a. Introduction/1a - Start - Arrival and Suspicion.md",
-    "Dungeon Masters/Story/Act-1/a. Introduction/1b - Alternative Start (Sailor Background).md",
-    "Dungeon Masters/DM notes/Session Notes/Session 0.md",
-    "Dungeon Masters/x. Game Mechanics/Game Mechanics.md",
-    "license.md",
-    "Worldbuilding/z. Other/x. Images/Maps/battlemaps/Battlemap Layouts TBM.md",
     "Dungeon Masters/DM notes",
     "Dungeon Masters",
     "Worldbuilding/z. Other/x. Images/Maps/battlemaps",
     "Worldbuilding/z. Other/x. Images/Maps",
-    "readme.md",
-    "Dungeon Masters/NPCs/Main NPCs/(NPC) (Hero) Father Cedric Halford, Priest of Lathander.md",
-    "Dungeon Masters/NPCs/Walter Barstow.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/(NPC) Sage - The Town's Librarian, Rupert Niles.md",
-    "Dungeon Masters/NPCs/Main NPCs/Nan Flanagan.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Weaknesses.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Barstows Legendary Actions.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Sunlight.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Stake to the Heart.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Silver.md",
-    "Dungeon Masters/x. Game Mechanics/Mourns Folly/Vampire Weaknesses/Running Water.md",
     "docs"
   ]
 }

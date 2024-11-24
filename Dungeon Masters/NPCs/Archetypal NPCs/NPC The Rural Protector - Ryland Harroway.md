@@ -6,16 +6,15 @@ title: (NPC) Farmer - The Rural Protector, Ryland Harroway
 
 *Medium Humanoid (Human), Neutral Good*
 
-**Armor Class** 16 (Breastplate)  
-**Initiative** +1  
+**Armor Class** 16 (Breastplate)                                       **Initiative** +1 (11)
 **Hit Points** 76 (9d10 + 27)  
 **Speed** 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 18    | +4  | +6   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 12    | +1  | +1   | **WIS**   | 14    | +2  | +4   |
-| **CON**   | 16    | +3  | +5   | **CHA**   | 10    | +0  | +0   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 18    | +4  | +6   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 12    | +1  | +1   |     | **WIS** | 14    | +2  | +4   |
+| **CON** | 16    | +3  | +5   |     | **CHA** | 10    | +0  | +0   |
 
 **Skills** Animal Handling +6, Nature +4, Athletics +6, Survival +4  
 **Senses** Passive Perception 12  
@@ -63,16 +62,15 @@ title: (NPC) Farmer - The Rural Protector, Ryland Harroway
 
 *Medium Undead (Vampire), Neutral Evil*
 
-**Armor Class** 16 (Natural Armor)  
-**Initiative** +3  
+**Armor Class** 16 (Natural Armor)                                 **Initiative** +3 (13)
 **Hit Points** 120 (16d10 + 32)  
 **Speed** 30 ft., climb 30 ft.
 
-| Ability   | Score | Mod | Save | Ability   | Score | Mod | Save |
-|-----------|-------|-----|------|-----------|-------|-----|------|
-| **STR**   | 21    | +5  | +7   | **INT**   | 10    | +0  | +0   |
-| **DEX**   | 16    | +3  | +5   | **WIS**   | 12    | +1  | +3   |
-| **CON**   | 18    | +4  | +7   | **CHA**   | 14    | +2  | +5   |
+| Ability | Score | Mod | Save |     | Ability | Score | Mod | Save |
+| ------- | ----- | --- | ---- | --- | ------- | ----- | --- | ---- |
+| **STR** | 21    | +5  | +7   |     | **INT** | 10    | +0  | +0   |
+| **DEX** | 16    | +3  | +5   |     | **WIS** | 12    | +1  | +3   |
+| **CON** | 18    | +4  | +7   |     | **CHA** | 14    | +2  | +5   |
 
 **Skills** Athletics +7, Animal Handling +6, Survival +5, Stealth +5  
 **Damage Resistances** Bludgeoning, Piercing, and Slashing from Nonmagical Attacks  
