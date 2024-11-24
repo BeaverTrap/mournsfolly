@@ -6,6 +6,18 @@
       <description>Last 10 notes on Mourn&#039;s Folly</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Archetypal NPCs</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/NPCs/Archetypal-NPCs</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/NPCs/Archetypal-NPCs</guid>
+    <description>...</description>
+    <pubDate>Sun, 24 Nov 2024 08:30:46 GMT</pubDate>
+  </item><item>
+    <title>NPCs</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/NPCs/NPCs</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/NPCs/NPCs</guid>
+    <description>Each PC Background in Mourn’s Folly is mirrored by an Archetypal NPC, representing the essence of that background in the world. These NPCs serve a dual purpose: providing depth and support as potential allies or driving the narrative forward as corrupted foes under Barstow’s influence.</description>
+    <pubDate>Sun, 24 Nov 2024 07:02:55 GMT</pubDate>
+  </item><item>
     <title>Story</title>
     <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</link>
     <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</guid>
@@ -53,18 +65,6 @@
     <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Stake-to-the-Heart</guid>
     <description> A stake through the heart is a classic and powerful method for neutralizing vampires, forcing them into a helpless state or destroying them outright.</description>
     <pubDate>Wed, 20 Nov 2024 23:47:28 GMT</pubDate>
-  </item><item>
-    <title>Silver</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Silver</guid>
-    <description> 1. Enhanced Damage from Silvered Weapons Effect: Silvered weapons cut through a vampire’s defenses, inflicting greater harm. Mechanics: Vampires take an additional 1d4 radiant damage per hit from silvered weapons.</description>
-    <pubDate>Wed, 20 Nov 2024 23:47:27 GMT</pubDate>
-  </item><item>
-    <title>Running Water</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running-Water</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Mourns-Folly/Vampire-Weaknesses/Running-Water</guid>
-    <description>Running Water as a Barrier Effect: Running water serves as a natural barrier that vampires cannot cross without harm. Mechanics: Vampires crossing running water take 20 acid damage at the end of each turn spent in the water.</description>
-    <pubDate>Wed, 20 Nov 2024 23:47:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
