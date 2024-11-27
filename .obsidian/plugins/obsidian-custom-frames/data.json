@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "",
+      "displayName": "Stat Block",
+      "icon": "chart-no-axes-column",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

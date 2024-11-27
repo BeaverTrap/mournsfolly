@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0176b2c53a2e9216",
+            "id": "b32792619f6f7430",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
+                "file": "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zombie Spawn"
+              "title": "Mournstead Folly"
             }
           }
         ]
@@ -93,8 +93,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
-                "collapseAll": false,
+                "file": "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Zombie Spawn"
+              "title": "Backlinks for Mournstead Folly"
             }
           },
           {
@@ -158,14 +158,38 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0176b2c53a2e9216",
+  "active": "b32792619f6f7430",
   "lastOpenFiles": [
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_Lables.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/Mournstead Folly Maps.md",
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses_NoTrees_b.webp",
+    "index.md",
+    "license.md",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses_NoTrees_PF.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses_PF.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_Lables_PF.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_PF.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses_NoTrees-1.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses.webp",
+    "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap.webp",
+    "_notes/_films.md",
+    "_notes",
+    "_notes/_Battlemap Layouts TBM.md",
+    "Worldbuilding/Mournstead Folly Hub/_Mournstead Layout.md",
+    "Dungeon Masters/NPCs/Main NPCs/Main NPCs.md",
+    "Worldbuilding/Mournstead Folly Hub/The Folly/Mournstead Manor/The Library.md",
+    "Worldbuilding/Mournstead Folly Hub/The Folly/Mournstead Manor/The Cellar.md",
+    "Worldbuilding/Mournstead Folly Hub/The Folly/Businesses and Locations/Antiquities and Curiosities.md",
+    "Worldbuilding/Magic Items.md",
+    "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
     "Dungeon Masters/NPCs/Creature Stat Blocks/Creature Stat Blocks.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/Archetypal NPCs.md",
-    "Dungeon Masters/NPCs/Main NPCs/Main NPCs.md",
     "Dungeon Masters/NPCs/NPCs.md",
     "Dungeon Masters/NPCs/Main NPCs/(NPC) Constable Byron Ward.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Watchful Sentinel - Garren Thorne.md",
@@ -175,31 +199,7 @@
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Smooth Talker - Ellisar Vendren.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Rural Protector - Ryland Harroway.md",
     "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Reclusive Seer - Eryndor Ashenvale.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Local Miscreant - Ryker Malven.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Local Minstrel - Ellowyn Amaris.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Inquisitive Shopkeeper - Maribel Thistledown.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Fallen Heir - Lord Adrian Valehart.md",
-    "Dungeon Masters/NPCs/Archetypal NPCs/NPC The Aspiring Disciple - Brother Alric Davenshire.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Zombie Spawn.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Walter Barstow.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Vampire's Thrall.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Marlon Voss.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Giant Rat.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Feral Vampire Spawn.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Dire Wolf.md",
-    "NPC.md",
-    "NPC-The-Aspiring-Disciple,-Brother-Alric-Davenshire.md",
     "Untitled.canvas",
-    "Worldbuilding/z. Other/x. Images/og-image.png",
-    "Worldbuilding/z. Other/x. Images/RupertNiles_001.png",
-    "Worldbuilding/z. Other/x. Images/RupertNiles_002.png",
-    "Worldbuilding/z. Other/x. Images/Walter_Barstow.png",
-    "Worldbuilding/z. Other/x. Images/Walter_Barstow_dark.png",
-    "Worldbuilding/z. Other/x. Images/WalterBarstow_FatherCedric.png",
-    "Worldbuilding/z. Other/x. Images/WalterBarstow_Feeding.png",
-    "Worldbuilding/z. Other/x. Images/RobeofEyes.png",
-    "Worldbuilding/z. Other/x. Images/404.png",
-    "WalterBarstowAvatar.png",
     "Dungeon Masters/DM notes",
     "Dungeon Masters",
     "Worldbuilding/z. Other/x. Images/Maps/battlemaps",
