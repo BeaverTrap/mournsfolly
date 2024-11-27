@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5e44e334707ce4a5",
+        "id": "345c24b911c2a9ff",
         "type": "tabs",
         "children": [
           {
-            "id": "b32792619f6f7430",
+            "id": "9c8cef3ea9642270",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Mournstead Folly"
+              "title": "New tab"
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mournstead Folly"
+              "title": "Backlinks"
             }
           },
           {
@@ -162,12 +157,12 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b32792619f6f7430",
+  "active": "9c8cef3ea9642270",
   "lastOpenFiles": [
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
     "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
     "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_Lables.webp",
     "Worldbuilding/z. Other/x. Images/Maps/Mournstead Folly Maps.md",
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
     "Worldbuilding/z. Other/x. Images/Maps/MournsteadTownMap_addresses_NoTrees_b.webp",
     "index.md",
     "license.md",
