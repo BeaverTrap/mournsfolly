@@ -6,9 +6,33 @@
       <description>Last 10 notes on Mourn&#039;s Folly</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Interactive Map</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Elarion-map</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Elarion-map</guid>
+    <description>id: campaignmap ### Must be unique with no spaces image: [[worldmap.png]] ### Link to the map image file bounds: [[0,0], [1000, 2000]] ### Size of the map in px Width_x, Height_y height: ...</description>
+    <pubDate>Tue, 03 Dec 2024 10:27:40 GMT</pubDate>
+  </item><item>
+    <title>_Vampire Stuff</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/_notes/_Vampire-Stuff</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/_notes/_Vampire-Stuff</guid>
+    <description>Cattle and Lifestock - deaths i might loose one or two head a year.</description>
+    <pubDate>Thu, 28 Nov 2024 04:33:21 GMT</pubDate>
+  </item><item>
+    <title>Mournstead Folly District Breakdown</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/District-Breakdown</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/District-Breakdown</guid>
+    <description> Total Houses: 79 Total Apartment Units: 26 Population: 263 residents. Oldstead Quarter The historic heart of Mournstead Folly, filled with older homes, civic pride, and two key municipal buildings: the Townhall and Jailhouse.</description>
+    <pubDate>Thu, 28 Nov 2024 01:29:08 GMT</pubDate>
+  </item><item>
+    <title>_Barstow</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/_notes/_Barstow</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/_notes/_Barstow</guid>
+    <description>Barstow is a vampire of unspeakable age, a harbinger of devastation who exists solely to feed on despair and obliterate the lives and communities in his path ...</description>
+    <pubDate>Thu, 28 Nov 2024 00:44:27 GMT</pubDate>
+  </item><item>
     <title>Mournstead Folly Maps</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/Mournstead-Folly-Maps</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/z.-Other/x.-Images/Maps/Mournstead-Folly-Maps</guid>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly-Maps</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly-Maps</guid>
     <description> .</description>
     <pubDate>Wed, 27 Nov 2024 08:23:13 GMT</pubDate>
   </item><item>
@@ -41,30 +65,6 @@
     <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/NPCs/NPCs</guid>
     <description>Each PC Background in Mourn’s Folly is mirrored by an Archetypal NPC, representing the essence of that background in the world. These NPCs serve a dual purpose: providing depth and support as potential allies or driving the narrative forward as corrupted foes under Barstow’s influence.</description>
     <pubDate>Sun, 24 Nov 2024 07:02:55 GMT</pubDate>
-  </item><item>
-    <title>Story</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/Story/Story</guid>
-    <description>...</description>
-    <pubDate>Fri, 22 Nov 2024 11:00:58 GMT</pubDate>
-  </item><item>
-    <title>Battlemap Layouts to be made</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/_notes/_Battlemap-Layouts-TBM</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/_notes/_Battlemap-Layouts-TBM</guid>
-    <description>1. Basic House Layout for Vampire Nests Encounter Type: Small-scale combat with feral vampires and possible thralls. Map Features: Main Room: Simple furnishings, showing signs of disturbance (broken furniture, claw marks).</description>
-    <pubDate>Fri, 22 Nov 2024 09:04:39 GMT</pubDate>
-  </item><item>
-    <title>Credits &amp; Licensing</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/license</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/license</guid>
-    <description>Credits &amp; Licensing Licensing This work incorporates material from the System Reference Document 5.1 (SRD 5.1) by Wizards of the Coast LLC, available at dnd.wizards.com/resources/systems-reference-document ...</description>
-    <pubDate>Fri, 22 Nov 2024 02:24:37 GMT</pubDate>
-  </item><item>
-    <title>Game Mechanics</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</guid>
-    <description>Vampire Weaknesses Barstows Legendary Actions.</description>
-    <pubDate>Fri, 22 Nov 2024 01:01:37 GMT</pubDate>
   </item>
     </channel>
   </rss>
