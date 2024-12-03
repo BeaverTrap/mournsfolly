@@ -1,6 +1,11 @@
 [
   "obsidian-style-settings",
   "obsidian-custom-frames",
+  "image-converter",
+  "dataview",
+  "obsidian-textgenerator-plugin",
+  "templater-obsidian",
   "custom-sort",
-  "image-converter"
+  "better-export-pdf",
+  "obsidian-leaflet-plugin"
 ]

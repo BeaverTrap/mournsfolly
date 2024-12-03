@@ -63,7 +63,4 @@ If the Librarian is a PC, they may already be familiar with *The Nocturne Codex*
 1. **Investigation Assistance:**  
    The Librarian provides their proficiency bonus to any skill checks the party makes in the library when assisting directly.
 
-2. **Lore Unlocked Gradually:**  
-   The PC Librarian might decide to reveal only pieces of vampiric lore at a time, giving the party a sense of discovery and pacing the narrative.
-
 ---
