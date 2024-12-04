@@ -1,6 +1,10 @@
 ---
 title: Interactive Map
+layout: post
 ---
+---
+
+
 ```leaflet  
 id: campaignmap ### Must be unique with no spaces  
 image: [[worldmap.png]] ### Link to the map image file  
