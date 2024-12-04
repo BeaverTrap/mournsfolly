@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive map of Mournstead Folly for the campaign.">
+    <meta name="author" content="Mourn's Folly">
+    <title>Interactive Map</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #campaignmap {
+            height: 600px;
+            width: 98%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interactive Map</h1>
+    </header>
+
+    <!-- Leaflet Map Container -->
+    <div id="campaignmap"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var map = L.map("campaignmap", {
+                crs: L.CRS.Simple,
+                minZoom: -1.5,
+                maxZoom: 2,
+                zoomDelta: 0.5,
+            });
+
+            // Define the bounds and add the map image overlay
+            var bounds = [[0, 0], [1000, 2000]]; // Adjusted for map dimensions
+            L.imageOverlay("/static/images/worldmap.png", bounds).addTo(map);
+            map.fitBounds(bounds);
+
+            // Set default center and zoom
+            map.setView([600, 600], 1);
+
+            // Add a sample marker (optional)
+            L.marker([600, 600])
+                .addTo(map)
+                .bindPopup("Mournstead Folly - Center of the Campaign");
+        });
+    </script>
+</body>
+</html>
