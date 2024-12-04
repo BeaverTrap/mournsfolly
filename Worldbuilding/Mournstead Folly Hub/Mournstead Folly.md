@@ -1,7 +1,9 @@
 ---
 title: Mournstead Folly - Hub
 ---
-> Mourn's Folly is a small, secluded town with a population of around 300. Nestled between mist-laden woodlands and rolling hills, the town has a timeless quality, with cobbled streets, sturdy stone buildings, and a calm, almost sleepy atmosphere. Life here moves at a slower pace, with townsfolk living in close-knit harmony, grounded by long-held traditions and a strong sense of community.
+[Interactive World Map](./interactive-map.html)
+
+>Mourn's Folly is a small, secluded town with a population of around 300. Nestled between mist-laden woodlands and rolling hills, the town has a timeless quality, with cobbled streets, sturdy stone buildings, and a calm, almost sleepy atmosphere. Life here moves at a slower pace, with townsfolk living in close-knit harmony, grounded by long-held traditions and a strong sense of community.
 >
 > The town square is the heart of daily life, featuring a weathered stone fountain and an ancient oak where locals gather to exchange news. The general store, blacksmith, and a few humble shops provide essentials, while the modest *Mournstead Chapel* stands as a quiet place of faith and peace, embodying the Folly's humble spirit.
 >
