@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "campaignmap",
-      "lastAccessed": 1733281499851,
+      "lastAccessed": 1733294308584,
       "markers": [
         {
           "id": "ID_f83a2ada3aca",
@@ -23,9 +23,7 @@
       ],
       "overlays": [],
       "shapes": [],
-      "files": [
-        "Worldbuilding/Mournstead Folly Hub/Elarion map.md"
-      ]
+      "files": []
     }
   ],
   "defaultMarker": {
