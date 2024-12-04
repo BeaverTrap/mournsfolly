@@ -2,7 +2,7 @@
   "mapMarkers": [
     {
       "id": "campaignmap",
-      "lastAccessed": 1733294308584,
+      "lastAccessed": 1733296534128,
       "markers": [
         {
           "id": "ID_f83a2ada3aca",
@@ -19,11 +19,62 @@
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
+        },
+        {
+          "id": "ID_88bb7aaa4899",
+          "type": "default",
+          "loc": [
+            690.2738394698556,
+            606.931723793321
+          ],
+          "layer": "%5B%5Bworldmap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9adbdabacb7a",
+          "type": "default",
+          "loc": [
+            296.1458501392317,
+            880.6670781026686
+          ],
+          "layer": "%5B%5Bworldmap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4a482beb7aaa",
+          "type": "default",
+          "loc": [
+            596.645851258212,
+            612.6650633489844
+          ],
+          "link": "Mournstead Folly",
+          "layer": "%5B%5Bworldmap.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "a small quaint town located on the Kendausk river.",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
         }
       ],
       "overlays": [],
       "shapes": [],
-      "files": []
+      "files": [
+        "private/Elarion map.md"
+      ]
     }
   ],
   "defaultMarker": {
@@ -54,7 +105,59 @@
   "displayOverlayTooltips": true,
   "configDirectory": null,
   "mapViewEnabled": true,
-  "mapViewParameters": {},
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": -1,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "600px",
+    "image": "[[worldmap.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[worldmap.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 1,
+    "minZoom": -1.5,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 0.09328358208955223,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 0.5,
+    "zoomFeatures": false,
+    "id": "campaignmap",
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        1000,
+        2000
+      ]
+    ],
+    "width": "98%",
+    "lat": 1024,
+    "long": 821,
+    "unit": "km",
+    "recenter": false,
+    "darkmode": false,
+    "filterTag": []
+  },
   "enableDraw": true,
   "defaultUnitType": "imperial",
   "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",

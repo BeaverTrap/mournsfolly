@@ -11,10 +11,14 @@
             "id": "8e906e32e90e8494",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "private/Elarion map.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Elarion map"
             }
           }
         ]
@@ -180,7 +184,9 @@
   },
   "active": "8e906e32e90e8494",
   "lastOpenFiles": [
-    "Worldbuilding/Mournstead Folly Hub/Elarion map.md",
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
+    "private/Elarion map.md",
+    "private/_Vampire Stuff.md",
     "maptest.md",
     "Player Characters/How to Point Buy.md",
     "index.md",
@@ -193,7 +199,6 @@
     "assets/images/og-image.png",
     "Worldbuilding/Magic Items.md",
     "assets/images",
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
     "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
     "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
     "assets/maps/maps/MournsteadTownMap_PF.webp",
@@ -219,7 +224,6 @@
     "smart-chats/UNTITLED CHAT 2024-11-28 08 46 07.md",
     "smart-chats",
     "Dungeon Masters/NPCs/Creature Stat Blocks/Creature Stat Blocks.md",
-    "private/_Vampire Stuff.md",
     "private/_films.md",
     "private/_Barstow.md",
     "Worldbuilding/Mournstead Folly Hub/The Folly/Businesses and Locations/Town Library (PC Librarian Variant).md",
