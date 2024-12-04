@@ -16,7 +16,7 @@ layout: post
 
         // Define the bounds and add the map image overlay
         var bounds = [[0, 0], [1000, 2000]]; // Adjust to your map dimensions
-        L.imageOverlay('/images/worldmap.png', bounds).addTo(map);
+        L.imageOverlay('/mournsfolly/static/images/worldmap.png', bounds).addTo(map);
         map.fitBounds(bounds);
 
         // Add an example marker
