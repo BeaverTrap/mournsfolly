@@ -29,51 +29,74 @@
             border: 2px solid #e0e0e0;
             border-radius: 10px;
         }
-        .legend {
-            text-align: center;
-            margin-top: 10px;
-        }
         .legend img {
             max-width: 400px; /* Adjust as necessary */
-            border: 1px solid #e0e0e0;
-            border-radius: 5px;
+            border: none;
+            background: transparent;
+        }
+        .custom-popup {
+            background: #333; /* Dark background */
+            color: #fff; /* Light text */
+            font-family: "Cinzel", serif; /* Custom font */
+            border-radius: 8px; /* Rounded corners */
+            border: 1px solid #00aaff; /* Highlight border */
+            padding: 10px; /* Space inside */
+            width: 250px; /* Fixed width */
+        }
+        .custom-popup h3 {
+            margin: 0;
+            color: #00aaff;
+        }
+        .custom-popup a {
+            color: #00ff00;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <h1>Interactive Map</h1>
 
+    <!-- Map Container -->
+    <div id="campaignmap" style="height: 600px; width: 98%;"></div>
 
-<div id="campaignmap" style="height: 600px; width: 98%;"></div>
     <!-- Legend Section -->
-<div id="legend" style="position: absolute; bottom: 10px; left: 10px; z-index: 1000;">
-    <img src="/mournsfolly/static/images/map-legend.png" alt="Map Legend" style="border: none; box-shadow: none; background: transparent; width: 600px;" />
-</div>
+    <div id="legend" style="position: absolute; bottom: 10px; right: 10px; z-index: 1000;">
+        <img src="static/images/map-legend.png" alt="Map Legend" style="width: 600px;" />
+    </div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var map = L.map("campaignmap", {
-            crs: L.CRS.Simple,
-            minZoom: -1.5,
-            maxZoom: 2,
-            zoomDelta: 0.5,
-        });
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Use a simple relative path for the map image
+    const mapImagePath = "./static/images/worldmap.png";
 
-        // Define the bounds and add the map image overlay
-        var bounds = [[0, 0], [1000, 2000]]; // Adjust to your map dimensions
-        L.imageOverlay("/mournsfolly/static/images/worldmap.png", bounds).addTo(map);
+    console.log("Map image path:", mapImagePath); // Debugging output
 
-        // Set the bounds to restrict panning/zooming beyond the image
-        map.setMaxBounds(bounds);
-
-        // Adjust the initial view to center on Mournstead Folly with a starting zoom level
-        var initialCenter = [600, 600]; // Coordinates for Mournstead Folly
-        map.setView(initialCenter, 1); // Center and zoom level (defaultZoom = 1)
-
-        // Add an example marker for Mournstead Folly
-        L.marker(initialCenter).addTo(map).bindPopup("Mournstead - The Heart of the Campaign");
+    // Initialize the map
+    var map = L.map("campaignmap", {
+        crs: L.CRS.Simple,
+        minZoom: -1.5,
+        maxZoom: 2,
+        zoomDelta: 0.5,
     });
-</script>
 
+    // Define the bounds and add the map image
+    var bounds = [[0, 0], [1000, 2000]];
+    L.imageOverlay(mapImagePath, bounds).addTo(map);
+
+    // Restrict the map view to the bounds
+    map.setMaxBounds(bounds);
+
+    // Center the map
+    map.setView([600, 600], 1);
+
+    // Add a marker for Mournsted Folly
+    L.marker([600, 600]).addTo(map).bindPopup(
+        `<a href="./Worldbuilding/Mournsted-Folly-Hub/Mournsted-Folly.html" target="_blank" style="color: #ff4500; text-decoration: none;">
+            <strong>Mournsted Folly</strong>
+         </a>`
+    );
+});
+
+    </script>
 </body>
 </html>
