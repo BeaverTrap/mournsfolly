@@ -7,12 +7,6 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Interactive Map</title>
-    <link>https://https:/beavertrap.github.io/mournsfolly/maptest</link>
-    <guid>https://https:/beavertrap.github.io/mournsfolly/maptest</guid>
-    <description>...</description>
-    <pubDate>Wed, 04 Dec 2024 03:22:36 GMT</pubDate>
-  </item><item>
-    <title>Interactive Map</title>
     <link>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Elarion-map</link>
     <guid>https://https:/beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Elarion-map</guid>
     <description>...</description>
@@ -65,6 +59,12 @@
     <guid>https://https:/beavertrap.github.io/mournsfolly/license</guid>
     <description>Credits &amp; Licensing Licensing This work incorporates material from the System Reference Document 5.1 (SRD 5.1) by Wizards of the Coast LLC, available at dnd.wizards.com/resources/systems-reference-document ...</description>
     <pubDate>Fri, 22 Nov 2024 02:24:37 GMT</pubDate>
+  </item><item>
+    <title>Game Mechanics</title>
+    <link>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</link>
+    <guid>https://https:/beavertrap.github.io/mournsfolly/Dungeon-Masters/x.-Game-Mechanics/Game-Mechanics</guid>
+    <description>Vampire Weaknesses Barstows Legendary Actions.</description>
+    <pubDate>Fri, 22 Nov 2024 01:01:37 GMT</pubDate>
   </item>
     </channel>
   </rss>
