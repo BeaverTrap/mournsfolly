@@ -66,12 +66,10 @@
 
     <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // Base path for local and GitHub Pages environments
-    const basePath = window.location.protocol === "file:" || window.location.hostname === "localhost"
-        ? ""
-        : "/mournsfolly";
+    // Use a simple relative path for the map image
+    const mapImagePath = "./static/images/worldmap.png";
 
-    console.log("Base path is:", basePath); // Debugging path
+    console.log("Map image path:", mapImagePath); // Debugging output
 
     // Initialize the map
     var map = L.map("campaignmap", {
@@ -83,25 +81,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Define the bounds and add the map image
     var bounds = [[0, 0], [1000, 2000]];
-    const mapImagePath = basePath + "/static/images/worldmap.png";
-    console.log("Map image path:", mapImagePath); // Debugging output
     L.imageOverlay(mapImagePath, bounds).addTo(map);
 
-    // Restrict the map view to bounds
+    // Restrict the map view to the bounds
     map.setMaxBounds(bounds);
 
     // Center the map
     map.setView([600, 600], 1);
 
-    // Add your marker for Mournsted Folly
+    // Add a marker for Mournsted Folly
     L.marker([600, 600]).addTo(map).bindPopup(
-        `<a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournsted-Folly-Hub/Mournsted-Folly" target="_blank" style="color: #ff4500; text-decoration: none;">
+        `<a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank" style="color: #ff4500; text-decoration: none;">
             <strong>Mournsted Folly</strong>
          </a>`
     );
 });
-
-
 
     </script>
 </body>
