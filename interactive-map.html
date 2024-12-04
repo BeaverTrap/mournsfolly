@@ -71,39 +71,47 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Map image path:", mapImagePath); // Debugging output
 
+    // Check if the map container exists before initializing
+    if (!document.getElementById("campaignmap")) {
+        console.error("Map container not found. Skipping initialization.");
+        return; // Exit if the map element doesn't exist
+    }
+
     // Initialize the map
     var map = L.map("campaignmap", {
-        crs: L.CRS.Simple,
-        minZoom: -1.5,
-        maxZoom: 2,
-        zoomDelta: 0.5,
+        crs: L.CRS.Simple, // Use simple CRS for static image mapping
+        minZoom: -1.5, // Allow zooming out to show the full map
+        maxZoom: 2, // Allow zooming in for more details
+        zoomDelta: 0.5, // Set smooth zoom increments
     });
 
-    // Define the bounds and add the map image
+    // Define the bounds of the map based on the image dimensions
     var bounds = [[0, 0], [1000, 2000]];
-    L.imageOverlay(mapImagePath, bounds).addTo(map);
+    L.imageOverlay(mapImagePath, bounds).addTo(map); // Overlay the map image on the Leaflet map
 
-    // Restrict the map view to the bounds
+    // Restrict the map view to the defined bounds
     map.setMaxBounds(bounds);
 
-    // Center the map
+    // Center the map on Mournsted Folly's location with a default zoom level
     map.setView([600, 600], 1);
 
     // Add a marker for Mournsted Folly
-L.marker([600, 600]).addTo(map).bindPopup(
-    `
-    <div style="text-align: center;">
-        <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank" style="text-decoration: none; color: #ff4500;">
-            <strong style="font-size: 16px;">Mournsted Folly</strong>
-        </a>
-        <p style="margin: 5px 0; font-size: 14px; color: #777;">
-            Mournsted Folly is a serene, picturesque town nestled beside the Kendausk River. Its cobblestone streets and ivy-clad cottages exude a timeless charm, offering a peaceful retreat from the outside world.
-        </p>
-    </div>
-    `
-);
-
+    L.marker([600, 600]).addTo(map).bindPopup(
+        `
+        <div style="text-align: center;">
+            <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Mournsted Folly</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Mournsted Folly is a serene, picturesque town nestled beside the Kendausk River. Its cobblestone streets and ivy-clad cottages exude a timeless charm, offering a peaceful retreat from the outside world.
+            </p>
+        </div>
+        `
+    );
+    
+    console.log("Map initialized successfully."); // Confirm initialization for debugging
 });
+
 
     </script>
 </body>
