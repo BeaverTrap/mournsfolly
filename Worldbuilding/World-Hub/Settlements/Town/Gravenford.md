@@ -1,0 +1,4 @@
+---
+title: Gravenford
+---
+Gravenford is a modest village at the northern edge of the Shattered Basin, nestled between the towering Silvermaw Peaks. To the west, Blackspire Summit looms in the Blackstone Crags, casting long shadows over the village. Built around a sturdy ford across the Kendausk River, Gravenford serves as a vital crossing point for travelers and traders journeying between the basin and northern settlements. Despite its rugged surroundings, the village thrives on agriculture and trade, its residents hardened by the landscape but quick to offer wary travelers a place of rest and refuge.

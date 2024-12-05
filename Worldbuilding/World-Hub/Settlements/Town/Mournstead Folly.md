@@ -1,5 +1,5 @@
 ---
-title: Mournstead Folly - Hub
+title: Mournstead Folly
 ---
 [Interactive World Map](javascript:location.href='https://beavertrap.github.io/mournsfolly/interactive-map')
 

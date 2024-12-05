@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
+                "file": "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mournstead Folly"
+              "title": "Blackspire Summit"
+            }
+          },
+          {
+            "id": "2566b64f47ca3b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worldbuilding/World-Hub/Small Places.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Small Places"
+            }
+          },
+          {
+            "id": "68b30e912eeff261",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Gullspire Lighthouse"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,9 +211,34 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "b3c2b21687c0d515",
+  "active": "68b30e912eeff261",
   "lastOpenFiles": [
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly.md",
+    "Worldbuilding/World-Hub/Small Places.md",
+    "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
+    "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
+    "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
+    "Worldbuilding/World-Hub/Settlements/Town/Gravenford.md",
+    "Worldbuilding/World-Hub/Settlements/Town/Bleakbarrow.md",
+    "Worldbuilding/World-Hub/Settlements/Village/Brakenford.md",
+    "Worldbuilding/World-Hub/Settlements/Village/Brookshade.md",
+    "Worldbuilding/World-Hub/Settlements/Village/Mireholt.md",
+    "Worldbuilding/World-Hub/Settlements/Village/Riverstride.md",
+    "Worldbuilding/World-Hub/Natural Features/Rivers/Kendausk River.md",
+    "Worldbuilding/World-Hub/Settlements/Village/Sunmeadow.md",
+    "Worldbuilding/World-Hub/Natural Features/Peaks/the Silvermaw Peaks.md",
+    "Worldbuilding/World-Hub/Natural Features/Peaks",
+    "Worldbuilding/World-Hub/Natural Features/Rivers",
+    "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
+    "Worldbuilding/World-Hub/Settlements",
+    "Worldbuilding/World-Hub/Natural Features",
+    "Worldbuilding/World-Hub/Dungeons",
+    "Worldbuilding/World-Hub/Caves",
+    "Worldbuilding/World-Hub/Natural Features/Forest",
+    "Worldbuilding/World-Hub/village/Untitled.md",
+    "Worldbuilding/World-Hub/Settlements/Small Places",
+    "Worldbuilding/World-Hub/Settlements/Village",
+    "Worldbuilding/World-Hub/Settlements/Town",
+    "Blackmaw.md",
     "index.md",
     "private/Elarion map.md",
     "private/_Vampire Stuff.md",
@@ -195,41 +249,16 @@
     "Worldbuilding/Mournstead Folly Hub/Mournstead Folly Maps.md",
     "assets/maps/maps/MournsteadTownMap.webp",
     "assets/maps/worldmaps/worldmap.png",
-    "assets/maps/maps",
     "assets/images/og-image.png",
     "Worldbuilding/Magic Items.md",
-    "assets/images",
-    "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
     "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
     "assets/maps/maps/MournsteadTownMap_PF.webp",
     "assets/maps/maps/MournsteadTownMap_Lables_PF.webp",
     "assets/maps/maps/MournsteadTownMap_Lables.webp",
     "assets/maps/maps/MournsteadTownMap_addresses_PF.webp",
     "assets/maps/maps/MournsteadTownMap_addresses_NoTrees-1.webp",
-    "assets/maps/battlemaps",
-    "assets/maps/New folder",
-    "assets/maps/worldmaps",
-    "assets/maps",
-    "assets/New folder",
-    "assets",
-    "New folder",
     "Dungeon Masters/Story/Act-1/a. Introduction/1b - Alternative Start (Sailor Background).md",
     "Dungeon Masters/Story/Act-1/a. Introduction/1 - Introduction to Mourn's Folly.md",
-    "license.md",
-    "readme.md",
-    "Player Characters/Character Creation.md",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Walter Barstow.md",
-    "private/_Battlemap Layouts TBM.md",
-    "private/_Mournstead Layout.md",
-    "smart-chats/UNTITLED CHAT 2024-11-28 08 46 07.md",
-    "smart-chats",
-    "Dungeon Masters/NPCs/Creature Stat Blocks/Creature Stat Blocks.md",
-    "private/_films.md",
-    "private/_Barstow.md",
-    "Worldbuilding/Mournstead Folly Hub/The Folly/Businesses and Locations/Town Library (PC Librarian Variant).md",
-    "Dungeon Masters/NPCs/Main NPCs/Main NPCs.md",
-    "Worldbuilding/Mournstead Folly Hub/The Folly/Mournstead Manor/The Library.md",
-    "Worldbuilding/Mournstead Folly Hub/The Folly/Mournstead Manor/The Cellar.md",
     "Untitled.canvas"
   ]
 }
