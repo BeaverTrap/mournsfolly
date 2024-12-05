@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Map</title>
+    <title>World Map</title>
 
     <!-- Leaflet CSS and JS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
@@ -12,8 +12,8 @@
     <!-- Custom CSS for Quartz Theme Matching -->
     <style>
         body {
-            background-color: #181818; /* Quartz dark theme background */
-            color: #e0e0e0; /* Light text color for visibility */
+            background-color: #181818;
+            color: #e0e0e0;
             font-family: "Cinzel", serif;
             margin: 0;
             padding: 0;
@@ -30,18 +30,18 @@
             border-radius: 10px;
         }
         .legend img {
-            max-width: 400px; /* Adjust as necessary */
+            max-width: 400px;
             border: none;
             background: transparent;
         }
         .custom-popup {
-            background: #333; /* Dark background */
-            color: #fff; /* Light text */
-            font-family: "Cinzel", serif; /* Custom font */
-            border-radius: 8px; /* Rounded corners */
-            border: 1px solid #00aaff; /* Highlight border */
-            padding: 10px; /* Space inside */
-            width: 250px; /* Fixed width */
+            background: #333;
+            color: #fff;
+            font-family: "Cinzel", serif;
+            border-radius: 8px;
+            border: 1px solid #00aaff;
+            padding: 10px;
+            width: 250px;
         }
         .custom-popup h3 {
             margin: 0;
@@ -54,57 +54,68 @@
     </style>
 </head>
 <body>
-    <h1>Interactive Map</h1>
-
-    <!-- Map Container -->
+    <h1>World Map</h1>
     <div id="campaignmap" style="height: 600px; width: 98%;"></div>
 
-    <!-- Legend Section -->
-    <div id="legend" style="position: absolute; bottom: 10px; right: 10px; z-index: 1000;">
-        <img src="static/images/map-legend.png" alt="Map Legend" style="width: 600px;" />
-    </div>
-
     <script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Use a simple relative path for the map image
-    const mapImagePath = "./static/images/worldmap.png";
+        document.addEventListener("DOMContentLoaded", function () {
+            const map = L.map("campaignmap", {
+                crs: L.CRS.Simple,
+                minZoom: -1.5,
+                maxZoom: 2,
+                zoomDelta: 0.5,
+            });
 
-    console.log("Map image path:", mapImagePath); // Debugging output
+            const bounds = [[0, 0], [1000, 2000]];
+            L.imageOverlay("./static/images/worldmap.png", bounds).addTo(map);
+            map.setMaxBounds(bounds);
+            map.setView([600, 600], 1);
 
-    // Initialize the map
-    var map = L.map("campaignmap", {
-        crs: L.CRS.Simple,
-        minZoom: -1.5,
-        maxZoom: 2,
-        zoomDelta: 0.5,
-    });
+            // Layer groups
+            const settlementsLayer = L.layerGroup().addTo(map);
+            const smallPlacesLayer = L.layerGroup().addTo(map);
+            const naturalFeaturesLayer = L.layerGroup().addTo(map);
+            const caveLayer = L.layerGroup().addTo(map);
+            const dungeonsLayer = L.layerGroup().addTo(map);
+            const bountyLayer = L.layerGroup().addTo(map);
 
-    // Define the bounds and add the map image
-    var bounds = [[0, 0], [1000, 2000]];
-    L.imageOverlay(mapImagePath, bounds).addTo(map);
+            // Markers
+            L.marker([600, 600], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+                <div style="text-align: center;">
+                    <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank">
+                        <strong>Mournstead Folly</strong>
+                    </a>
+                    <p>A serene, picturesque town beside the Kendausk River.</p>
+                </div>
+            `);
 
-    // Restrict the map view to the bounds
-    map.setMaxBounds(bounds);
+            L.marker([480, 740], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+                <div style="text-align: center;">
+                    <strong>Riverstride</strong>
+                    <p>A vibrant village linking inland settlements to the sea.</p>
+                </div>
+            `);
 
-    // Center the map
-    map.setView([600, 600], 1);
+            // Example marker
+            L.marker([540, 460], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
+                <div style="text-align: center;">
+                    <strong>Kendausk River</strong>
+                    <p>A vital waterway for trade and travel.</p>
+                </div>
+            `);
 
-    // Add a marker for Mournsted Folly
-L.marker([600, 600]).addTo(map).bindPopup(
-    `
-    <div style="text-align: center;">
-        <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank" style="text-decoration: none; color: #ff4500;">
-            <strong style="font-size: 16px;">Mournsted Folly</strong>
-        </a>
-        <p style="margin: 5px 0; font-size: 14px; color: #777;">
-            Mournsted Folly is a serene, picturesque town nestled beside the Kendausk River. Its cobblestone streets and ivy-clad cottages exude a timeless charm, offering a peaceful retreat from the outside world.
-        </p>
-    </div>
-    `
-);
+            // Layer control
+            L.control.layers(null, {
+                "Settlements": settlementsLayer,
+                "Small Places": smallPlacesLayer,
+                "Natural Features": naturalFeaturesLayer,
+                "Caves": caveLayer,
+                "Dungeons": dungeonsLayer,
+                "Bounties": bountyLayer,
+            }).addTo(map);
 
-});
-
+            console.log("Map initialized successfully.");
+        });
     </script>
 </body>
 </html>
