@@ -51,6 +51,34 @@
             color: #00ff00;
             text-decoration: none;
         }
+	
+		// Style for the legend
+        .map-legend {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border: 1px solid #ccc; /* Light gray border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 10px; /* Space inside the legend */
+            max-width: 90%; /* Ensure it doesn't overflow on smaller screens */
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+        .leaflet-bottom {
+            margin-bottom: 20px; /* Add some space at the bottom */
+        }
+        .leaflet-control.map-legend-container {
+            max-width: 100%;
+            display: flex;
+            justify-content: center; /* Center the legend */
+        }
+        /* Ensure legend fits on smaller screens */
+        @media (max-width: 600px) {
+            .map-legend {
+                font-size: 12px; /* Reduce text size */
+                padding: 8px;
+                max-width: 100%; /* Fit within the screen */
+            }
+		}	
+		
     </style>
 </head>
 <body>
@@ -59,25 +87,109 @@
 
     <script>
         // Define custom icons globally
-        const settlementIcon = L.icon({
-            iconUrl: "./static/images/marker-icon-settlement.png",
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [0, -30],
-            shadowUrl: "./static/images/marker-shadow.png",
-            shadowSize: [41, 41],
-            shadowAnchor: [12, 41],
-        });
+		// SettlementIcon - Cities, Towns and Villages 
+        	const settlementIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-settlement.png",
+		iconRetinaUrl: "./static/images/marker-icon-settlement-2x.png", // Retina marker
+		iconSize: [25, 41], // Regular size
+		iconAnchor: [12, 12], // Center the icon
+		popupAnchor: [0, -12], // Popup position
+		shadowUrl: "./static/images/marker-shadow.png", // Common shadow
+		shadowSize: [41, 41], // Adjust shadow size
+		shadowAnchor: [12, 12], // Shadow position
+	});
+		// naturalFeatureIcon - Natural Features - rivers, peaks
+	const naturalFeatureIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-natural.png",
+		iconRetinaUrl: "./static/images/marker-icon-natural-2x.png",
+		iconSize: [25, 41],
+		iconAnchor: [12, 12],
+		popupAnchor: [0, -12],
+		shadowUrl: "./static/images/marker-shadow.png",
+		shadowSize: [41, 41],
+		shadowAnchor: [12, 12],
+	});
+		// dungeonIcon - Dungeons
+	const dungeonIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-dungeon.png",
+		iconRetinaUrl: "./static/images/marker-icon-dungeon-2x.png",
+		iconSize: [25, 41],
+		iconAnchor: [12, 12],
+		popupAnchor: [0, -12],
+		shadowUrl: "./static/images/marker-shadow.png",
+		shadowSize: [41, 41],
+		shadowAnchor: [12, 12],
+	});
+		// questIcon - Quests
+	const questIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-quest.png",
+		iconRetinaUrl: "./static/images/marker-icon-quest-2x.png",
+		iconSize: [25, 41],
+		iconAnchor: [12, 12],
+		popupAnchor: [0, -12],
+		shadowUrl: "./static/images/marker-shadow.png",
+		shadowSize: [41, 41],
+		shadowAnchor: [12, 12],
+	});
+		// intrestIcon - Point of Interest
+	const interestIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-interest.png",
+		iconRetinaUrl: "./static/images/marker-icon-interest-2x.png",
+		iconSize: [25, 41],
+		iconAnchor: [12, 12],
+		popupAnchor: [0, -12],
+		shadowUrl: "./static/images/marker-shadow.png",
+		shadowSize: [41, 41],
+		shadowAnchor: [12, 12],
+	});
+		// caveIcon	- Caves
+	const caveIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-cave.png",
+		iconRetinaUrl: "./static/images/marker-icon-cave-2x.png",
+		iconSize: [25, 41],
+		iconAnchor: [12, 12],
+		popupAnchor: [0, -12],
+		shadowUrl: "./static/images/marker-shadow.png",
+		shadowSize: [41, 41],
+		shadowAnchor: [12, 12],
+	});
+		// smallPlaceIcon	- Outposts, Hamlets, Trade Hubs, Small Settelments
+	const smallPlaceIcon = L.icon({
+		iconUrl: "./static/images/marker-icon-small.png",
+		iconRetinaUrl: "./static/images/marker-icon-small-2x.png",
+		iconSize: [15, 25], // Smaller size
+		iconAnchor: [10, 10], // Adjust to match the smaller icon
+		popupAnchor: [0, -20], // Slightly higher for smaller icons
+		shadowUrl: "./static/images/marker-shadow-small.png",
+		shadowSize: [21, 21], // Adjust shadow size
+		shadowAnchor: [10, 10], // Align shadow with the smaller icon
+	});
 
-        const naturalFeatureIcon = L.icon({
-            iconUrl: "./static/images/marker-icon-natural.png",
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [0, -30],
-            shadowUrl: "./static/images/marker-shadow.png",
-            shadowSize: [41, 41],
-            shadowAnchor: [12, 41],
-        });
+// Define custom icons for Bounty markers
+const bountyIcons = [
+    "./static/images/marker-icon-bounty1.png",
+    "./static/images/marker-icon-bounty2.png",
+    "./static/images/marker-icon-bounty3.png",
+    "./static/images/marker-icon-bounty4.png",
+    "./static/images/marker-icon-bounty5.png",
+];
+
+// Function to get a random bounty icon with proper dimensions
+function getRandomBountyIcon() {
+    const randomIndex = Math.floor(Math.random() * bountyIcons.length);
+    return L.icon({
+        iconUrl: bountyIcons[randomIndex], // Regular marker
+        iconRetinaUrl: bountyIcons[randomIndex].replace(".png", "-2x.png"), // Retina marker
+        iconSize: [25, 25], // Example size for all bounty icons
+        iconAnchor: [12, 12], // Anchor point for proper alignment
+        popupAnchor: [0, -12], // Position the popup above the marker
+        shadowUrl: "./static/images/marker-shadow.png", // Common shadow for all icons
+        shadowSize: [41, 41], // Adjust size for regular and retina compatibility
+        shadowAnchor: [12, 30], // Position the shadow relative to the icon
+    });
+}
+
+
 
         document.addEventListener("DOMContentLoaded", function () {
             const map = L.map("campaignmap", {
@@ -92,47 +204,237 @@
             map.setMaxBounds(bounds);
             map.setView([600, 600], 1);
 
-            // Layer groups
-            const settlementsLayer = L.layerGroup().addTo(map);
-            const smallPlacesLayer = L.layerGroup().addTo(map);
-            const naturalFeaturesLayer = L.layerGroup().addTo(map);
-            const caveLayer = L.layerGroup().addTo(map);
-            const dungeonsLayer = L.layerGroup().addTo(map);
-            const bountyLayer = L.layerGroup().addTo(map);
+// Create layer groups for each category
+			const settlementsLayer = L.layerGroup();
+			const smallPlacesLayer = L.layerGroup();
+			const naturalFeaturesLayer = L.layerGroup();
+			const caveLayer = L.layerGroup();
+			const dungeonsLayer = L.layerGroup();
+			const questsLayer = L.layerGroup();
+			const interestLayer = L.layerGroup();
+			const bountyLayer = L.layerGroup();
 
-            // Markers
-            L.marker([600, 600], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+
+// Markers
+	// Settelments Markers
+	
+	// Mournstead Folly
+    L.marker([600, 600], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Mournsted Folly</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Mournsted Folly is a serene, picturesque town nestled beside the Kendausk River. Its cobblestone streets and ivy-clad cottages exude a timeless charm, offering a peaceful retreat from the outside world.
+            </p>
+        </div>
+    `);
+	
+	// Riverstride marker
+	    L.marker([480, 740], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Riverstride</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Riverstride is a small but vibrant village nestled at the outlet of the Kendausk River. Despite its modest size, it plays a key role as a trading post for the Stillwater Trading Co., linking inland settlements to the sea and other river routes. Its docks and marketplaces hum with activity as merchants and travelers pass through this vital waypoint.
+            </p>
+        </div>
+    `);
+	
+	// Gravenford marker
+	    L.marker([425, 155], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Gravenford</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Gravenford is a modest village at the northern edge of the Shattered Basin, nestled between the towering Silvermaw Peaks. To the west, Blackspire Summit looms in the Blackstone Crags, casting long shadows over the village. Built around a sturdy ford across the Kendausk River, Gravenford serves as a vital crossing point for travelers and traders journeying between the basin and northern settlements. Despite its rugged surroundings, the village thrives on agriculture and trade, its residents hardened by the landscape but quick to offer wary travelers a place of rest and refuge.
+            </p>
+        </div>
+    `);
+	
+	// Small Places
+		// Hermet Hollow
+		L.marker([620, 660], { icon: smallPlaceIcon }).addTo(smallPlacesLayer).bindPopup(`
+		<div style="text-align: center;">
+			<a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+				<strong style="font-size: 16px;">Hermet Hollow</strong>
+			</a>
+			<p style="margin: 5px 0; font-size: 14px; color: #777;">
+				A cozy nook tucked into the edge of the forest.
+			</p>
+    </div>
+`);
+	
+	// Natural feature marker
+
+		 // Kendausk River
+		L.marker([540, 460], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Kendausk River</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                the Kendausk River is a vital waterway flowing past Kendask Bluff and Mournsted Folly before reaching the sea, it serves as a crucial trade and travel route, shaping the lives of those along its banks.
+            </p>
+        </div>
+    `);
+
+		// River 1
+		L.marker([570, 300], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">River 1</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                River 1: A short description of this river is needed along with a name for the river.
+            </p>
+        </div>
+    `);
+
+		// Southwade River
+		L.marker([433, 546], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Southwade River</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Southwade River is a river that needs a better description.
+            </p>
+        </div>
+    `);
+
+		// Oakstream
+		L.marker([371, 631], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Oakstream</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Oakstream is a vital tributary that flows gracefully through the southern forests.
+            </p>
+        </div>
+    `);
+
+
+
+	// Dungeon markers
+
+        // Dungeon marker
+		L.marker([780, 389], { icon: dungeonIcon }).addTo(dungeonsLayer).bindPopup(`
+			<div style="text-align: center;">
+				<a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+				<strong style="font-size: 16px;">Example Dungeon</strong>
+			</a>
+			<p style="margin: 5px 0; font-size: 14px; color: #777;">
+				Description of the dungeon goes here. Placeholder text for now.
+			</p>
+			</div>
+	`);
+		
+	/* Quest markers
+            // Quest marker
+            L.marker([660, 540], { icon: questIcon }).addTo(questsLayer).bindPopup(`
                 <div style="text-align: center;">
-                    <a href="https://beavertrap.github.io/mournsfolly/Worldbuilding/Mournstead-Folly-Hub/Mournstead-Folly" target="_blank">
-                        <strong>Mournstead Folly</strong>
-                    </a>
-                    <p>A serene, picturesque town beside the Kendausk River.</p>
+                    <strong>Quest Marker</strong>
+                    <p>This is an example of a quest marker.</p>
                 </div>
             `);
+	*/
 
-            L.marker([480, 740], { icon: settlementIcon }).addTo(settlementsLayer).bindPopup(`
-                <div style="text-align: center;">
-                    <strong>Riverstride</strong>
-                    <p>A vibrant village linking inland settlements to the sea.</p>
-                </div>
-            `);
+    // Points of Interest
+    L.marker([300, 300], { icon: interestIcon }).addTo(interestLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Example Point of Interest</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description of the point of interest goes here. Placeholder text for now.
+            </p>
+        </div>
+    `);
 
-            L.marker([540, 460], { icon: naturalFeatureIcon }).addTo(naturalFeaturesLayer).bindPopup(`
-                <div style="text-align: center;">
-                    <strong>Kendausk River</strong>
-                    <p>A vital waterway for trade and travel.</p>
-                </div>
-            `);
 
-            // Layer control
-            L.control.layers(null, {
+    // Bounty Markers
+    L.marker([400, 400], { icon: getRandomBountyIcon() }).addTo(bountyLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Bounty 1</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for bounty 1 goes here. Placeholder text.
+            </p>
+        </div>
+    `);
+    L.marker([800, 200], { icon: getRandomBountyIcon() }).addTo(bountyLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Bounty 2</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for bounty 2 goes here. Placeholder text.
+            </p>
+        </div>
+    `);
+    L.marker([200, 500], { icon: getRandomBountyIcon() }).addTo(bountyLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Bounty 3</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for bounty 3 goes here. Placeholder text.
+            </p>
+        </div>
+    `);
+    L.marker([700, 700], { icon: getRandomBountyIcon() }).addTo(bountyLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Bounty 4</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for bounty 4 goes here. Placeholder text.
+            </p>
+        </div>
+    `);
+    L.marker([300, 600], { icon: getRandomBountyIcon() }).addTo(bountyLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Bounty 5</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for bounty 5 goes here. Placeholder text.
+            </p>
+        </div>
+    `);
+ 
+			// Add layers to the map
+			settlementsLayer.addTo(map);
+            smallPlacesLayer.addTo(map);
+            naturalFeaturesLayer.addTo(map);
+            caveLayer.addTo(map);
+            dungeonsLayer.addTo(map);
+            bountyLayer.addTo(map);
+			// questsLayer.addTo(map);
+			interestLayer.addTo(map);
+				
+			// Add layer control for toggling
+			L.control.layers(null, {
                 "Settlements": settlementsLayer,
                 "Small Places": smallPlacesLayer,
                 "Natural Features": naturalFeaturesLayer,
                 "Caves": caveLayer,
                 "Dungeons": dungeonsLayer,
                 "Bounties": bountyLayer,
+			//	"Quests": questsLayer,
+				"POI": interestLayer,
             }).addTo(map);
+			
+			// Debug: Output clicked coordinates
+			map.on('click', function (e) {
+			const { lat, lng } = e.latlng;
+			alert(`Coordinates: [${lat.toFixed(2)}, ${lng.toFixed(2)}]`);
+			});
 
             console.log("Map initialized successfully.");
         });
