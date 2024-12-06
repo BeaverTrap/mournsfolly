@@ -333,6 +333,19 @@ function getRandomBountyIcon() {
 			</div>
 	`);
 		
+    // Example Cave Markers
+    L.marker([700, 700], { icon: caveIcon }).addTo(caveLayer).bindPopup(`
+        <div style="text-align: center;">
+            <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
+                <strong style="font-size: 16px;">Example Cave</strong>
+            </a>
+            <p style="margin: 5px 0; font-size: 14px; color: #777;">
+                Description for this cave goes here. Placeholder text.
+            </p>
+        </div>
+    `);		
+	
+	
 	/* Quest markers
             // Quest marker
             L.marker([660, 540], { icon: questIcon }).addTo(questsLayer).bindPopup(`
@@ -344,7 +357,7 @@ function getRandomBountyIcon() {
 	*/
 
     // Points of Interest
-    L.marker([300, 300], { icon: interestIcon }).addTo(interestLayer).bindPopup(`
+    L.marker([405, 795], { icon: interestIcon }).addTo(interestLayer).bindPopup(`
         <div style="text-align: center;">
             <a href="#" target="_blank" style="text-decoration: none; color: #ff4500;">
                 <strong style="font-size: 16px;">Example Point of Interest</strong>
