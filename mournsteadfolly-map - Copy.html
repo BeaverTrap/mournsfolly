@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mournstead Folly Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2c2f33;
+            color: #f0f0f0;
+        }
+        #map {
+            height: 90vh;
+            width: 95%;
+            margin: 20px auto;
+            border: 2px solid #444;
+            border-radius: 8px;
+        }
+		
+		.category-controls {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.category-icon {
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.category-icon img {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.category-icon.active img {
+    border: 2px solid #0078ff;
+    border-radius: 8px;
+}
+
+.category-icon:hover {
+    transform: scale(1.1);
+}
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Mournstead Folly Interactive Map</h1>
+    <div id="map"></div>
+
+    <script>
+   document.addEventListener("DOMContentLoaded", function () {
+    const map = L.map("map", {
+        crs: L.CRS.Simple,
+        minZoom: -2,
+        maxZoom: 2,
+    });
+
+    const bounds = [[0, 0], [3508, 4961]];
+    map.setView([1024, 1024], 0);
+
+    // Create panes with specific z-index
+    map.createPane("backgroundPane").style.zIndex = 100;
+    map.createPane("districtPane").style.zIndex = 200;
+    map.createPane("buildingPane").style.zIndex = 300;
+    map.createPane("roadPane").style.zIndex = 400;
+    map.createPane("streetPane").style.zIndex = 500;
+	map.createPane("streetNamePane").style.zIndex = 600
+    map.createPane("treePane").style.zIndex = 700;	
+	map.createPane("namesPane").style.zIndex = 800
+	map.createPane("numbersPane").style.zIndex = 900
+
+
+    // Map layers
+    const backgroundLayer = L.imageOverlay("./static/images/MF_map_bckgrnd.png", bounds, {
+        pane: "backgroundPane",
+    }).addTo(map);
+
+    const districtLayer = L.imageOverlay("./static/images/MF_map_district.png", bounds, {
+        pane: "districtPane",
+    });
+
+    const buildingLayer = L.imageOverlay("./static/images/MF_map_buildings.png", bounds, {
+        pane: "buildingPane",
+    }).addTo(map);
+
+    const roadLayer = L.imageOverlay("./static/images/MF_map_road.png", bounds, {
+        pane: "roadPane",
+    });
+
+    const streetLayer = L.imageOverlay("./static/images/MF_map_streets.png", bounds, {
+        pane: "streetPane",
+    });
+
+    const treeLayer = L.imageOverlay("./static/images/MF_map_trees.png", bounds, {
+        pane: "treePane",
+    });
+
+    const streetNameLayer = L.imageOverlay("./static/images/MF_map_streetnames.png", bounds, {
+        pane: "streetNamePane",
+    });
+	
+    const namesLayer = L.imageOverlay("./static/images/MF_map_names.png", bounds, {
+        pane: "namesPane",
+    });
+
+    const numbersLayer = L.imageOverlay("./static/images/MF_map_numbers.png", bounds, {
+        pane: "numbersPane",
+    });
+	
+    // Categories for markers
+    const residentialLayer = L.layerGroup();
+    const businessLayer = L.layerGroup();
+    const governmentLayer = L.layerGroup();
+
+    // Example markers
+    L.marker([1200, 1000]).addTo(residentialLayer).bindPopup("<b>Residential Marker</b><br>Home.");
+    L.marker([900, 1300]).addTo(businessLayer).bindPopup("<b>Business Marker</b><br>Shop.");
+    L.marker([800, 1200]).addTo(governmentLayer).bindPopup("<b>Government Building</b><br>Town Hall.");
+
+
+
+
+
+    // Add example markers (replace with actual data)
+    L.marker([900, 1000]).addTo(residentialLayer).bindPopup("<b>Residential Marker</b><br>Example house.");
+    L.marker([800, 1100]).addTo(businessLayer).bindPopup("<b>Business Marker</b><br>Example shop.");
+    L.marker([850, 1200]).addTo(governmentLayer).bindPopup("<b>Government Marker</b><br>Example town hall.");
+    L.marker([950, 900]).addTo(treesLayer).bindPopup("<b>Tree Marker</b><br>Example tree.");
+    L.marker([1000, 950]).addTo(namesLayer).bindPopup("<b>Name Marker</b><br>Example name.");
+    L.marker([1050, 1000]).addTo(numbersLayer).bindPopup("<b>Number Marker</b><br>Example number.");
+
+    // Toggle layers with icons
+    const toggleLayer = (layer, iconElement) => {
+        if (map.hasLayer(layer)) {
+            map.removeLayer(layer);
+            iconElement.classList.remove("active");
+        } else {
+            layer.addTo(map);
+            iconElement.classList.add("active");
+        }
+    };
+
+    // Custom control container
+    const controlContainer = L.DomUtil.create("div", "category-controls");
+
+    // Add icons for categories
+    const categories = [
+        { name: "Residential", layer: residentialLayer, icon: "./static/icons/residents.png" },
+        { name: "Business", layer: businessLayer, icon: "./static/icons/buissness.png" },
+        { name: "Government", layer: governmentLayer, icon: "./static/icons/goverment.png" },
+        { name: "Trees", layer: treesLayer, icon: "./static/icons/trees.png" },
+        { name: "Names", layer: namesLayer, icon: "./static/icons/names.png" },
+        { name: "Numbers", layer: numbersLayer, icon: "./static/icons/numbers.png" },
+    ];
+
+    categories.forEach((category) => {
+        const icon = L.DomUtil.create("div", "category-icon", controlContainer);
+        icon.innerHTML = `<img src="${category.icon}" alt="${category.name}" />`;
+        icon.onclick = () => toggleLayer(category.layer, icon);
+    });
+
+    // Add control container to map
+    const customControl = L.Control.extend({
+        onAdd: function () {
+            return controlContainer;
+        },
+    });
+    map.addControl(new customControl({ position: "topright" }));
+});
+
+
+
+    // Handle Residential toggle with event listeners
+    map.on("overlayadd", function (event) {
+        if (event.name === "Residential") {
+            // Turn on Residential-related layers
+            residentialLayer.addTo(map);
+            districtLayer.addTo(map);
+            streetLayer.addTo(map);
+
+            // Ensure Roads are turned off
+            if (map.hasLayer(roadLayer)) {
+                map.removeLayer(roadLayer);
+            }
+        }
+    });
+
+    map.on("overlayremove", function (event) {
+        if (event.name === "Residential") {
+            // Turn off Residential-related layers
+            map.removeLayer(residentialLayer);
+            map.removeLayer(districtLayer);
+            map.removeLayer(streetLayer);
+
+            // Turn Roads back on
+            if (!map.hasLayer(roadLayer)) {
+                roadLayer.addTo(map);
+            }
+        }
+    });
+
+    // Default visibility
+    backgroundLayer.addTo(map);
+    buildingLayer.addTo(map);
+	streetNameLayer.addTo(map);
+	roadLayer.addTo(map);
+    treeLayer.addTo(map);
+});
+
+</script>
+
+</body>
+</html>
