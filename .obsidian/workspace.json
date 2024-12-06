@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
+                "file": "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gullspire Lighthouse"
+              "title": "Mournstead Folly"
             }
           }
         ],
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.50484466552734
+    "width": 380.50484466552734
   },
   "right": {
     "id": "fd81f56fcc94039c",
@@ -213,9 +213,11 @@
   },
   "active": "68b30e912eeff261",
   "lastOpenFiles": [
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
+    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly Maps.md",
+    "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
     "Worldbuilding/World-Hub/Small Places.md",
     "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
-    "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
     "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
     "Worldbuilding/World-Hub/Settlements/Town/Gravenford.md",
     "Worldbuilding/World-Hub/Settlements/Town/Bleakbarrow.md",
@@ -246,12 +248,10 @@
     "Player Characters/How to Point Buy.md",
     "assets/maps/maps/worldmap.webp",
     "assets/maps/maps/worldmap.png",
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly Maps.md",
     "assets/maps/maps/MournsteadTownMap.webp",
     "assets/maps/worldmaps/worldmap.png",
     "assets/images/og-image.png",
     "Worldbuilding/Magic Items.md",
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
     "assets/maps/maps/MournsteadTownMap_PF.webp",
     "assets/maps/maps/MournsteadTownMap_Lables_PF.webp",
     "assets/maps/maps/MournsteadTownMap_Lables.webp",
