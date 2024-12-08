@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "38808a3a4e90684c",
+        "id": "8c275fd7a14983b2",
         "type": "tabs",
         "children": [
           {
-            "id": "b3c2b21687c0d515",
+            "id": "d8fb775cc3d93bf3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Blackspire Summit"
-            }
-          },
-          {
-            "id": "2566b64f47ca3b72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/World-Hub/Small Places.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Small Places"
-            }
-          },
-          {
-            "id": "68b30e912eeff261",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mournstead Folly"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.50484466552734
+    "width": 242.50484466552734
   },
   "right": {
     "id": "fd81f56fcc94039c",
@@ -211,14 +178,16 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "68b30e912eeff261",
+  "active": "d8fb775cc3d93bf3",
   "lastOpenFiles": [
+    "index.md",
+    "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
+    "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
+    "Worldbuilding/World-Hub/Small Places.md",
+    "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
     "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
     "Worldbuilding/Mournstead Folly Hub/Mournstead Folly Maps.md",
     "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
-    "Worldbuilding/World-Hub/Small Places.md",
-    "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
-    "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
     "Worldbuilding/World-Hub/Settlements/Town/Gravenford.md",
     "Worldbuilding/World-Hub/Settlements/Town/Bleakbarrow.md",
     "Worldbuilding/World-Hub/Settlements/Village/Brakenford.md",
@@ -230,7 +199,6 @@
     "Worldbuilding/World-Hub/Natural Features/Peaks/the Silvermaw Peaks.md",
     "Worldbuilding/World-Hub/Natural Features/Peaks",
     "Worldbuilding/World-Hub/Natural Features/Rivers",
-    "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
     "Worldbuilding/World-Hub/Settlements",
     "Worldbuilding/World-Hub/Natural Features",
     "Worldbuilding/World-Hub/Dungeons",
@@ -241,7 +209,6 @@
     "Worldbuilding/World-Hub/Settlements/Village",
     "Worldbuilding/World-Hub/Settlements/Town",
     "Blackmaw.md",
-    "index.md",
     "private/Elarion map.md",
     "private/_Vampire Stuff.md",
     "maptest.md",

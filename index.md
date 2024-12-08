@@ -37,6 +37,10 @@ Mournstead Folly is a living, evolving project, constantly being refined and exp
     
 - 🛠️ [[Game Mechanics]]  
     Mournstead Folly is built on custom mechanics inspired by **Dungeon Delicacies**, emphasizing foraging, harvesting, and cooking while integrating systems tailored to its survival-horror tone. These mechanics enhance the immersive experience of life in the town, balancing resource management, tense decision-making, and the eerie atmosphere that defines Mournstead Folly.
+	
+-	Interactive Maps
+	[World Map](https://beavertrap.github.io/mournsfolly/interactive-map)
+	[Mournstead Folly](https://beavertrap.github.io/mournsfolly/mournsteadfolly-map.html)
 
 ---
 

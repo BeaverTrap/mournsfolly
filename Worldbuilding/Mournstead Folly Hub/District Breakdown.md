@@ -36,14 +36,71 @@ The historic heart of Mournstead Folly, filled with older homes, civic pride, an
 
 ### **Deacon Street**
 
-- 26 Deacon Street - Jailhouse - Law Enforcement Facility 
-	sheriff’s office, holding cells, and minimal accommodations for detainees. It also serves as the base of operations for the local law enforcement. 
-- 27 Deacon Street - Residential 
-- 28 Deacon Street - Residential 
-- 29 Deacon Street - Residential 
-- 30 Deacon Street - Residential 
-- 31 Deacon Street - Residential 
-- 32 Deacon Street - Residential - Family Manor 
+ #### **26 Deacon Street** - **Jailhouse**
+
+- **Type:** Law Enforcement Facility
+- **Layout:** A sturdy, two-story stone building with iron-barred windows and a reinforced basement.
+- **Basement Use:** Storage for evidence and confiscated goods, with one emergency holding cell.
+- **Details:** The sheriff’s office is located on the first floor, with two holding cells and a small interrogation room. The second floor contains a meeting room and minimal sleeping quarters for deputies.
+- **Additional Notes:** The Jailhouse serves as the center of law enforcement activity in Mournstead.
+
+---
+
+#### **27 Deacon Street** - **Residential**
+
+- **Type:** Single-Family Cottage
+- **Layout:** A modest, single-story wooden cottage with a covered front porch.
+- **Basement Use:** Root cellar for storing vegetables and herbs.
+- **Details:** The home has two bedrooms, a small living area, and a kitchen. The backyard features a chicken coop and a small herb garden.
+
+
+---
+
+#### **28 Deacon Street** - **Residential**
+
+- **Type:** Shared Housing
+- **Layout:** A two-story brick home converted into two apartments.
+- **Basement Use:** Shared laundry and storage area.
+- **Details:** Each apartment has a small bedroom, a kitchenette, and a shared bathroom. The ground floor has access to a shared courtyard with a few potted plants.
+
+
+---
+
+#### **29 Deacon Street** - **Residential**
+
+- **Type:** Single-Family Cottage
+- **Layout:** A one-story stone cottage with a large front window and a small fenced garden.
+- **Basement Use:** A one-story stone cottage with a large front window and a small fenced garden.
+- **Details:** A one-story stone cottage with a large front window and a small fenced garden.
+
+---
+
+#### **30 Deacon Street** - **Residential**
+
+
+- **Type:** Townhouse
+- **Layout:** A narrow, two-story brick townhouse with a shared front pathway.
+- **Basement Use:** Space for wine storage and preserving jams.
+- **Details:** The home is split into two compact bedrooms upstairs, with a combined living room and kitchen downstairs. The basement is cool and used for preserving homemade goods.
+
+---
+
+#### **31 Deacon Street** - **Residential**
+
+- **Type:** Multi-Generational Home
+- **Layout:** A two-story wooden house with a wraparound porch and a small vegetable garden.
+- **Basement Use:** Storage of preserved food and a small play area for children.
+- **Details:** The home features four bedrooms and a shared family room. The second floor houses the grandparents, while the first floor is for the younger family members.
+
+
+---
+
+#### **32 Deacon Street** - **Residential - Family Manor**
+
+- **Type:** Family Manor
+- **Layout:** A sprawling two-story manor house with a decorative wrought-iron fence and a well-manicured front lawn.
+- **Basement Use:** Large wine cellar with an area for drying herbs.
+- **Details:** This grand home has six bedrooms, a formal dining room, and a library. The family enjoys hosting community events in their large parlor.
 
 ### Main Street
 
