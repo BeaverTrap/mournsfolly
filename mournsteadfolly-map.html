@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mournstead Folly Map</title>
+    <title>Mournstead Folly DM Map</title>
 
     <!-- Leaflet CSS and JavaScript for map functionality -->
 	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -66,42 +66,116 @@
             pointer-events: none; /* Tooltip does not interfere with clicks */
             z-index: 2000; /* Ensure tooltip is above all elements */
         }
+		.leaflet-control-attribution {
+		display: flex;
+		flex-wrap: nowrap; /* Prevent wrapping to the next line */
+		align-items: center; /* Align items vertically */
+		justify-content: flex-start; /* Align items horizontally */
+		}
+
+		.leaflet-control-attribution a {
+		display: inline; /* Ensure links are inline */
+		white-space: nowrap; /* Prevent text from wrapping */
+		margin-right: 5px; /* Add spacing between links */
+		}
+
+		.leaflet-control-attribution span {
+		display: inline; /* Ensure text is inline */
+		white-space: nowrap; /* Prevent text from wrapping */
+		}
+		
+		.leaflet-popup-content-wrapper {
+		background: #2b2b2b; /* Dark popup background */
+		color: black; /* black text */
+		}
+
+		.leaflet-control {
+		background: #595857; /* Dark controls background */
+		color: black; /* text text/icons */
+		}
+
+		.leaflet-bar a {
+		background: #595857; /* Dark toolbar buttons */
+		color: black; /* black text */
+		}
+		
+		#map {
+		background-color: #1e1e1e; /* Dark grey background */
+		color: white; /* Optional: Adjust text color for readability */
+}
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;">Mournstead Folly Map</h1>
+    <h1 style="text-align: center;">Mournstead Folly DM Map</h1>
     <div id="map"></div>
 	
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    // Initialize Leaflet map with a simple CRS (Coordinate Reference System)
+// Initialize Leaflet map with a simple CRS (Coordinate Reference System)
     const map = L.map("map", {
         crs: L.CRS.Simple, // Use simple coordinates for an image map
         minZoom: -2, // Minimum zoom level
         maxZoom: 2, // Maximum zoom level
     });
+	
 console.log("Map initialized:", map); // Ensure map is valid
     // Define the bounds of the map to match the image dimensions
     const bounds = [[0, 0], [3508, 4961]]; // Example: 3508x4961 pixels for the map image
     map.setView([1023, 2628], -1); // Initial view position and zoom
 
+L.control.attribution({
+    prefix: false, // Remove "Leaflet" default attribution
+}).addAttribution(
+    '&copy; <a href="https://beavertrap.github.io/mournsfolly/license">Dungeon Delicacies</a>&amp; &copy; <a href="https://beavertrap.github.io/mournsfolly/license">Mourns Folly</a>'
+).addTo(map);
+
+
+
     // Create panes to layer different map elements with z-index for stacking order
     map.createPane("backgroundPane").style.zIndex = 100;
-    map.createPane("districtPane").style.zIndex = 200;
-    map.createPane("buildingPane").style.zIndex = 300;
-    map.createPane("roadPane").style.zIndex = 400;
+    map.createPane("backgroundDayPane").style.zIndex = 200;
+    map.createPane("districtPane").style.zIndex = 300;
+	map.createPane("roadPane").style.zIndex = 400;
     map.createPane("streetPane").style.zIndex = 500;
-    map.createPane("streetNamePane").style.zIndex = 600;
-    map.createPane("treePane").style.zIndex = 700;
-    map.createPane("namesPane").style.zIndex = 800;
-    map.createPane("numbersPane").style.zIndex = 900;
-    map.createPane("markerPane").style.zIndex = 1000;
+    map.createPane("roadCobblePane").style.zIndex = 600;
+	map.createPane("lightPane").style.zIndex = 700
+    map.createPane("buildingPane").style.zIndex = 800;
+	map.createPane("buildingDayPane").style.zIndex = 900;
+	map.createPane("bizPane").style.zIndex = 1000;
+	map.createPane("govPane").style.zIndex = 1100;
+	map.createPane("rezPane").style.zIndex = 1200;
+	map.createPane("buildingColorPane").style.zIndex = 1300;
+    map.createPane("streetNamePane").style.zIndex = 1400;
+    map.createPane("treePane").style.zIndex = 1500;
+    map.createPane("namesPane").style.zIndex = 1600;
+    map.createPane("numbersPane").style.zIndex = 1700;
+    map.createPane("markerPane").style.zIndex = 1800;
+	map.createPane('popupPane'); // Ensure the popupPane is created
+	map.getPane('popupPane').style.zIndex = 2000; // Set a high zIndex for the popups
 
     // Add map layers as image overlays for different elements
+    const bizLayer = L.imageOverlay("./static/images/MF_map_buildingsBiz.png", bounds, {
+        pane: "bizPane",
+    });
+    const govLayer = L.imageOverlay("./static/images/MF_map_buildingsGov.png", bounds, {
+        pane: "govPane",
+    });
+    const rezLayer = L.imageOverlay("./static/images/MF_map_buildingsRez.png", bounds, {
+        pane: "rezPane",
+    });	
+
+    const lightLayer = L.imageOverlay("./static/images/MF_map_lights.png", bounds, {
+        pane: "lightPane",
+    });	
+		
     const backgroundLayer = L.imageOverlay("./static/images/MF_map_bckgrnd.png", bounds, {
         pane: "backgroundPane",
     }).addTo(map); // Add by default
+
+    const backgroundDayLayer = L.imageOverlay("./static/images/MF_map_bckgrnd_day.png", bounds, {
+        pane: "backgroundDayPane",
+    });
 
     const districtLayer = L.imageOverlay("./static/images/MF_map_district.png", bounds, {
         pane: "districtPane",
@@ -110,10 +184,18 @@ console.log("Map initialized:", map); // Ensure map is valid
     const roadLayer = L.imageOverlay("./static/images/MF_map_road.png", bounds, {
         pane: "roadPane",
     }).addTo(map); // Add by default
+	
+	const roadCobbleLayer = L.imageOverlay("./static/images/MF_map_roadCobble.png", bounds, {
+        pane: "roadCobblePane",
+    });
 
     const buildingLayer = L.imageOverlay("./static/images/MF_map_buildings.png", bounds, {
         pane: "buildingPane",
     }).addTo(map); // Add by default
+
+    const buildingColorLayer = L.imageOverlay("./static/images/MF_map_buildings_colored.png", bounds, {
+        pane: "buildingColorPane",
+    });		
 
     const streetLayer = L.imageOverlay("./static/images/MF_map_streets.png", bounds, {
         pane: "streetPane",
@@ -135,53 +217,104 @@ console.log("Map initialized:", map); // Ensure map is valid
         pane: "numbersPane",
     });
 
+	const buildingsDayLayer = L.imageOverlay("./static/images/MF_map_buildings_day.png", bounds, {
+		pane: "buildingDayPane",
+	});
+	
     // Create marker groups for different categories
     const residentialLayer = L.layerGroup();
     const businessLayer = L.layerGroup();
     const governmentLayer = L.layerGroup();
 
-    // Add example markers to the groups
-    L.marker([1200, 1000], { pane: "markerPane" }).addTo(residentialLayer).bindPopup("<b>Residential Marker</b>");
-    L.marker([800, 1200], { pane: "markerPane" }).addTo(businessLayer).bindPopup("<b>Business Marker</b>");
-    L.marker([850, 1100], { pane: "markerPane" }).addTo(governmentLayer).bindPopup("<b>Government Marker</b>");
+	const dayLayer = L.layerGroup([buildingsDayLayer, backgroundDayLayer]);
+	
+	// Preload and hide layers
+	[districtLayer, streetLayer, buildingColorLayer, backgroundDayLayer, buildingsDayLayer, residentialLayer, businessLayer, governmentLayer, rezLayer, bizLayer, govLayer, dayLayer, lightLayer].forEach((layer) => {
+		if (layer) {
+			layer.addTo(map); // Preload the layer
+			map.removeLayer(layer); // Hide them by default
+		}
+	});
 
     // Add control container for category icons
     const controlContainer = L.DomUtil.create("div", "category-controls");
+	
+	L.DomEvent.disableClickPropagation(controlContainer); // Prevent double click zoom on the control
+	L.DomEvent.disableScrollPropagation(controlContainer); // Prevent scroll wheel zoom on the control
+
 
     // Define categories with names, icons, and associated layers
-    const categories = [
-        {
-            name: "Residential",
-            icon: "./static/images/residents_grey.png",
-            layer: residentialLayer,
-            turnOnLayers: [districtLayer, streetLayer], // Layers to enable
-            turnOffLayers: [roadLayer], // Layers to disable
-        },
-        {
-            name: "Business",
-            icon: "./static/images/business_grey.png",
-            layer: businessLayer,
-        },
-        {
-            name: "Municipal",
-            icon: "./static/images/government_grey.png",
-            layer: governmentLayer,
-        },
+	const categories = [
+	// Residential
+		{
+			name: "Residential",
+			icon: "./static/images/residents_grey.png",
+			layer: residentialLayer,
+			turnOnLayers: [rezLayer], // Layers to enable when Residential is active
+
+		},
+	// Business
+		{
+			name: "Business",
+			icon: "./static/images/business_grey.png",
+			layer: businessLayer,
+			turnOnLayers: [bizLayer], // Layers to enable when Business is active
+
+		},
+	// Goverment
+		{
+			name: "Municipal",
+			icon: "./static/images/government_grey.png",
+			layer: governmentLayer,
+			turnOnLayers: [govLayer], // Layers to enable when Municipal is active
+
+		},
+	// Trees
         {
             name: "Trees",
             icon: "./static/images/trees.png",
             layer: treeLayer,
+        },	
+	// Cobble Stones
+        {
+            name: "Cobble Stones",
+            icon: "./static/images/stones_grey.png",
+            layer: roadCobbleLayer,
         },
+	// District
+		{
+			name: "District",
+            icon: "./static/images/district_grey.png",
+            layer: districtLayer,
+            turnOnLayers: [streetLayer, buildingColorLayer], // Layers to enable
+            turnOffLayers: [roadLayer, buildingLayer], // Layers to disable
+		},	
+	// street names
         {
             name: "Names",
             icon: "./static/images/names_grey.png",
             layer: namesLayer,
         },
+	// street address
         {
             name: "Numbers",
             icon: "./static/images/numbers_grey.png",
             layer: numbersLayer,
         },
+	// Lights
+        {
+            name: "Lights",
+            icon: "./static/images/light_grey.png",
+            layer: lightLayer,
+        },	
+	// day night
+		{
+			name: "Light / Dark",
+			icon: "./static/images/mode_grey.png",
+			layer: dayLayer,
+			turnOnLayers: [buildingsDayLayer, backgroundDayLayer], // Layers to enable
+			turnOffLayers: [buildingLayer, backgroundLayer], // Layers to disable
+		}
     ];
 
     // Function to toggle layers and update icons/tooltips
@@ -213,6 +346,224 @@ console.log("Map initialized:", map); // Ensure map is valid
             toggleLayer(category.layer, imgElement, category.turnOnLayers || [], category.turnOffLayers || [], category.name);
     });
 
+// Define Markers
+	
+		// Define Baker Street Marker
+	const bakerMarker = L.icon({
+		iconUrl: './static/images/marker-icon-baker.png', // Path to your baker icon
+		iconRetinaUrl: './static/images/marker-icon-baker-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41], // Standard Leaflet marker size
+		shadowSize: [41, 41], // Size of the shadow
+		iconAnchor: [12, 41], // Point of the icon that corresponds to the marker's location
+		shadowAnchor: [12, 41], // Point of the shadow that corresponds to the marker's location
+		popupAnchor: [1, -34], // Point where the popup appears relative to the iconAnchor
+	});
+		// Define Deacon Street Marker
+	const deaconMarker = L.icon({
+		iconUrl: './static/images/marker-icon-decon.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-decon-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Maybel Way Marker
+	const maybelMarker = L.icon({
+		iconUrl: './static/images/marker-icon-maybel.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-maybel-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Main Street Marker
+	const mainMarker = L.icon({
+		iconUrl: './static/images/marker-icon-main.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-main-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Market Marker
+	const marketMarker = L.icon({
+		iconUrl: './static/images/marker-icon-market.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-market-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Summerview Street Marker
+	const summerviewMarker = L.icon({
+		iconUrl: './static/images/marker-icon-summerview.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-summerview-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Stillwater Marker
+	const stillwaterMarker = L.icon({
+		iconUrl: './static/images/marker-icon-stillwater.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-stillwater-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+	
+//	Add markers to the map
+
+	// Add markers for Baker Street
+	L.marker([660, 315], { icon: bakerMarker })
+		.addTo(residentialLayer)
+		.bindPopup(`
+			<div>
+				<b>17 Bakers Street</b><br>
+				<b>Type:</b> Single-Family Home<br>
+				<b>Details:</b> 2 Bedrooms, 1 Bathroom<br>
+			</div>
+	`);
+
+	L.marker([660, 570], { icon: bakerMarker })
+		.addTo(residentialLayer)
+		.bindPopup(`
+			<div>
+				<b>15 Bakers Street</b><br>
+				<b>A weathered single-story home with peeling white paint. The basement smells of damp earth and serves as a mushroom-growing space.<br>
+			</div>
+    `);
+
+	L.marker([660, 810], { icon: bakerMarker })
+		.addTo(residentialLayer)
+		.bindPopup(`
+			<div>
+				<b>13 Bakers Street</b><br>
+				<b>Type:</b> Townhouse<br>
+				<b>Details:</b> 2 Bedrooms, 1.5 Bathrooms<br>
+			</div>
+    `);
+
+	L.marker([660, 1140], { icon: bakerMarker })
+		.addTo(governmentLayer)
+		.bindPopup(`
+        <div>
+            <b>11 Bakers Street</b><br>
+			<b>Mournstead Community School</b><br>
+            <b>Type:</b> Combined K-12 and Adult Education Center<br>
+            <b>Enrollment:</b> Approx. 50 K-12 students<br>
+            <b>Building Details:</b>
+            <ul>
+                <li>Two Floors and a Large Basement</li>
+					<li>Basement has short windows allowing natural light</li>
+					<li>Basement used for storage, workshops, and additional classrooms</li>
+                <li>10 Classrooms, a Cafeteria, and Small Gymnasium</li>
+            </ul>
+            <b>Community Role:</b> Offers evening and weekend classes for adults<br>
+            <b>Adult Education:</b> Townsfolk host skill-building classes, workshops, and community events<br>
+            <b>Sample Classes:</b>
+            <ul>
+				<li>Culinary Program</li>
+                <li>Basic Literacy and Math Skills</li>
+                <li>Gardening and Farming Techniques</li>
+                <li>Local History and Storytelling Workshops</li>
+                <li>Crafting and Trades (e.g., carpentry, knitting, blacksmithing)</li>
+            </ul>
+        </div>
+    `);
+
+	// Add markers for Deacon Street
+		L.marker([1480, 1210], { icon: deaconMarker }) // Jailhouse
+			.addTo(governmentLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 26 Deacon Street<br>
+            <b>Type:</b> Law Enforcement Facility<br>
+            <b>Layout:</b> A sturdy, two-story stone building with iron-barred windows and a reinforced basement.<br>
+            <b>Basement Use:</b> Storage for evidence and confiscated goods, with one emergency holding cell.<br>
+            <b>Details:</b> The sheriff’s office is located on the first floor, with two holding cells and a small interrogation room. The second floor contains a meeting room and minimal sleeping quarters for deputies.<br>
+        </div>
+    `);
+		L.marker([1760, 1000], { icon: deaconMarker }) // 27 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 27 Deacon Street<br>
+            <b>Type:</b> Single-Family Cottage<br>
+            <b>Layout:</b> Modest one-story cottage with a covered porch<br>
+            <b>Basement Use:</b> Root cellar for vegetables and herbs<br>
+            <b>Details:</b>The home has two bedrooms, a small living area, and a kitchen. The backyard features a chicken coop and a small herb garden.<br>
+        </div>
+    `);
+		L.marker([1480, 910], { icon: deaconMarker }) // 28 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 28 Deacon Street<br>
+            <b>Type:</b> Shared Housing<br>
+            <b>Layout:</b> A two-story brick home converted into two apartments.<br>
+            <b>Basement Use:</b> Shared laundry and storage area.<br>
+            <b>Details:</b> Each apartment has a small bedroom, a kitchenette, and a shared bathroom. The ground floor has access to a shared courtyard with a few potted plants.<br>
+        </div>
+    `);	
+		L.marker([1760, 810], { icon: deaconMarker }) // 29 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 29 Deacon Street<br>
+            <b>Type:</b> Single-Family Cottage<br>
+            <b>Layout:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
+            <b>Basement Use:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
+            <b>Details:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
+        </div>
+    `);	
+		L.marker([1480, 710], { icon: deaconMarker }) // 30 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 30 Deacon Street<br>
+            <b>Type:</b> Townhouse<br>
+            <b>Layout:</b> A narrow, two-story brick townhouse with a shared front pathway.<br>
+            <b>Basement Use:</b> Space for wine storage and preserving jams.<br>
+            <b>Details:</b> The home is split into two compact bedrooms upstairs, with a combined living room and kitchen downstairs. The basement is cool and used for preserving homemade goods.<br>
+        </div>
+    `);	
+		L.marker([1760, 625], { icon: deaconMarker }) // 31 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 31 Deacon Street<br>
+            <b>Type:</b> Multi-Generational Home<br>
+            <b>Layout:</b> A two-story wooden house with a wraparound porch and a small vegetable garden.<br>
+            <b>Basement Use:</b> Storage of preserved food and a small play area for children.<br>
+            <b>Details:</b> The home features four bedrooms and a shared family room. The second floor houses the grandparents, while the first floor is for the younger family members.<br>
+        </div>
+    `);	
+		L.marker([1320, 370], { icon: deaconMarker }) // 32 Residential
+			.addTo(residentialLayer)
+			.bindPopup(`
+        <div>
+            <b>Street Address:</b> 32 Deacon Street<br>
+            <b>Type:</b> Family Manor<br>
+            <b>Layout:</b> A sprawling two-story manor house with a decorative wrought-iron fence and a well-manicured front lawn.<br>
+            <b>Basement Use:</b> Large wine cellar with an area for drying herbs.<br>
+            <b>Details:</b> This grand home has six bedrooms, a formal dining room, and a library. The family enjoys hosting community events in their large parlor.<br>
+        </div>
+    `);		
     // Add control container to the map
     const customControl = L.Control.extend({
         onAdd: function () {
@@ -227,12 +578,16 @@ console.log("Map initialized:", map); // Ensure map is valid
     roadLayer.addTo(map);
     buildingLayer.addTo(map);
     streetNameLayer.addTo(map);
-
+	
+	
+	
     // Display coordinates when clicking on the map (for debugging)
-    map.on("click", function (e) {
-        const { lat, lng } = e.latlng;
-        alert(`Coordinates: [${lat.toFixed(2)}, ${lng.toFixed(2)}]`);
-    });
+    // map.on("click", function (e) {
+    //    const { lat, lng } = e.latlng;
+    //    alert(`Coordinates: [${lat.toFixed(2)}, ${lng.toFixed(2)}]`);
+    // });
+
+
 
     console.log("Map initialized successfully.");
 	});
