@@ -405,8 +405,8 @@ L.control.attribution({
 	});
 		// Define Summerview Street Marker
 	const summerviewMarker = L.icon({
-		iconUrl: './static/images/marker-icon-summerview.png', // Path to your deacon icon
-		iconRetinaUrl: './static/images/marker-icon-summerview-2x.png', // High-resolution version
+		iconUrl: './static/images/marker-icon-summer.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-summer-2x.png', // High-resolution version
 		shadowUrl: './static/images/marker-shadow.png', // Shadow image
 		iconSize: [25, 41],
 		shadowSize: [41, 41],
@@ -425,59 +425,113 @@ L.control.attribution({
 		shadowAnchor: [12, 41],
 		popupAnchor: [1, -34],
 	});
-	
-//	Add markers to the map
+		// Define Harbor Marker
+	const harborMarker = L.icon({
+		iconUrl: './static/images/marker-icon-harbor.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-harbor-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Curch Marker
+	const churchMarker = L.icon({
+		iconUrl: './static/images/marker-icon-church.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-church-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Carfax Lane Marker
+	const carfaxMarker = L.icon({
+		iconUrl: './static/images/marker-icon-carfax.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-carfax-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define Mournstead Marker
+	const mournsteadMarker = L.icon({
+		iconUrl: './static/images/marker-icon-mournstead.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-mournstead-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});
+		// Define elm Marker
+	const elmMarker = L.icon({
+		iconUrl: './static/images/marker-icon-elm.png', // Path to your deacon icon
+		iconRetinaUrl: './static/images/marker-icon-elm-2x.png', // High-resolution version
+		shadowUrl: './static/images/marker-shadow.png', // Shadow image
+		iconSize: [25, 41],
+		shadowSize: [41, 41],
+		iconAnchor: [12, 41],
+		shadowAnchor: [12, 41],
+		popupAnchor: [1, -34],
+	});						
+// Add markers to the map
 
-	// Add markers for Baker Street
-	L.marker([660, 315], { icon: bakerMarker })
-		.addTo(residentialLayer)
-		.bindPopup(`
-			<div>
-				<b>17 Bakers Street</b><br>
-				<b>Type:</b> Single-Family Home<br>
-				<b>Details:</b> 2 Bedrooms, 1 Bathroom<br>
-			</div>
-	`);
-
-	L.marker([660, 570], { icon: bakerMarker })
-		.addTo(residentialLayer)
-		.bindPopup(`
-			<div>
-				<b>15 Bakers Street</b><br>
-				<b>A weathered single-story home with peeling white paint. The basement smells of damp earth and serves as a mushroom-growing space.<br>
-			</div>
+// Add markers for Baker Street
+L.marker([660, 315], { icon: bakerMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>17 Bakers Street</b><br>
+            <b>Type:</b> Single-Family Home<br> 
+            <b>Details:</b> 2 Bedrooms, 1 Bathroom<br>
+        </div>
     `);
-
-	L.marker([660, 810], { icon: bakerMarker })
-		.addTo(residentialLayer)
-		.bindPopup(`
-			<div>
-				<b>13 Bakers Street</b><br>
-				<b>Type:</b> Townhouse<br>
-				<b>Details:</b> 2 Bedrooms, 1.5 Bathrooms<br>
-			</div>
+// 15 Baker Street
+L.marker([660, 570], { icon: bakerMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>15 Bakers Street</b><br>
+            <b>A weathered single-story home with peeling white paint. The basement smells of damp earth and serves as a mushroom-growing space.</b><br>
+        </div>
     `);
-
-	L.marker([660, 1140], { icon: bakerMarker })
-		.addTo(governmentLayer)
-		.bindPopup(`
+// 13 Baker Street
+L.marker([660, 810], { icon: bakerMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>13 Bakers Street</b><br>
+            <b>Type:</b> Townhouse<br>
+            <b>Details:</b> 2 Bedrooms, 1.5 Bathrooms<br>
+        </div>
+    `);
+// 11 Baker Street
+L.marker([660, 1140], { icon: bakerMarker })
+    .addTo(governmentLayer)
+    .bindPopup(`
         <div>
             <b>11 Bakers Street</b><br>
-			<b>Mournstead Community School</b><br>
+            <b>Mournstead Community School</b><br>
             <b>Type:</b> Combined K-12 and Adult Education Center<br>
             <b>Enrollment:</b> Approx. 50 K-12 students<br>
             <b>Building Details:</b>
             <ul>
                 <li>Two Floors and a Large Basement</li>
-					<li>Basement has short windows allowing natural light</li>
-					<li>Basement used for storage, workshops, and additional classrooms</li>
+                <li>Basement has short windows allowing natural light</li>
+                <li>Basement used for storage, workshops, and additional classrooms</li>
                 <li>10 Classrooms, a Cafeteria, and Small Gymnasium</li>
             </ul>
             <b>Community Role:</b> Offers evening and weekend classes for adults<br>
             <b>Adult Education:</b> Townsfolk host skill-building classes, workshops, and community events<br>
             <b>Sample Classes:</b>
             <ul>
-				<li>Culinary Program</li>
+                <li>Culinary Program</li>
                 <li>Basic Literacy and Math Skills</li>
                 <li>Gardening and Farming Techniques</li>
                 <li>Local History and Storytelling Workshops</li>
@@ -486,21 +540,23 @@ L.control.attribution({
         </div>
     `);
 
-	// Add markers for Deacon Street
-		L.marker([1480, 1210], { icon: deaconMarker }) // Jailhouse
-			.addTo(governmentLayer)
-			.bindPopup(`
+// Add markers for Deacon Street
+// 26 Deacon Street Jailhouse
+L.marker([1480, 1210], { icon: deaconMarker })
+    .addTo(governmentLayer)
+    .bindPopup(`
         <div>
-            <b>Street Address:</b> 26 Deacon Street<br>
-            <b>Type:</b> Law Enforcement Facility<br>
-            <b>Layout:</b> A sturdy, two-story stone building with iron-barred windows and a reinforced basement.<br>
-            <b>Basement Use:</b> Storage for evidence and confiscated goods, with one emergency holding cell.<br>
-            <b>Details:</b> The sheriff’s office is located on the first floor, with two holding cells and a small interrogation room. The second floor contains a meeting room and minimal sleeping quarters for deputies.<br>
+           <b>Street Address:</b> 26 Deacon Street<br>
+           <b>Type:</b> Law Enforcement Facility<br>
+           <b>Layout:</b> A sturdy, two-story stone building with iron-barred windows and a reinforced basement.<br>
+           <b>Basement Use:</b> Storage for evidence and confiscated goods, with one emergency holding cell.<br>
+           <b>Details:</b> The sheriff’s office is located on the first floor, with two holding cells and a small interrogation room. The second floor contains a meeting room and minimal sleeping quarters for deputies.<br>
         </div>
     `);
-		L.marker([1760, 1000], { icon: deaconMarker }) // 27 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+// 27 Deacon Street Residential
+L.marker([1760, 1000], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 27 Deacon Street<br>
             <b>Type:</b> Single-Family Cottage<br>
@@ -509,9 +565,10 @@ L.control.attribution({
             <b>Details:</b>The home has two bedrooms, a small living area, and a kitchen. The backyard features a chicken coop and a small herb garden.<br>
         </div>
     `);
-		L.marker([1480, 910], { icon: deaconMarker }) // 28 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+// 28 Deacon Street Residential
+L.marker([1480, 910], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 28 Deacon Street<br>
             <b>Type:</b> Shared Housing<br>
@@ -519,21 +576,23 @@ L.control.attribution({
             <b>Basement Use:</b> Shared laundry and storage area.<br>
             <b>Details:</b> Each apartment has a small bedroom, a kitchenette, and a shared bathroom. The ground floor has access to a shared courtyard with a few potted plants.<br>
         </div>
-    `);	
-		L.marker([1760, 810], { icon: deaconMarker }) // 29 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+    `);
+// 29 Deacon Street Residential
+L.marker([1760, 810], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 29 Deacon Street<br>
             <b>Type:</b> Single-Family Cottage<br>
             <b>Layout:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
-            <b>Basement Use:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
-            <b>Details:</b> A one-story stone cottage with a large front window and a small fenced garden.<br>
+            <b>Basement Use:</b> Space for wine storage and preserving jams.<br>
+            <b>Details:</b> A cozy home with a well-maintained backyard for gardening.<br>
         </div>
-    `);	
-		L.marker([1480, 710], { icon: deaconMarker }) // 30 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+    `);
+// 30 Deacon Street Residential
+L.marker([1480, 710], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 30 Deacon Street<br>
             <b>Type:</b> Townhouse<br>
@@ -541,10 +600,11 @@ L.control.attribution({
             <b>Basement Use:</b> Space for wine storage and preserving jams.<br>
             <b>Details:</b> The home is split into two compact bedrooms upstairs, with a combined living room and kitchen downstairs. The basement is cool and used for preserving homemade goods.<br>
         </div>
-    `);	
-		L.marker([1760, 625], { icon: deaconMarker }) // 31 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+    `);
+// 31 Deacon Street Residential
+L.marker([1760, 625], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 31 Deacon Street<br>
             <b>Type:</b> Multi-Generational Home<br>
@@ -552,10 +612,11 @@ L.control.attribution({
             <b>Basement Use:</b> Storage of preserved food and a small play area for children.<br>
             <b>Details:</b> The home features four bedrooms and a shared family room. The second floor houses the grandparents, while the first floor is for the younger family members.<br>
         </div>
-    `);	
-		L.marker([1320, 370], { icon: deaconMarker }) // 32 Residential
-			.addTo(residentialLayer)
-			.bindPopup(`
+    `);
+// 32 Deacon Street Residential
+L.marker([1320, 370], { icon: deaconMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
         <div>
             <b>Street Address:</b> 32 Deacon Street<br>
             <b>Type:</b> Family Manor<br>
@@ -563,7 +624,837 @@ L.control.attribution({
             <b>Basement Use:</b> Large wine cellar with an area for drying herbs.<br>
             <b>Details:</b> This grand home has six bedrooms, a formal dining room, and a library. The family enjoys hosting community events in their large parlor.<br>
         </div>
-    `);		
+    `);
+
+// Add markers for Maybel Way
+// 11 Maybel Way Residential
+L.marker([1800, 125], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 11 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+// 12 Maybel Way Residential
+L.marker([1800, 420], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 12 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 13 Maybel Way Residential
+L.marker([2060, 125], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 13 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 14 Maybel Way Residential
+L.marker([2060, 420], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 14 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 15 Maybel Way Residential
+L.marker([2360, 125], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 15 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 16 Maybel Way Residential
+L.marker([2360, 420], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 16 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 17 Maybel Way Residential
+L.marker([2600, 125], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 17 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 18 Maybel Way Residential
+L.marker([2660, 555], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 18 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 19 Maybel Way Residential
+L.marker([2870, 300], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 19 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 20 Maybel Way Residential
+L.marker([2840, 760], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 20 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 21 Maybel Way Residential
+L.marker([3100, 540], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 21 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 22 Maybel Way Residential
+L.marker([2895, 985], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 22 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 23 Maybel Way Residential
+L.marker([3200, 920], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 23 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 24 Maybel Way Residential
+L.marker([2895, 1160], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 24 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 25 Maybel Way Residential
+L.marker([3200, 1160], { icon: maybelMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 25 Maybel Way<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+// main street markers
+	// 1 Main Street Town Hall
+L.marker([1080, 1235], { icon: mainMarker })
+    .addTo(governmentLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Main Street<br>
+            <b>Type:</b> Town Hall<br>
+            <b>Layout:</b>info about the layout of townhall<br>
+            <b>Basement Use:</b> records and storage<br>
+            <b>Details:</b> Details about towb hall<br>
+        </div>
+    `);
+	// 2 Main Street Residential
+L.marker([2135, 1530], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 2 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 3 Main Street Residential
+L.marker([1780, 1235], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 3 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 4 Main Street Residential
+L.marker([2410, 1530], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 4 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 5 Main Street Residential
+L.marker([2005, 1235], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 5 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 6 Main Street Residential
+L.marker([2670, 1530], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 6 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 7 Main Street Residential
+L.marker([2255, 1235], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 7 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 8 Main Street Residential
+L.marker([2955, 1530], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 8 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 9 Main Street Residential
+L.marker([2435, 1235], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 9 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 10 Main Street Residential
+L.marker([3200, 1530], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 10 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 11 Main Street Residential
+L.marker([2645, 1235], { icon: mainMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 11 Main Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	
+// Market Street Markers
+	// 40 Market Street - The Local Gazette
+L.marker([755, 1875], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 40 Market Street<br>
+            <b>Type:</b> The Local Gazette<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 41 Market Street - The Apothecary
+L.marker([1190, 2513], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 41 Market Street<br>
+            <b>Type:</b> type of business<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 42 Market Street - The Apothecary
+L.marker([825, 2145], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 42 Market Street<br>
+            <b>Type:</b> The Apothecary<br>
+            <b>Layout:</b> layout<br>
+            <b>Basement Use:</b> Building has a basement<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 43 Market Street - The Butcher Shop
+L.marker([1275, 2830], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 43 Market Street<br>
+            <b>Type:</b> The Butcher Shop<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 44 Market Street - Tailor
+L.marker([875, 2405], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 44 Market Street<br>
+            <b>Type:</b> Tailor<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 45 Market Street - Antiques and Curiosities / For Lease at start
+L.marker([1300, 3055], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 45 Market Street<br>
+            <b>Type:</b> Building for Lease<br>
+            <b>Layout:</b> layout<br>
+            <b>Basement Use:</b> Building has a basement<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 46 Market Street - Barber Shop
+L.marker([950, 2635], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 46 Market Street<br>
+            <b>Type:</b> Barber Shop<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 47 Market Street - The Folly's Rest & Tavern
+L.marker([1300, 3450], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 47 Market Street<br>
+            <b>Type:</b> The Folly's Rest &amp Tavern<br>
+            <b>Layout:</b> layout<br>
+            <b>Basement:</b> Building has a basement<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 48 Market Street - Carpenter Workshop
+L.marker([1005, 2865], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 48 Market Street<br>
+            <b>Type:</b> Carpenter Workshop<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 50 Market Street - The Library
+L.marker([1005, 3310], { icon: marketMarker })
+    .addTo(governmentLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 50 Market Street<br>
+            <b>Type:</b> The Library<br>
+            <b>Layout:</b> layout<br>
+            <b>Basement Use:</b> Building has a basement<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 52 Market Street - Black Market
+L.marker([1005, 3535], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 52 Market Street<br>
+            <b>Type:</b> Black's Market<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	
+	// 54 Market Street - Residential Apartments
+L.marker([1005, 3980], { icon: marketMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 54 Market Street<br>
+            <b>Type:</b> Residential Apartments<br>
+            <b>Unit 54a:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+            <b>Unit 54b:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+            <b>Unit 54c:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+		
+	// Local Vendor Stall
+L.marker([1240, 4600], { icon: marketMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Fresh Produce Stand located off of Market Street<br>
+            <b>Type: Vendor Stand - Market</b> <br>
+            <b>Layout:</b> Discription of vendor stand<br>
+            <b>Details:</b> Details about the local vendor<br>
+        </div>
+    `);
+
+// Stillwater Markers	
+	// 21a Stillwater - Stillwater Trading Hub
+L.marker([655, 1520], { icon: stillwaterMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 21a Stillwater<br>
+            <b>Type:</b> Stillwater Trading Hub<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+	// 21b Stillwater - Bait'n Tackle
+L.marker([415, 1520], { icon: stillwaterMarker })
+    .addTo(businessLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 21b Stillwater<br>
+            <b>Type:</b> Bait'n Tackle<br>
+            <b>Layout:</b> layout<br>
+            <b>Details:</b> Details about the building<br>
+        </div>
+    `);
+
+// harbor Street
+	// 1 Harbor Street - Residential
+L.marker([470, 840], { icon: harborMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Harbor Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 2 Harbor Street - Residential
+L.marker([235, 833], { icon: harborMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Harbor Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 3 Harbor Street - Residential
+L.marker([235, 580], { icon: harborMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Harbor Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 4 Harbor Street - Residential
+L.marker([235, 300], { icon: harborMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Harbor Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 5 Harbor Street - Residential
+L.marker([425, 300], { icon: harborMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 1 Harbor Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+
+// carfax lane markers
+	// 51 Carfax Lane - Residential
+L.marker([2030, 2110], { icon: carfaxMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 51 Carfax Lane<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 53 Carfax Lane - Residential
+L.marker([1890, 2335], { icon: carfaxMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 53 Carfax Lane<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+// Mournstead Drive markers
+	// 20 Mournstead Drive - Residential
+L.marker([1470, 2485], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 53 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	
+	// 21 Mournstead Drive - The Church of Lithandor
+L.marker([1455, 1930], { icon: churchMarker })
+    .addTo(governmentLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 21 Mournstead Drive<br>
+            <b>Type:</b> The Church of Lithandor<br>
+            <b>Layout:</b> layout of church<br>
+            <b>Basement Use:</b> the church's basment useage<br>
+            <b>Details:</b> Details about the church<br>
+        </div>
+    `);
+	
+	// 22 Mournstead Drive - Residential
+L.marker([1725, 2630], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 22 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	
+	// 23 Mournstead Drive - Residential
+L.marker([2045, 2545], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 23 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 24 Mournstead Drive - Residential
+L.marker([1875, 2825], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 24 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 25 Mournstead Drive - Residential
+L.marker([2225, 2825], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 25 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 26 Mournstead Drive - Residential
+L.marker([2055, 3030], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 26 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 27 Mournstead Drive - Mournstead Manor
+L.marker([3234, 4475], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 27 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+	// 28 Mournstead Drive - Residential
+L.marker([2320, 3160], { icon: mournsteadMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 28 Mournstead Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);	
+// elm street Markers
+	// 31 Mournstead Drive - Residential
+L.marker([2455, 3355], { icon: elmMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 31 Elm Street<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+// Summerview Drive Markers
+	// 61 Summerview Drive - Residential
+L.marker([2500, 1785], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 61 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 62 Summerview Drive - Residential
+L.marker([2180, 1930], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 62 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 63 Summerview Drive - Residential
+L.marker([2690, 1965], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 63 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 64 Summerview Drive - Residential
+L.marker([2370, 2105], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 64 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 65 Summerview Drive - Residential
+L.marker([2740, 2250], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 65 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 66 Summerview Drive - Residential
+L.marker([2435, 2435], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 66 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 67 Summerview Drive - Residential
+L.marker([2760, 2600], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 67 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 68 Summerview Drive - Residential
+L.marker([2445, 2675], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 68 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 69 Summerview Drive - Residential
+L.marker([2760, 2895], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 69 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+	// 70 Summerview Drive - Residential
+L.marker([2440, 2905], { icon: summerviewMarker })
+    .addTo(residentialLayer)
+    .bindPopup(`
+        <div>
+            <b>Street Address:</b> 70 Summerview Drive<br>
+            <b>Type:</b> type of home Home<br>
+            <b>Layout:</b> layout of home<br>
+            <b>Basement Use:</b> idea about basment useage<br>
+            <b>Details:</b> Details about the house<br>
+        </div>
+    `);
+
     // Add control container to the map
     const customControl = L.Control.extend({
         onAdd: function () {
@@ -579,13 +1470,18 @@ L.control.attribution({
     buildingLayer.addTo(map);
     streetNameLayer.addTo(map);
 	
-	
+	//temp enable for debug
+	//residentialLayer.addTo(map);
+	//districtLayer.addTo(map);
+	//streetLayer.addTo(map);
+	//buildingColorLayer.addTo(map);
+	//numbersLayer.addTo(map)
 	
     // Display coordinates when clicking on the map (for debugging)
-    // map.on("click", function (e) {
-    //    const { lat, lng } = e.latlng;
-    //    alert(`Coordinates: [${lat.toFixed(2)}, ${lng.toFixed(2)}]`);
-    // });
+	map.on("click", function (e) {
+    const { lat, lng } = e.latlng;
+    alert(`Coordinates: [${lat.toFixed(2)}, ${lng.toFixed(2)}]`);
+});
 
 
 
