@@ -177,3 +177,22 @@ Rupert lives in a small, organized space attached to the Library of Antiquities,
 - **Ancient Puzzle:** Rupert discovers a map fragment leading to a hidden chamber in the Mournstead mansion.  
 - **Cursed Tome:** A dangerous book in the library begins corrupting its surroundings, requiring the party's intervention.  
 - **Unveiled Mystery:** Rupert suspects Marlon Voss's antiques shop is tied to a dangerous plot and seeks proof.
+
+
+### History & Background
+
+#### **Childhood**
+
+Rupert was the quintessential big brother—fearless, intelligent, and always taking charge. As the elder of the two stepbrothers, he felt a natural responsibility to guide and protect [[Errol Niles|Errol]], even as he explored the boundaries of his own independence. While Rupert excelled in both physical and mental challenges, he recognized [[Errol Niles|Errol]]’s quieter genius early on and encouraged it. Their parents often described Rupert as “a storm of brilliance and defiance,” always questioning, learning, and leading.
+
+#### **Teenage Years**
+
+Rupert’s teenage years were marked by rebellion. He was daring and unafraid to challenge authority, often leading him into dangerous escapades in forbidden ruins. Despite his outward defiance, Rupert possessed a sharp intellect and a strong sense of justice, which drove his actions. He frequently stood up for [[Errol Niles|Errol]], both in family matters and against external bullies, all while fostering [[Errol Niles|Errol]]’s academic curiosity. “You’re the brains, kid,” Rupert would often say, “but don’t forget to use ‘em out here in the real world.”
+
+#### **Young Adulthood**
+
+In his twenties, Rupert found his purpose in the **Order of Veiled Truths**, an organization dedicated to preserving knowledge and combating supernatural threats. His field expertise and academic brilliance made him an invaluable member. Rupert excelled as both a scholar and a leader, combining his intellect, resourcefulness, and courage to tackle the Order’s most difficult missions. His letters to [[Errol Niles|Errol]] during this time were filled with encouragement and insights, solidifying their bond. Despite his own success, Rupert’s pride in [[Errol Niles|Errol]]’s growth and potential never wavered.
+
+#### **Present Day**
+
+Now 42, Rupert is a paragon of the Order, embodying its ideals of intellect, courage, and leadership. His role as the librarian of Mourn’s Folly allows him to protect and share knowledge while remaining vigilant against growing threats. Rupert sees [[Errol Niles|Errol]] as both a mentee and an equal, trusting his younger brother to rise to any challenge. Their relationship is one of mutual respect and admiration, though Rupert continues to offer his guidance and protection from afar.

@@ -4,24 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "8c275fd7a14983b2",
+        "id": "4fa36f7db30d534c",
         "type": "tabs",
         "children": [
           {
-            "id": "d8fb775cc3d93bf3",
+            "id": "6cbbdfaf81a0e477",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
+                "file": "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks/Lair Mechanic - Emberstone Sparks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "District Breakdown"
+              "title": "Lair Mechanic - Emberstone Sparks"
+            }
+          },
+          {
+            "id": "951ce4f56c60b7e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks/Lair Mechanic - Emberstone Sparks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lair Mechanic - Emberstone Sparks"
+            }
+          },
+          {
+            "id": "01849dcf333dcf77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Winter One-Shot/Characters and Creatures/Creatures/Molten Grimstone Guardian.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Molten Grimstone Guardian"
+            }
+          },
+          {
+            "id": "4a478e8fe3e3bb9a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/images/icegollem.webp"
+              },
+              "icon": "lucide-image",
+              "title": "icegollem"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -77,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 242.50484466552734
+    "width": 368.5
   },
   "right": {
     "id": "fd81f56fcc94039c",
@@ -93,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
+                "file": "assets/images/icegollem.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for District Breakdown"
+              "title": "Backlinks for icegollem"
             }
           },
           {
@@ -153,17 +194,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dungeon Masters/Story/Act-1/a. Introduction/1b - Alternative Start (Sailor Background).md"
+                "file": "assets/images/icegollem.webp"
               },
               "icon": "lucide-list",
-              "title": "Outline of 1b - Alternative Start (Sailor Background)"
+              "title": "Outline of icegollem"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,54 +221,53 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "d8fb775cc3d93bf3",
+  "active": "0b11dbdd17448fba",
   "lastOpenFiles": [
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Folly Maps.md",
-    "index.md",
-    "Worldbuilding/Mournstead Folly Hub/District Breakdown.md",
-    "Worldbuilding/World-Hub/Natural Features/Peaks/Blackspire Summit.md",
-    "Worldbuilding/World-Hub/Small Places.md",
-    "Worldbuilding/World-Hub/Settlements/Town/Mournstead Folly.md",
-    "Worldbuilding/Mournstead Folly Hub/Mournstead Manor.md",
-    "Worldbuilding/World-Hub/Settlements/Small Places/Gullspire Lighthouse.md",
-    "Worldbuilding/World-Hub/Settlements/Town/Gravenford.md",
-    "Worldbuilding/World-Hub/Settlements/Town/Bleakbarrow.md",
-    "Worldbuilding/World-Hub/Settlements/Village/Brakenford.md",
-    "Worldbuilding/World-Hub/Settlements/Village/Brookshade.md",
-    "Worldbuilding/World-Hub/Settlements/Village/Mireholt.md",
-    "Worldbuilding/World-Hub/Settlements/Village/Riverstride.md",
-    "Worldbuilding/World-Hub/Natural Features/Rivers/Kendausk River.md",
-    "Worldbuilding/World-Hub/Settlements/Village/Sunmeadow.md",
-    "Worldbuilding/World-Hub/Natural Features/Peaks/the Silvermaw Peaks.md",
-    "Worldbuilding/World-Hub/Natural Features/Peaks",
-    "Worldbuilding/World-Hub/Natural Features/Rivers",
-    "Worldbuilding/World-Hub/Settlements",
-    "Worldbuilding/World-Hub/Natural Features",
-    "Worldbuilding/World-Hub/Dungeons",
-    "Worldbuilding/World-Hub/Caves",
-    "Worldbuilding/World-Hub/Natural Features/Forest",
-    "Worldbuilding/World-Hub/village/Untitled.md",
-    "Worldbuilding/World-Hub/Settlements/Small Places",
-    "Worldbuilding/World-Hub/Settlements/Village",
-    "Worldbuilding/World-Hub/Settlements/Town",
-    "Blackmaw.md",
-    "private/Elarion map.md",
-    "private/_Vampire Stuff.md",
-    "maptest.md",
-    "Player Characters/How to Point Buy.md",
-    "assets/maps/maps/worldmap.webp",
-    "assets/maps/maps/worldmap.png",
-    "assets/maps/maps/MournsteadTownMap.webp",
-    "assets/maps/worldmaps/worldmap.png",
-    "assets/images/og-image.png",
-    "Worldbuilding/Magic Items.md",
-    "assets/maps/maps/MournsteadTownMap_PF.webp",
-    "assets/maps/maps/MournsteadTownMap_Lables_PF.webp",
-    "assets/maps/maps/MournsteadTownMap_Lables.webp",
-    "assets/maps/maps/MournsteadTownMap_addresses_PF.webp",
-    "assets/maps/maps/MournsteadTownMap_addresses_NoTrees-1.webp",
-    "Dungeon Masters/Story/Act-1/a. Introduction/1b - Alternative Start (Sailor Background).md",
-    "Dungeon Masters/Story/Act-1/a. Introduction/1 - Introduction to Mourn's Folly.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Ice Golem.md",
+    "assets/images/icegollem.webp",
+    "private/Artificer Playtest Quick Reference.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Molten Grimstone Guardian.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Untitled.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Grimstone Sentinel.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Frost Wolf.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Frost Lynx.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/Caryth Nythis.md",
+    "assets/images/emberstone Guardian.webp",
+    "assets/images/emberstone Sentenal.webp",
+    "Winter One-Shot/Story/Path to Grimhold.md",
+    "Winter One-Shot/Story/Encounter List.md",
+    "Winter One-Shot/Story/Emberstone Core.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks/Emberstone Spark Swarm.md",
+    "Winter One-Shot/Characters and Creatures/NPCs.md",
+    "Winter One-Shot/Characters and Creatures/NPC/Randy Fenwick.md",
+    "Winter One-Shot/Story/Act 2.md",
+    "Winter One-Shot/Story/Act 1.md",
+    "Winter One-Shot/Story/Act 4.md",
+    "Winter One-Shot/Story/Battlemap Plans.md",
+    "Winter One-Shot/Story/Dice games.md",
+    "Winter One-Shot/Story/The Relics of Grimhold.md",
+    "Winter One-Shot/Story/TO DOs and Notes.md",
+    "Winter One-Shot/Story/Untitled 1.md",
+    "Winter One-Shot/Story/Act 3.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks/Lair Mechanic - Emberstone Sparks.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks/Emberstone Spark.md",
+    "Winter One-Shot/Characters and Creatures/Creatures/emberstone sparks",
+    "assets/images/frostWolf.webp",
+    "assets/images/frostlynx.webp",
+    "assets/images/frostlynx.webp",
+    "assets/images/emberstoneSpark_Swam_1000.webp",
+    "assets/images/emberstonespark.webp",
+    "assets/images/Grimhold.webp",
+    "Winter One-Shot/magic items",
+    "Winter One-Shot/Characters and Creatures/Creatures",
+    "assets/maps/maps/brakenford.webp",
+    "Worldbuilding/World-Hub/Natural Features/Terrains",
+    "Worldbuilding/World-Hub/Natural Features/Mountain Ranges/Silvermaw Peaks/Snowmantle Spires",
+    "Worldbuilding/World-Hub/Natural Features/Mountain Ranges/Silvermaw Peaks/Blackstone Craigs",
+    "Worldbuilding/World-Hub/Natural Features/Mountain Ranges",
+    "Winter One-Shot/Characters and Creatures/NPC",
+    "Winter One-Shot/Worldbuilding",
+    "Winter One-Shot/Characters and Creatures",
     "Untitled.canvas"
   ]
 }

@@ -32,7 +32,7 @@ Mournstead Folly is a living, evolving project, constantly being refined and exp
 - 📖 [[Story]]  
 	The charm of Mournstead Folly lies in its simplicity and depth. Focus on creating tales of community, discovery, and personal growth. Use the town’s unique landmarks and traditions to inspire narrative arcs that explore the bonds between characters and the natural beauty of the valley.
     
-- 🎭 [[NPCs]]  
+- 🎭 [[Winter One-Shot/Characters and Creatures/NPCs]]  
 	Populate Mournstead Folly with memorable personalities, each with a role in the community
     
 - 🛠️ [[Game Mechanics]]  
